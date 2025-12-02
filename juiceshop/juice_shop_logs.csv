@@ -1,0 +1,959 @@
+_id,signature,body_bytes,ip,request.method,request.path,request.protocol,request_body,status,timestamp
+8dad3891f5ed9a28f071071d,a591cf002b113aaa,68,127.0.0.1,GET,/,HTTP/1.1,,200,2025-12-02T19:44:47+0530
+81d920cacf5d829dfe4fde9c,bdf191bd410f7e3c,68,127.0.0.1,GET,/favicon.ico,HTTP/1.1,,200,2025-12-02T19:44:47+0530
+d41a081507fa7796188343f5,7d04d4fad8d09f74,9004,127.0.0.1,GET,/DVWA/,HTTP/1.1,,200,2025-12-02T19:45:07+0530
+dfcbdad948c99045513181aa,f1a1f0ab63d7e0ac,1741,127.0.0.1,GET,/DVWA/runtime.js,HTTP/1.1,,200,2025-12-02T19:45:07+0530
+2e28b8824f7b56a3993bd8d9,f504576734d466a4,13008,127.0.0.1,GET,/DVWA/polyfills.js,HTTP/1.1,,200,2025-12-02T19:45:07+0530
+a1bfcc5fbab41d294d99f96a,b6da7f17dd5874d2,44259,127.0.0.1,GET,/DVWA/styles.css,HTTP/1.1,,200,2025-12-02T19:45:07+0530
+88501b14d417921c7467dffd,92a6e9f8f0aaae1e,98436,127.0.0.1,GET,/DVWA/main.js,HTTP/1.1,,200,2025-12-02T19:45:07+0530
+426ef86d4f80c596c475dae9,f7bb0aa12995863e,453287,127.0.0.1,GET,/DVWA/vendor.js,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+46a7db0cc0fe93f596955b13,9ba39b40882d61a4,96,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQiQS,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+f6cf54d2db0cd7e65ea1317d,7911bd482335b044,12010,127.0.0.1,GET,/DVWA/assets/i18n/en.json,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+c48a7d59044d0a2f7717f85d,447f90d81a7a751d,20,127.0.0.1,GET,/DVWA/rest/admin/application-version,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+3654b54e2fb110b54b28736a,e3aef8a88883a1c7,0,127.0.0.1,GET,/DVWA/rest/admin/application-version,HTTP/1.1,,304,2025-12-02T19:45:08+0530
+b0fc449be7a3672f07d684b1,a8435bcd57b85de7,8480,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+cdcd558029ecc51eb1145c71,0de4e61589cdb6fd,60840,127.0.0.1,GET,/DVWA/MaterialIcons-Regular.woff2,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+f5e588ab9f0119295e37204d,1c6bb07965b94f08,1381,127.0.0.1,GET,/DVWA/rest/languages,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+46b2660353efb9cab4f059a6,50f668fd9eb28906,75029,127.0.0.1,GET,/DVWA/assets/public/images/JuiceShop_Logo.png,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+c6cc09be321a5f028bc2051c,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQiTA&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,40,200,2025-12-02T19:45:08+0530
+875eff7ecbcb8b1d62cec4a6,28aa888e53b6ffca,32,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQiTI&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+50f107193caa9de14a55027d,e65fa41717590aa3,0,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T19:45:08+0530
+698387881ba91123ec8990c9,e65fa41717590aa3,0,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T19:45:08+0530
+1ae3603a31211a86a1d29f02,df72fe317a261733,4757,127.0.0.1,GET,/DVWA/assets/public/favicon_js.ico,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+0d64297437b15d032d0dc45a,b57706d19340afd1,45,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=websocket&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,400,2025-12-02T19:45:08+0530
+c399a59e47245f810d01b3c3,2fbb472f1a08bd9c,3797,127.0.0.1,GET,/DVWA/rest/products/search?q=,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+a47a9e1fb0e1e7e19b100ed5,7babad2fd65015a5,449,127.0.0.1,GET,/DVWA/api/Challenges/?name=Score%20Board,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+9b31b1c66ac26e7717445f1b,58abdb7b2603ebd6,445,127.0.0.1,GET,/DVWA/api/Quantitys/,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+b14007c8d8ad296a722b5f01,e44c801ba45393ec,15291,127.0.0.1,GET,/DVWA/assets/public/images/products/apple_juice.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+482d9589913e4b3732815c7e,2657a921c1d4e926,29163,127.0.0.1,GET,/DVWA/assets/public/images/products/apple_pressings.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+ca60c6a30c7b0583ecd2cf18,abbc63723e3e9e64,35878,127.0.0.1,GET,/DVWA/assets/public/images/products/artwork2.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+80aaa38fba26ff6d3d8d9c47,ceb1e40181ddf354,19833,127.0.0.1,GET,/DVWA/assets/public/images/products/banana_juice.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+20b86e12c2c45d1a7402c1f8,a6b849000f18be8e,19001,127.0.0.1,GET,/DVWA/assets/public/images/products/carrot_juice.jpeg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+c28f969a47508c74bf3021ed,c85636e306603d36,15072,127.0.0.1,GET,/DVWA/assets/public/images/products/eggfruit_juice.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+ec802f7fa586239c08ff7066,6004d6462d8e931d,17080,127.0.0.1,GET,/DVWA/assets/public/images/products/fruit_press.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+1795dc7a3f34c5788bf3bf59,6a276eac9dde471c,15910,127.0.0.1,GET,/DVWA/assets/public/images/products/green_smoothie.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+9fe65440ee142bd2344283c2,8cfff9a89522beb4,93641,127.0.0.1,GET,/DVWA/assets/public/images/products/permafrost.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+58723b483368b1dbd9ec7771,9633f8bcd5d35f14,17038,127.0.0.1,GET,/DVWA/assets/public/images/products/lemon_juice.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+39002fba1f2d707eb4046cf9,b4a0aae048a894bf,21524,127.0.0.1,GET,/DVWA/assets/public/images/products/melon_bike.jpeg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+ec16bc44045d3a2ef80d2866,2a9c55b80a2910ae,0,127.0.0.1,GET,/DVWA/api/Challenges/?name=Score%20Board,HTTP/1.1,,304,2025-12-02T19:45:08+0530
+1e8623f8171afa64c09a0295,c929a2bcecdf815a,26934,127.0.0.1,GET,/DVWA/assets/public/images/products/fan_facemask.jpg,HTTP/1.1,,200,2025-12-02T19:45:08+0530
+ce14c460405965baf70c2896,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQiXH&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,200,2025-12-02T19:45:33+0530
+0c6a784bfe8001691d8ed36a,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQoXt&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,3,200,2025-12-02T19:45:33+0530
+967db26f538ad21ed9899cf1,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQoXw&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,200,2025-12-02T19:45:58+0530
+0769061cbccfc7369f9c2081,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQufQ&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,3,200,2025-12-02T19:45:58+0530
+3ca96d89e0aea7aa21fff8cc,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQufV&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,200,2025-12-02T19:46:23+0530
+973fb43558c04a2751a71f47,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQ-mQ&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,3,200,2025-12-02T19:46:23+0530
+2a6596d35c5080605d32af24,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVQ-mq&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,,200,2025-12-02T19:46:45+0530
+27ef0bbd17afc7188da3baca,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVR47w&sid=EaJjGf5yxM0FkouXAAAC,HTTP/1.1,1,200,2025-12-02T19:46:45+0530
+dd9129f1bce81055b861daa6,7d04d4fad8d09f74,9004,127.0.0.1,GET,/DVWA/,HTTP/1.1,,200,2025-12-02T19:46:45+0530
+ae41665362a6fd74e858ce06,2e98c7d41399f0ab,0,127.0.0.1,GET,/DVWA/runtime.js,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+5b28078208d5c3878b81ac4b,45c3f17f55524b1c,0,127.0.0.1,GET,/DVWA/polyfills.js,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+cbfc6bfb7a2892c86fe969f3,cc587a171dadd50c,0,127.0.0.1,GET,/DVWA/vendor.js,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+adb687792a8e8c4c56193138,251b6603ce35cd3f,0,127.0.0.1,GET,/DVWA/main.js,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+b303b206643b1ec0f9e358a6,24ea5b413495b4f2,0,127.0.0.1,GET,/DVWA/styles.css,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+74a9e5a9b07bb983dd3f52c0,9ba39b40882d61a4,96,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVR4Fw,HTTP/1.1,,200,2025-12-02T19:46:45+0530
+c29df6d7de42ced4d44e2491,9bdd1e330231068c,0,127.0.0.1,GET,/DVWA/assets/i18n/en.json,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+f8c8415303383e0df5f81e32,e65fa41717590aa3,0,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T19:46:45+0530
+614f55130ba2b74e3f1f4719,e3aef8a88883a1c7,0,127.0.0.1,GET,/DVWA/rest/admin/application-version,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+04c1c06500669a17c288cf41,6e508cdaa1265af9,0,127.0.0.1,GET,/DVWA/assets/public/images/JuiceShop_Logo.png,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+6fb7dd39d58b62e146a2a140,e65fa41717590aa3,0,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+19889a58e90d9b297818ad24,e91398de96f11e87,0,127.0.0.1,GET,/DVWA/rest/languages,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+e8276c3f5389bd3f5236a0f0,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVR4In&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,40,200,2025-12-02T19:46:46+0530
+d26cfb787852f76082454499,28aa888e53b6ffca,32,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVR4Iy&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:46:46+0530
+309d63a986d6049d6327a628,e3aef8a88883a1c7,0,127.0.0.1,GET,/DVWA/rest/admin/application-version,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+40ff2ef13d13226dcc5c5149,e65fa41717590aa3,0,127.0.0.1,GET,/DVWA/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+feae550948f2e2e7eb939092,3179e1cd3cff885c,0,127.0.0.1,GET,/DVWA/assets/public/favicon_js.ico,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+fe14a681d65f01a3d6e873ab,b57706d19340afd1,45,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=websocket&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,400,2025-12-02T19:46:46+0530
+ee7e249b5ed99d22e61dd288,8c3b4ae1b7c4d3f9,0,127.0.0.1,GET,/DVWA/rest/products/search?q=,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+1bd3ddb53f9651cb29c0fe55,2a9c55b80a2910ae,0,127.0.0.1,GET,/DVWA/api/Challenges/?name=Score%20Board,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+c42a6bc28e8d1db59583b00c,b8e75231ebb654b5,0,127.0.0.1,GET,/DVWA/api/Quantitys/,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+8ea6e1697d6b44d4ca996d96,ea721a4dac3c1472,0,127.0.0.1,GET,/DVWA/assets/public/images/products/apple_juice.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+ff7e51abbfc4768ee68ddb12,0bdfe889c1d612a9,0,127.0.0.1,GET,/DVWA/assets/public/images/products/apple_pressings.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+7c9ef2bdd3ac5b82d689c924,561449f80a6fdeba,0,127.0.0.1,GET,/DVWA/assets/public/images/products/banana_juice.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+95d54b6e74747720c0feee3e,435218ff823a8105,0,127.0.0.1,GET,/DVWA/assets/public/images/products/artwork2.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+c0db0ef17dff94047b9fe705,583fbab86a03f561,0,127.0.0.1,GET,/DVWA/assets/public/images/products/carrot_juice.jpeg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+1c162d5bbe5455346ec75e51,c39365f8c8b95581,0,127.0.0.1,GET,/DVWA/assets/public/images/products/eggfruit_juice.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+e0d4fc498208b0fbfb904c6a,2a9c55b80a2910ae,0,127.0.0.1,GET,/DVWA/api/Challenges/?name=Score%20Board,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+5bfe7bd3a748872ad26a781d,9afee3ea727a5be6,0,127.0.0.1,GET,/DVWA/assets/public/images/products/fruit_press.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+e7523a2de8b66f809e6e6671,aaf729f54da78630,0,127.0.0.1,GET,/DVWA/assets/public/images/products/green_smoothie.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+e63dac1d12c205853ff6e10d,a698af551d7109bd,0,127.0.0.1,GET,/DVWA/assets/public/images/products/permafrost.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+08f421d29568a946f0fd8660,0631e5cfabf4feaf,0,127.0.0.1,GET,/DVWA/assets/public/images/products/lemon_juice.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+44ab7ee144345fe0c5951bea,ef31b4258efd3bab,0,127.0.0.1,GET,/DVWA/assets/public/images/products/melon_bike.jpeg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+129e49ba05d4ef6a6f3a164a,83ad690aefce72ff,0,127.0.0.1,GET,/DVWA/assets/public/images/products/fan_facemask.jpg,HTTP/1.1,,304,2025-12-02T19:46:46+0530
+84dc1f6ace31341897ac9687,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVR4Mq&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:47:10+0530
+6729a7b044509b0d6f2e1252,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRAM_&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:47:10+0530
+0399aabe827c4f0b4767fc3c,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRAN0&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:47:35+0530
+02c6aa911f16a0eda86a2759,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRGUO&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:47:35+0530
+10e5678f94f422af606f74bf,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRGUP&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:48:00+0530
+7867bb717e5255c9ecd28ffa,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRMbI&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:48:00+0530
+5ea58291f543102c0b38807d,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRMbJ&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:48:25+0530
+feee3293e7a53b9d52b9cc91,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRSiQ&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:48:25+0530
+ac42bf34ea30e71903307973,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRSiR&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:48:50+0530
+2db72e407e88e20d49d292e2,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRYpM&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:48:51+0530
+753ef2f5320fe2eb4b8d94ed,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRYpN&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:49:15+0530
+a51a219553dccb07dbdd0a3b,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRewN&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:49:16+0530
+23341d63836f9dca66fb1cbf,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRewO&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:49:40+0530
+018a12437c47d77fc5ecb4b0,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRl1D&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:49:41+0530
+536b0762e0249ac925404426,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRl1E&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:50:06+0530
+bb8180c0a41963096b859031,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRr8H&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:50:06+0530
+e5e832f6a4ed9e13bd394026,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRr8I&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:50:31+0530
+a8fc6ba8be5cab6745f194b5,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRxFQ&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:50:31+0530
+f37498dcf0caa552afdf5d21,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVRxFR&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:50:56+0530
+622e5e6c98de1658837c61b8,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS1Ld&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:50:56+0530
+1700f75a089f013d24bf36e5,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS1Ld.0&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:51:21+0530
+6683ad110d184b760adddcb6,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS7T6&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:51:21+0530
+d5b2dfb4a6df48920ddc93f5,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS7T7&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:51:46+0530
+61abbf4628b68a9b95711848,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSDa1&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:51:46+0530
+4e0389412a90c87fa0796c52,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSDa2&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:52:11+0530
+aee57f113ce0781809a8bce0,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSJgz&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:52:11+0530
+702987011dcd6e5560e53397,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSJg-&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:52:36+0530
+a3a6e08205885fcf4dd6caab,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSPoN&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:52:36+0530
+1d31589a8060a962dd853347,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSPoP&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:53:01+0530
+174012343bd77af364f76041,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSVvh&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:53:01+0530
+14e4f8d831f3d7f10904106e,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSVvi&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:53:26+0530
+935782d53c835a5ec1effde0,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSc1M&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:53:26+0530
+44b0930c4c53ab22601cffd7,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSc1N&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:53:51+0530
+f9849f7243e04bcb10c483bd,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSi8H&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:53:51+0530
+69c66d88d2710d823e663f1c,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSi8I&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:54:16+0530
+ac86036d2941fa9b6a22f4b8,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSoF6&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:54:16+0530
+a5bb3a0c8c874b57fa2d886d,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSoF7&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:54:41+0530
+2cbdf1968704eb15d5300331,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSuM0&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:54:41+0530
+e8d0d1189980c896231e2917,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVSuM0.0&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:55:06+0530
+92411afc97fdf9e75e3a5c8f,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS-Sn&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:55:06+0530
+5e49d76328d9ed23c59d86fc,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVS-So&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:55:31+0530
+f0b809ccaaaede15abbcb7d1,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVT4a2&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:55:31+0530
+8701af0754eb43e9dff1d547,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVT4a3&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:55:56+0530
+68ee7ed2a4b6422765d388c9,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTAhD&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:55:56+0530
+436a226c58037ae447f11c4d,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTAhF&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:56:21+0530
+ead642e844b05ec07b6e9721,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTGoh&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:56:21+0530
+54d3f10a1d7200a9e1da2121,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTGoi&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:56:46+0530
+fab3dabb2dd9617dc0d6f156,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTMvg&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:56:46+0530
+8b210faaba6e4b393e1642d3,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTMvh&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:57:11+0530
+621161d48bee3de6d183efa3,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTT0f&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:57:11+0530
+1e71d07a9d815053e94fafbf,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTT0g&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:57:36+0530
+9a83ceedb2c9009207e57943,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTZ5l&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:57:36+0530
+809f3ae7f3088ec9dd80ef36,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTZ64&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:58:01+0530
+af26f7eb559ed64aa19d4716,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTfDT&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:58:01+0530
+7737398eafc8ed17fc4b0f4b,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTfDc&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:58:26+0530
+7559e930680201721d3dcae4,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTlK5&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:58:26+0530
+5669852b8690a1da5c2dad67,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTlK6&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:58:51+0530
+fd10e624c5b8fbeb94705775,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTrQo&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:58:51+0530
+f35d0855d3d3eccd80e5de68,28aa888e53b6ffca,1,127.0.0.1,GET,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTrQp&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,,200,2025-12-02T19:59:16+0530
+2f95afa2d1dea4ab30e12959,708ebe5c8cf51b24,2,127.0.0.1,POST,/DVWA/socket.io/?EIO=4&transport=polling&t=PhVTxXR&sid=qW_iZ5pqFMbN-mKPAAAE,HTTP/1.1,3,200,2025-12-02T19:59:16+0530
+ac798d8114b31054a02307d8,a591cf002b113aaa,9004,127.0.0.1,GET,/,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+680e5e924065656050a6ffb0,52ca4c9ae9deb857,1741,127.0.0.1,GET,/runtime.js,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+b375abcd68cdeb3f0ca948a0,2f3de597c80a1075,13008,127.0.0.1,GET,/polyfills.js,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+10d384183739abf070360e3a,b5d46d9c044c574c,98436,127.0.0.1,GET,/main.js,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+d60da8de267aab3479e6c416,107e6be731080f3a,44259,127.0.0.1,GET,/styles.css,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+b5081f4d2cabcb3eb4e94c96,c37877746f6c514a,453295,127.0.0.1,GET,/vendor.js,HTTP/1.1,,200,2025-12-02T22:40:47+0530
+11b5b27fcd307a66a9b40eb2,bae2cd6c1898ec99,96,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW2vdj,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+57a44057fa4c505d9ddaf0c9,86ace4e2c9e38595,12010,127.0.0.1,GET,/assets/i18n/en.json,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+aa7ff8a97b98f7ee03654fa2,1d20745f89c24f0d,20,127.0.0.1,GET,/rest/admin/application-version,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+7b12fd623dbcb3413ade91d5,cfafef99ce956e78,0,127.0.0.1,GET,/rest/admin/application-version,HTTP/1.1,,304,2025-12-02T22:40:48+0530
+e29dce67d3e4e1598e28fa8c,d71cb4cf101696f8,8480,127.0.0.1,GET,/rest/admin/application-configuration,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+52dbdfb6a672fe674057e189,a4fd0dc07638facf,60840,127.0.0.1,GET,/MaterialIcons-Regular.woff2,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+9daf31426bd0f785bd846ca7,6e47877cb0579fe2,75029,127.0.0.1,GET,/assets/public/images/JuiceShop_Logo.png,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+b0505d7bae53fc5b28dfdc35,191961c9b3af168d,1381,127.0.0.1,GET,/rest/languages,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+b22ffcd69ed147cabb4802a5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW2vfl&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,40,200,2025-12-02T22:40:48+0530
+e46610de564c90e2723ff726,546aa794b08d5c10,0,127.0.0.1,GET,/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T22:40:48+0530
+5ce2ae6d9c1f9c7f520a4f3a,44b4e5901a7362ef,32,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW2vfs&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+452caf0f016c758d266caf57,546aa794b08d5c10,0,127.0.0.1,GET,/rest/admin/application-configuration,HTTP/1.1,,304,2025-12-02T22:40:48+0530
+09e56c9292222385ad03dff4,c2272479cc63bd54,4757,127.0.0.1,GET,/assets/public/favicon_js.ico,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+ad6d09dbd36d476ff07c353b,9941c756932f839e,3797,127.0.0.1,GET,/rest/products/search?q=,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+690c0e8cfcd693456afe3786,753e0bae80dde238,449,127.0.0.1,GET,/api/Challenges/?name=Score%20Board,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+0f64f47879d8c04bc1cef10e,0aa919e8a17501d9,45,127.0.0.1,GET,/socket.io/?EIO=4&transport=websocket&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,400,2025-12-02T22:40:48+0530
+5599ab430c2a9b7192825500,13bc9048c0f0bb11,445,127.0.0.1,GET,/api/Quantitys/,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+a9ca414e404cdaab4085e9f8,dc325ed8c6981ec3,29163,127.0.0.1,GET,/assets/public/images/products/apple_pressings.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+e197adee1991e038338251c9,a01072219146b22d,35878,127.0.0.1,GET,/assets/public/images/products/artwork2.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+22bb247e05f8bf0239f34d0f,7c056d8a224285a3,15291,127.0.0.1,GET,/assets/public/images/products/apple_juice.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+383e25c1b360f6ed85565f61,b28331a497e9b9b5,19833,127.0.0.1,GET,/assets/public/images/products/banana_juice.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+42af3bb14bacf0702960f6e5,6b8b84bee2a5730a,0,127.0.0.1,GET,/api/Challenges/?name=Score%20Board,HTTP/1.1,,304,2025-12-02T22:40:48+0530
+7f7d8f16bf297a3a1ee1b02b,95356633fbe9983a,19001,127.0.0.1,GET,/assets/public/images/products/carrot_juice.jpeg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+08c9a0a4a23f670b7f467627,5fe17c2b49452bf1,17080,127.0.0.1,GET,/assets/public/images/products/fruit_press.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+14a52a71849dd055cb98956f,fa3b05e876d6661c,15072,127.0.0.1,GET,/assets/public/images/products/eggfruit_juice.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+438fefae52fba54a093f0efe,444f944e6b780abe,15910,127.0.0.1,GET,/assets/public/images/products/green_smoothie.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+9eaa75ad74ac89ff69314a9d,87e74a4e83493cb5,17038,127.0.0.1,GET,/assets/public/images/products/lemon_juice.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+0f931fb930b5e850ff47eba7,01f23619b6942c18,93641,127.0.0.1,GET,/assets/public/images/products/permafrost.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+4435c5e314b2284e4933b357,de5902eb8f1e05ed,21524,127.0.0.1,GET,/assets/public/images/products/melon_bike.jpeg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+8ef5ad2770e4f59f90d1b27d,0e2a19c186c8ce93,26934,127.0.0.1,GET,/assets/public/images/products/fan_facemask.jpg,HTTP/1.1,,200,2025-12-02T22:40:48+0530
+059f1eac4292cdf4eb9f1715,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW2vjH&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:41:13+0530
+40ad88c1738537003a6ab87b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW2_k3&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:41:13+0530
+49df05809072ff74d0074e0a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW2_k5&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:41:37+0530
+27525d02be9c3a8e55b48a23,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW35qJ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:41:38+0530
+b5b130db97d2376ca835a85b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW35qL&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:42:03+0530
+c5a66022f7a53d29ee5cfd5b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3Bx4&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:42:03+0530
+bf8c570b3ac8e317538dd5f1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3Bx5&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:42:28+0530
+6a2dae7fa35b53cb7e064e74,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3I1x&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:42:28+0530
+421dbee5cd4297480161fdc9,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3I1-&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:42:53+0530
+77f463a3562399507e85e3e7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3O8V&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:42:53+0530
+2a821127ef759104f150b0be,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3O8X&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:43:18+0530
+a09a3e34b5a42d08737b62b3,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3UFH&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:43:18+0530
+c140458da288cd3a966ae420,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3UFI&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:43:43+0530
+7122cd6dc821199f0ce26baf,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3aLb&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:43:43+0530
+99713d518e9b3e132b2aaaeb,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3aLd&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:44:07+0530
+c5b335dc0a4abb8c3dfbfa1d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3gjC&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:44:09+0530
+e8ec8d702e42a5750df7c274,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3glK&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:44:34+0530
+5d8946b60ae62e604e29c637,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3mqY&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:44:34+0530
+df2a96e86a4a185e61a3c2de,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3mqa&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:44:59+0530
+84b47a1fb4117c9e7dc1fcf7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3sxP&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:44:59+0530
+e535ffd4a74bd720e7325eba,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3sxU&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:45:24+0530
+8965b5509bee217fa2aa3c00,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW3z5W&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:45:24+0530
+25aed1cdd2b3cec3ce7eb98e,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW3z5X&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:45:49+0530
+876a7f202dc69a8568d743a4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW43C8&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:45:49+0530
+784f7f0ebb7656ef966051b6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW43C9&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:46:14+0530
+e6d0b8757ef6df78ccc9a1a0,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW49Ic&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:46:14+0530
+34290bab9c5317d8614e1512,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW49Id&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:46:39+0530
+92ded59f58f1217a79fd046b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4FOl&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:46:39+0530
+dccf6b9f18d593585eac2c9a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4FOo&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:47:04+0530
+1f79cf874548871d5d443f0c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4LVb&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:47:04+0530
+9bc4c4411229f0ae9a6187f7,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4LVc&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:47:29+0530
+1328847c8797582072707ff4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4RcM&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:47:29+0530
+4557018e679dd2ce34069665,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4RcN&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:47:54+0530
+b67ba09f4dd75bbbd5463e5c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4Xj9&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:47:54+0530
+e8c7075b4394e67bb77d3bf2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4XjK&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:48:19+0530
+3f8f73cba1be4e8838e93812,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4dpx&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:48:19+0530
+30c1ed4455346f910c924f31,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4dpy&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:48:44+0530
+f5c8024c400a88f81380d14e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4jwS&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:48:44+0530
+1f1772c31acc8339931c288e,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4jwy&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:49:09+0530
+c4d8c173b0045beb92e4f250,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4q0b&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:49:09+0530
+de08082749ebb3aa847a0270,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4q0c&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:49:34+0530
+24dac386452cca89ff280406,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW4w7V&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:49:34+0530
+5faa1ffc5bdc161658160372,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW4w7W&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:49:59+0530
+d09f0c9654cdae642d7c0185,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW50EL&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:49:59+0530
+e891e95da362db46365a3b2a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW50EQ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:50:24+0530
+6a440d4293d3803886e667e2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW56Kz&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:50:24+0530
+5a69519c7a02e6485f241d02,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW56L2&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:50:49+0530
+4a9fd35770b9f4e345a1f93a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5CtX&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:50:51+0530
+6152f40ef3370a4083a4a429,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5Cxa&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:51:16+0530
+616f34f50b2b4e6a35ef6a16,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5J4V&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:51:16+0530
+3cb7167d0f6c6a6c6631af37,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5J4W&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:51:41+0530
+012cde110eef117da38c2287,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5PAc&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:51:41+0530
+aebeb7e19718a0eebd221aec,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5PAf&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:52:06+0530
+921498dbb049c6a1112efb72,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5VHF&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:52:06+0530
+4b0708bd7c1823b830290f3b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5VHG&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:52:31+0530
+ee1578a6e90af8abbf2d2578,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5bNz&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:52:31+0530
+f03f26561acc4d6c5bced430,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5bO9&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:52:56+0530
+27b9fcb0d3bc2ed97ec8abec,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5hUg&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:52:56+0530
+d5ef5658a3123c2360209212,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5hUt&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:53:21+0530
+0d8e3713294661f83f94d454,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5nbu&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:53:21+0530
+e83004b7d959b719b4a1c624,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5nc1&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:53:46+0530
+5de6bb0272ad66e40e6cc8c8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5tiR&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:53:46+0530
+b4a382f0f20977ca136a0d65,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5tiT&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:54:11+0530
+2da1a387d2f49bc35e642814,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW5zoe&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:54:11+0530
+19e60eb819c1118c5707ab51,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW5zof&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:54:36+0530
+839e8f78c66fce878713db53,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW63vB&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:54:36+0530
+dd9009c2b5755691e0314db4,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW63vC&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:55:01+0530
+9dc137d8810df03c6a2b9882,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW69_-&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:55:01+0530
+1290b7eda270bd588871e5f5,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6A02&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:55:26+0530
+322ecd1a2ae5fef613968dae,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6G6r&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:55:26+0530
+ff82a82533ff8d3e9c9fbfde,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6G6u&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:55:51+0530
+de98921953bef115a3537255,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6MDa&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:55:51+0530
+a1667a0586739fc68895127f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6MDc&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:56:16+0530
+3394c338afac7e37d11c9c5c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6SK4&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:56:16+0530
+113053bff6a7e683c9ef5a0b,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6SK6&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:56:41+0530
+8c8e3786cc0658ef126e0cc7,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6YQD&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:56:41+0530
+0b5aba07708153592bfad7e2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6YQG&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:57:06+0530
+ecafffc175f50a2a5816f17b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6eWb&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:57:06+0530
+7dafb92de63b06b0356d748a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6eWd&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:57:31+0530
+958a06087bbc0a7211a2d781,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6kdM&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:57:31+0530
+a0f37e1212529a3a7d3158d6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6kdO&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:57:56+0530
+8d86507c380c5ba3cbf9689b,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6qlR&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:57:56+0530
+0ef726f9b93fedc3f462a1aa,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6qlS&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:58:21+0530
+cd68987ff7651e23ec5e6acd,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW6wrs&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:58:21+0530
+4a7bcd18669e063aea13cf54,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW6wru&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:58:46+0530
+f623863e2fd78e6c79bdad6d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW70y7&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:58:46+0530
+976eec85d9de27d67b013ac0,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW70y9&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:59:11+0530
+982889c98901ed96b21e2c5c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW772J&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:59:11+0530
+a296e726dce83c6725994d94,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW772K&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T22:59:36+0530
+cff594fcaf2d8d21f25c7416,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7D8d&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T22:59:36+0530
+3b62c35e61b209ae37defdbf,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7D8e&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:00:01+0530
+5042a9f1c3478a602c819385,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7JF8&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:00:01+0530
+1e19c3f8f71957cd3ae51ab4,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7JFB&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:00:26+0530
+a9be2eea3812cbf99abca422,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7PLm&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:00:26+0530
+1946d162334510e9c9d70de0,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7PLn&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:00:51+0530
+6bfb1bfb9ed88ecaef000ea6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7VSG&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:00:51+0530
+4a71313f2005655e2570933c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7VSH&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:01:16+0530
+7a81d232d11a6cb7fad35048,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7bZ0&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:01:16+0530
+b451fba488e55c849af4a0be,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7bZ3&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:01:41+0530
+ab66e5f90c6e74d5b92a6142,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7hfL&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:01:41+0530
+e84a1e8ad2429f415d6a5cbd,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7hfQ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:02:06+0530
+a752f0aa57c1c9b74e4bd3e2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7nlf&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:02:06+0530
+fc5da19cddc6cf7b831cda59,e0b7cc339ffdc6bb,444,127.0.0.1,GET,/api/SecurityQuestions,HTTP/1.1,,200,2025-12-02T23:02:12+0530
+849ebd22042cbfce9e3aee9d,0a03c19f3929936e,314,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22maria.brown91@yahoo.com\x22, \x22password\x22: \x22y%aOF%%T068J\x22, \x22passwordRepeat\x22: \x22y%aOF%%T068J\x22, \x22securityQuestion\x22: {\x22id\x22: 7, \x22question\x22: \x22What is your favorite color?\x22}, \x22securityAnswer\x22: \x22blue\x22}",201,2025-12-02T23:02:13+0530
+238ea25209ef2378f86a49c2,0f7663d2311ea47f,822,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22maria.brown91@yahoo.com\x22, \x22password\x22: \x22y%aOF%%T068J\x22}",200,2025-12-02T23:02:13+0530
+3ecfc3f41da3859b2ddd7006,d15e0519eeded2db,279,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Smith\x22, \x22mobileNum\x22: \x229416366837\x22, \x22zipCode\x22: \x2246819\x22, \x22streetAddress\x22: \x224819 Main St\x22, \x22city\x22: \x22Chicago\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:02:15+0530
+cade6a4fe81934164816a9c5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Taylor\x22, \x22cardNum\x22: \x224969267263187231\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2025}",400,2025-12-02T23:02:16+0530
+8581a8b24988e8eb7629ca00,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 37, \x22BasketId\x22: 7, \x22quantity\x22: 1}",400,2025-12-02T23:02:17+0530
+5f3932262d75fa728bf54234,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22William Williams\x22, \x22mobileNum\x22: \x226588731930\x22, \x22zipCode\x22: \x2289962\x22, \x22streetAddress\x22: \x225972 Pine Rd\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:02:19+0530
+bfbc873ef1061e89b89861bb,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Brown\x22, \x22cardNum\x22: \x224123231115141318\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2028}",400,2025-12-02T23:02:21+0530
+063336431a0d5b7ad1dbc36d,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 31, \x22BasketId\x22: 7, \x22quantity\x22: 2}",200,2025-12-02T23:02:23+0530
+f03cc585688a37a6d13b2161,d15e0519eeded2db,278,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Brown\x22, \x22mobileNum\x22: \x228711253091\x22, \x22zipCode\x22: \x2251463\x22, \x22streetAddress\x22: \x226883 Oak Ave\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:02:25+0530
+f1b357883d9c2e502dab8bfb,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224396547209926148\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2025}",400,2025-12-02T23:02:27+0530
+728aa42736d87c9ce579aa4e,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 24, \x22BasketId\x22: 7, \x22quantity\x22: 2}",200,2025-12-02T23:02:28+0530
+2da6c59c9f3e856e20b229ef,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Williams\x22, \x22cardNum\x22: \x224449627647502132\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-02T23:02:29+0530
+36da38a47e0a5619f4175f80,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/10,HTTP/1.1,{\x22quantity\x22: 7},200,2025-12-02T23:02:29+0530
+4da7813884cd3c3a83d0a75b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Williams\x22, \x22cardNum\x22: \x224930020778023568\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:02:31+0530
+0fa82ae8728f43eb577706c5,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7nlq&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:02:31+0530
+733107e838d0ae4c9c2a9972,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7ts4&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:02:31+0530
+68de8b640c73221c85fef582,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Brown\x22, \x22cardNum\x22: \x224218541383693865\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:02:32+0530
+f619cc0635c8a9e2688bd816,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/10,HTTP/1.1,,200,2025-12-02T23:02:32+0530
+41b67b83401804d9f3a2e4d1,0569d09ef60f56f6,672,127.0.0.1,GET,/api/Feedbacks,HTTP/1.1,,200,2025-12-02T23:02:33+0530
+667c45a769b28a5f441fc306,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Johnson\x22, \x22cardNum\x22: \x224334256988971965\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2026}",400,2025-12-02T23:02:34+0530
+485f3199323fda935c066404,fb2c2427a0e632f0,643,127.0.0.1,GET,/rest/basket/7,HTTP/1.1,,200,2025-12-02T23:02:34+0530
+9e469524da00e04be0098ed3,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/11,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:02:34+0530
+86ac5bd076951dec54242eca,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Anderson\x22, \x22cardNum\x22: \x224740124627894509\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2025}",400,2025-12-02T23:02:36+0530
+de0d26d74fbd150180d581b0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Jones\x22, \x22cardNum\x22: \x224815566852132366\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-02T23:02:37+0530
+5d1e411d1ddcab9a4c3d9c27,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/7,HTTP/1.1,,200,2025-12-02T23:02:37+0530
+7b2845ac24bf8c9125210713,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Garcia\x22, \x22cardNum\x22: \x224632299499363200\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2027}",400,2025-12-02T23:02:38+0530
+25400d0513adc8a0f3ec964b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Johnson\x22, \x22cardNum\x22: \x224427228886240014\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2027}",400,2025-12-02T23:02:39+0530
+66960f158b6e8712b58c0a17,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Miller\x22, \x22cardNum\x22: \x224995259179071502\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-02T23:02:41+0530
+814d544b669853aa356e8307,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Garcia\x22, \x22cardNum\x22: \x224730785185690662\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2026}",400,2025-12-02T23:02:42+0530
+f0692bc0fd961a92c974a54d,afd4dfc890508305,276,127.0.0.1,PUT,/api/Addresss/9,HTTP/1.1,"{\x22city\x22: \x22Miami\x22, \x22zipCode\x22: \x2215390\x22}",200,2025-12-02T23:02:42+0530
+476dab202f4bcbedfbb22264,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Davis\x22, \x22cardNum\x22: \x224035246181807534\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-02T23:02:44+0530
+9ad93e4acab9394bfc90c796,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/11,HTTP/1.1,,200,2025-12-02T23:02:44+0530
+37d96efb1424e34eed6a2d78,ffdcb45fdbd052a1,219,127.0.0.1,GET,/api/Complaints,HTTP/1.1,,200,2025-12-02T23:02:44+0530
+a0c9c4d305d3a3f5a4d9be78,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Taylor\x22, \x22cardNum\x22: \x224389419815519259\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2030}",400,2025-12-02T23:02:45+0530
+256d7051b9cada1c84232733,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 21, \x22BasketId\x22: 7, \x22quantity\x22: 5}",200,2025-12-02T23:02:46+0530
+ba1f76d9de1e04e7f94d5054,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Brown\x22, \x22cardNum\x22: \x224609076066910241\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:02:46+0530
+17965508cfc5642dbef49c26,fb2c2427a0e632f0,686,127.0.0.1,GET,/rest/basket/7,HTTP/1.1,,200,2025-12-02T23:02:46+0530
+8caeb7defe8ebdb179460a0f,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/12,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:02:46+0530
+5bb327fe2d9dd48bcaec38c7,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Williams\x22, \x22cardNum\x22: \x224144104322486713\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2029}",400,2025-12-02T23:02:47+0530
+16bd80e7a37da7c11ba52ea1,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/12,HTTP/1.1,,200,2025-12-02T23:02:47+0530
+f7140158bb6b6ca6b93d695e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Brown\x22, \x22cardNum\x22: \x224255562742506368\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2028}",400,2025-12-02T23:02:49+0530
+d5322e17150924faa3c92b25,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 33, \x22BasketId\x22: 7, \x22quantity\x22: 3}",400,2025-12-02T23:02:49+0530
+dd5412bb6114bf920d104ced,fb2c2427a0e632f0,154,127.0.0.1,GET,/rest/basket/7,HTTP/1.1,,200,2025-12-02T23:02:49+0530
+e3f88f864dab911d7637d3b0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Brown\x22, \x22cardNum\x22: \x224811896030655831\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-02T23:02:50+0530
+80dfb898ae50bde2e9d5e6bc,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 19, \x22BasketId\x22: 7, \x22quantity\x22: 4}",200,2025-12-02T23:02:50+0530
+696ef30075ca5a3c2c406ea5,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/13,HTTP/1.1,{\x22quantity\x22: 6},200,2025-12-02T23:02:50+0530
+e0d8f357fa092afd0eefc9ac,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Davis\x22, \x22cardNum\x22: \x224839355328076086\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2026}",400,2025-12-02T23:02:51+0530
+04e1263a21c02f0f8ba161ca,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Johnson\x22, \x22cardNum\x22: \x224361036956768178\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2030}",400,2025-12-02T23:02:52+0530
+c39decd57c58762d27a3747b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Taylor\x22, \x22cardNum\x22: \x224403229665337848\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:02:54+0530
+0f7cf6a6c1dacd8d6c3ca09d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/13,HTTP/1.1,,200,2025-12-02T23:02:54+0530
+eda70c4d70fdbc69ebf909e4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Taylor\x22, \x22cardNum\x22: \x224887520018111781\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2029}",400,2025-12-02T23:02:55+0530
+dd841fbe85d30d22040d0932,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 29, \x22BasketId\x22: 7, \x22quantity\x22: 4}",200,2025-12-02T23:02:55+0530
+4d0ec6b9ecfbbaddca26e3b8,fb2c2427a0e632f0,529,127.0.0.1,GET,/rest/basket/7,HTTP/1.1,,200,2025-12-02T23:02:55+0530
+626ef44cfbe67fcf1b5d13e5,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/14,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:02:55+0530
+72ca2a15b2337f5b527fde90,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7ts5&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:02:56+0530
+6906cf691822c8c9040fb339,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW7zyb&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:02:56+0530
+101049bccd20e803fd9844eb,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Martinez\x22, \x22cardNum\x22: \x224606569583063357\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2030}",400,2025-12-02T23:02:56+0530
+6a226c2abb709493b3d0d407,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Taylor\x22, \x22cardNum\x22: \x224819686680369447\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2030}",400,2025-12-02T23:02:58+0530
+5874e844c95a16663a8e78fa,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/14,HTTP/1.1,,200,2025-12-02T23:02:58+0530
+e5a8b8da6462e605ad91da51,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Williams\x22, \x22cardNum\x22: \x224593475607540389\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:02:59+0530
+6609373af131d9994e049682,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 20, \x22BasketId\x22: 7, \x22quantity\x22: 3}",200,2025-12-02T23:03:00+0530
+2d90614e55f99cf440c4ba39,afd4dfc890508305,277,127.0.0.1,PUT,/api/Addresss/9,HTTP/1.1,"{\x22city\x22: \x22Denver\x22, \x22zipCode\x22: \x2288338\x22}",200,2025-12-02T23:03:00+0530
+e130ae3603ee9cca5384eb48,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Davis\x22, \x22cardNum\x22: \x224976489637881664\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2028}",400,2025-12-02T23:03:01+0530
+5467067509b7fa143d11057b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Anderson\x22, \x22cardNum\x22: \x224423229948944513\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2028}",400,2025-12-02T23:03:02+0530
+fbf0aeb5b48a1b8ef81682f1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Smith\x22, \x22cardNum\x22: \x224196798375117379\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:03:03+0530
+69b3d13b1c9e6c7d6cd7ae65,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/15,HTTP/1.1,,200,2025-12-02T23:03:03+0530
+a76b83b2496173d322bdb16e,0f7663d2311ea47f,822,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22maria.brown91@yahoo.com\x22, \x22password\x22: \x22y%aOF%%T068J\x22}",200,2025-12-02T23:03:06+0530
+2809d7612d0dd7b8c3d68cd4,d15e0519eeded2db,283,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Anderson\x22, \x22mobileNum\x22: \x228962909678\x22, \x22zipCode\x22: \x2231579\x22, \x22streetAddress\x22: \x228291 Maple Dr\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:03:06+0530
+b1c7d7a0b7d5803827f0b3cf,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Smith\x22, \x22cardNum\x22: \x224492236519688307\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2027}",400,2025-12-02T23:03:06+0530
+626662ac2b96aafb41f6d01c,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 24, \x22BasketId\x22: 7, \x22quantity\x22: 4}",200,2025-12-02T23:03:06+0530
+51a8309b669f0a16fc5ea827,ce6e43b61d93d1c0,76,127.0.0.1,GET,/api/Recycles,HTTP/1.1,,200,2025-12-02T23:03:08+0530
+5b771faf7da1128bce2b2569,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Garcia\x22, \x22cardNum\x22: \x224135938062008001\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:03:09+0530
+101dc69bc481c8846145bd3f,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/16,HTTP/1.1,{\x22quantity\x22: 4},200,2025-12-02T23:03:09+0530
+c1cead218e9964e40708ed00,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Garcia\x22, \x22cardNum\x22: \x224063859476627285\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:03:11+0530
+ded3d4c3f73f50abfbad726b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Garcia\x22, \x22cardNum\x22: \x224914769855110132\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2030}",400,2025-12-02T23:03:11+0530
+494bc4f8ab1d13d26d610433,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Johnson\x22, \x22cardNum\x22: \x224719558045293745\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:03:13+0530
+be9ce4efbe1c65d631c64848,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/16,HTTP/1.1,,200,2025-12-02T23:03:13+0530
+6312b2546e38876f59980336,ccfd715cfcf9f6d1,5,127.0.0.1,GET,/rest/country-mapping,HTTP/1.1,,500,2025-12-02T23:03:13+0530
+9bf260786b203048f644d97f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Garcia\x22, \x22cardNum\x22: \x224403815778291780\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2026}",400,2025-12-02T23:03:15+0530
+98c6c6c7b6a195322bc957c3,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 40, \x22BasketId\x22: 7, \x22quantity\x22: 1}",200,2025-12-02T23:03:15+0530
+d2aeb0cfdff8a8661b995c4e,afd4dfc890508305,282,127.0.0.1,PUT,/api/Addresss/10,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2279452\x22}",200,2025-12-02T23:03:16+0530
+410ec94c4466bdbc24ef6f47,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Taylor\x22, \x22cardNum\x22: \x224530684741565427\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2029}",400,2025-12-02T23:03:17+0530
+a50dcd66073464a16b6ebc16,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Brown\x22, \x22cardNum\x22: \x224171822274113809\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2025}",400,2025-12-02T23:03:18+0530
+cc2d6a6198fa2487c8183c8b,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/17,HTTP/1.1,,200,2025-12-02T23:03:18+0530
+de60ccffde8c9f67b0676d06,73fad8bba5069bd4,11,127.0.0.1,GET,/rest/user/whoami,HTTP/1.1,,200,2025-12-02T23:03:20+0530
+1be0f9804f8ec6c5d8e8e725,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW7zyi&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:03:21+0530
+b2a36be14334cdbd01efb4a4,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW843B&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:03:21+0530
+6e4020a30002013e11b8271b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Anderson\x22, \x22cardNum\x22: \x224591049573693616\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2030}",400,2025-12-02T23:03:22+0530
+cf031108029a0596d4576cbf,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 5, \x22BasketId\x22: 7, \x22quantity\x22: 4}",200,2025-12-02T23:03:22+0530
+31d684a9096d744b496aa60f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Smith\x22, \x22cardNum\x22: \x224294766307753451\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2025}",400,2025-12-02T23:03:22+0530
+4dd51e3c991e24eb8e40bdc0,fb2c2427a0e632f0,528,127.0.0.1,GET,/rest/basket/7,HTTP/1.1,,200,2025-12-02T23:03:23+0530
+2af33734c7b1f75534ef51cc,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/18,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:03:23+0530
+741b3bc26b66aa8d1ce00d28,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Davis\x22, \x22cardNum\x22: \x224303901055697251\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2030}",400,2025-12-02T23:03:24+0530
+0abb7b76f6c8f6e92d2181ba,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Johnson\x22, \x22cardNum\x22: \x224998182156032379\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2028}",400,2025-12-02T23:03:26+0530
+c34cdc6df7dd5c0274e97000,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/18,HTTP/1.1,,200,2025-12-02T23:03:26+0530
+64b25ce33478c70ac3ac081d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Smith\x22, \x22cardNum\x22: \x224376408368846616\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:03:27+0530
+9184af1c958ac7ed87b35ebc,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 30, \x22BasketId\x22: 7, \x22quantity\x22: 5}",200,2025-12-02T23:03:27+0530
+d218963bdbcd821cedfa9a4f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Johnson\x22, \x22cardNum\x22: \x224605572047323784\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2027}",400,2025-12-02T23:03:28+0530
+73220f7414ee52db88b26a2b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Anderson\x22, \x22cardNum\x22: \x224008838055380422\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:03:29+0530
+d8c9b4101e8fa09c4a599657,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/19,HTTP/1.1,{\x22quantity\x22: 8},200,2025-12-02T23:03:29+0530
+4ae1debfdf6fc48d8f2fbd1f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Jones\x22, \x22cardNum\x22: \x224609177094391248\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2026}",400,2025-12-02T23:03:31+0530
+04ee009e81dab73bca9acc36,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/10,HTTP/1.1,,200,2025-12-02T23:03:31+0530
+f753a814122e5ed57fc1ba13,1d8c3cc2b722f935,8634,127.0.0.1,GET,/api/Challenges,HTTP/1.1,,200,2025-12-02T23:03:32+0530
+6e332f1057082ffb499d5ba0,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Smith\x22, \x22mobileNum\x22: \x225410427163\x22, \x22zipCode\x22: \x2294140\x22, \x22streetAddress\x22: \x225644 Main St\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:03:32+0530
+186a44377ef7e3471a053b41,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Garcia\x22, \x22cardNum\x22: \x224465034489368683\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2026}",400,2025-12-02T23:03:32+0530
+0fb158a1cca8895907ad2c88,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW843b&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:03:46+0530
+e6baf4284d5692788115c58d,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8A9b&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:03:46+0530
+bf50e12f9362e60ae2669b83,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8A9c&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:04:11+0530
+93f6bde2f10f6492ed8f19ad,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8GFh&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:04:11+0530
+76336cfd0041b0657ac67004,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8GFi&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:04:36+0530
+dbd2e7f3b2c14f5d4f99dbf8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8MOW&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:04:36+0530
+1e3d7d919d23fa4e262735fe,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8MOY&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:05:01+0530
+eba59e74b27c2ab599c2b81f,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8SV2&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:05:01+0530
+90ebd311a9bde9a99049c665,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8SV4&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:05:26+0530
+587cb4d5e93e574e8aa28853,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8Yh7&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:05:26+0530
+e46e7da34a846bf2a71e640a,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8YhA&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:05:51+0530
+41b40ff5e32cf1a22948a247,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8epR&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:05:52+0530
+27b6edf9c5dd1cb6e6f2e6ef,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8epk&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:06:16+0530
+0e9c472a00c66108c9d2343c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8kvi&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:06:17+0530
+1b28dac1f71230e46852dfb9,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8kvo&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:06:41+0530
+0a504bd628c655deeb63055e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8q_t&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:06:41+0530
+2b7d72ac089ae239d83d7941,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8q_v&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:07:06+0530
+a2d21111dc647fdaa68512d6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW8x5s&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:07:06+0530
+a52b1a598d72d8bf3ad1c42c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW8x5x&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:07:31+0530
+c7047a98c4d076653f68e19a,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW91CI&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:07:31+0530
+e3bb43a503d8f9c932aa3f91,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW91CJ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:07:56+0530
+1eb4ba5b5f208c55be8015cc,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW97Ie&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:07:56+0530
+5f340818560f6fe19c9205fc,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW97If&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:08:21+0530
+c7f222fd721792d2bd9fd6b2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9DO_&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:08:21+0530
+7951ca3508cb6dc186d052a2,e0b7cc339ffdc6bb,444,127.0.0.1,GET,/api/SecurityQuestions,HTTP/1.1,,200,2025-12-02T23:08:32+0530
+af80aed51280fa5f51a9b029,0a03c19f3929936e,317,127.0.0.1,POST,/api/Users,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22, \x22passwordRepeat\x22: \x22$5unSVadM%l\x22, \x22securityQuestion\x22: {\x22id\x22: 4, \x22question\x22: \x22What is your favorite color?\x22}, \x22securityAnswer\x22: \x22green\x22}",201,2025-12-02T23:08:32+0530
+de00994f11d03f29f72b3b64,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:08:33+0530
+f3a9c0d5941f9a031a034ecc,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Emily Anderson\x22, \x22mobileNum\x22: \x224532754638\x22, \x22zipCode\x22: \x2293487\x22, \x22streetAddress\x22: \x224778 Maple Dr\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:08:33+0530
+49d51e18086412cd0bdf56ad,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224572861080156172\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2025}",400,2025-12-02T23:08:34+0530
+2cc4b84a03b94e8fde96e35a,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 7, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:08:35+0530
+dd3bd9bff88cc41a48ddf30c,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22John Jones\x22, \x22mobileNum\x22: \x223963745987\x22, \x22zipCode\x22: \x2283658\x22, \x22streetAddress\x22: \x22840 Oak Ave\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:08:36+0530
+c6397a4ccad2175256108ab0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Anderson\x22, \x22cardNum\x22: \x224930482416066482\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2028}",400,2025-12-02T23:08:38+0530
+112bbd54dd4b6e38231fa187,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 14, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:08:38+0530
+7758cc97a43ff6a427f76fd3,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Michael Jones\x22, \x22mobileNum\x22: \x221378782844\x22, \x22zipCode\x22: \x2278009\x22, \x22streetAddress\x22: \x225969 Pine Rd\x22, \x22city\x22: \x22Chicago\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:08:39+0530
+96d8bbd1d07f38cd759a1a11,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Garcia\x22, \x22cardNum\x22: \x224763494224166467\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2028}",400,2025-12-02T23:08:40+0530
+eb2b28d261a2d88aad27b0ef,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 23, \x22BasketId\x22: 8, \x22quantity\x22: 2}",200,2025-12-02T23:08:41+0530
+8072ac4d3f61cf734b68af3f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Johnson\x22, \x22cardNum\x22: \x224601687608840926\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2028}",400,2025-12-02T23:08:41+0530
+ecf9e848f997305b6f282f03,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Martinez\x22, \x22cardNum\x22: \x224262411664260408\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2028}",400,2025-12-02T23:08:43+0530
+d4da78c67ee17dfa18b3a740,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:08:45+0530
+a2417bd20593a1282a87e23b,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22William Jones\x22, \x22mobileNum\x22: \x226450533821\x22, \x22zipCode\x22: \x2276527\x22, \x22streetAddress\x22: \x22525 Cedar Ln\x22, \x22city\x22: \x22Chicago\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:08:45+0530
+2673e01e5c33f2aa0bc29c14,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Garcia\x22, \x22cardNum\x22: \x224439222052860991\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2025}",400,2025-12-02T23:08:45+0530
+c9c7b645a562a7f7cf419321,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 38, \x22BasketId\x22: 8, \x22quantity\x22: 3}",400,2025-12-02T23:08:45+0530
+9fb0125770538a85f08d9729,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Garcia\x22, \x22cardNum\x22: \x224642842866130150\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-02T23:08:45+0530
+ae0765ccbc4338af8c802aaf,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 36, \x22BasketId\x22: 8, \x22quantity\x22: 4}",400,2025-12-02T23:08:46+0530
+1cd82016fb98460af25863a8,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Garcia\x22, \x22cardNum\x22: \x224090838875752076\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:08:46+0530
+09398776cd17ac1d3082f1f7,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 4, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:08:46+0530
+5cec4624dc0658b9bfcf299d,fb2c2427a0e632f0,684,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:08:46+0530
+17c19529908e1404a63dd3ab,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/20,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:08:46+0530
+1eaeebbc04bb48ff0e0fe4c7,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9DPX&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:08:46+0530
+efed21febb32cb6eda817dfb,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9JVO&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:08:46+0530
+628eaa76d89b2573e61ef764,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Brown\x22, \x22cardNum\x22: \x224499613096920063\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-02T23:08:46+0530
+0cba00ca0729236e507f1e7f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Smith\x22, \x22cardNum\x22: \x224871093622239243\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2029}",400,2025-12-02T23:08:47+0530
+cf33555215ad3b9a6b7291e0,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/23,HTTP/1.1,,200,2025-12-02T23:08:47+0530
+14156b02f7c4316ced1e5c4f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Williams\x22, \x22cardNum\x22: \x224817541116593636\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2027}",400,2025-12-02T23:08:48+0530
+29b736e37f93fbe40f400da0,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 15, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:08:48+0530
+6d0f853fdb4751fca4e179db,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Miller\x22, \x22cardNum\x22: \x224433949645710605\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2027}",400,2025-12-02T23:08:49+0530
+145671d779ca6c5e7a5fadeb,afd4dfc890508305,283,127.0.0.1,PUT,/api/Addresss/15,HTTP/1.1,"{\x22city\x22: \x22Portland\x22, \x22zipCode\x22: \x2286682\x22}",200,2025-12-02T23:08:49+0530
+f3418359455e28c70ece24e5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Anderson\x22, \x22cardNum\x22: \x224434755233022062\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-02T23:08:50+0530
+c73fcc73debfa24b72e96ddc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Miller\x22, \x22cardNum\x22: \x224779751512814399\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:08:52+0530
+09221e7d4a961b054312d919,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/24,HTTP/1.1,,200,2025-12-02T23:08:52+0530
+a97c5af10ba37ad06ee16b98,bbcf6868603ad65c,1213,127.0.0.1,GET,/rest/memories,HTTP/1.1,,200,2025-12-02T23:08:53+0530
+e40f174e5da201e54c962daf,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Rodriguez\x22, \x22cardNum\x22: \x224079342902606001\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2030}",400,2025-12-02T23:08:54+0530
+d791b338e8e1a37b9a7b4cd9,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 27, \x22BasketId\x22: 8, \x22quantity\x22: 4}",400,2025-12-02T23:08:54+0530
+0a07fde4fb940f97d6f02984,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Anderson\x22, \x22cardNum\x22: \x224712194224343416\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2025}",400,2025-12-02T23:08:55+0530
+a2ad0e4d5cc5ce789e1c88e7,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 17, \x22BasketId\x22: 8, \x22quantity\x22: 5}",200,2025-12-02T23:08:55+0530
+3e32f81e8b6c05e1651a2514,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Johnson\x22, \x22cardNum\x22: \x224367183766108527\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2030}",400,2025-12-02T23:08:57+0530
+22767c162eaae226104a7467,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/25,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:08:57+0530
+81aa00e2237074d0aaafe077,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Johnson\x22, \x22cardNum\x22: \x224676009441609968\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2028}",400,2025-12-02T23:08:58+0530
+1b23b6e48e75e7948f5af920,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/15,HTTP/1.1,,200,2025-12-02T23:08:58+0530
+751a35ef7950474fb5b24ec4,bbcf6868603ad65c,1213,127.0.0.1,GET,/rest/memories,HTTP/1.1,,200,2025-12-02T23:08:59+0530
+cea2c340dba578514e2504ba,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22William Garcia\x22, \x22mobileNum\x22: \x221543429082\x22, \x22zipCode\x22: \x2241344\x22, \x22streetAddress\x22: \x226638 Oak Ave\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:00+0530
+8d12de8b9c3802c57c0da9c5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Anderson\x22, \x22cardNum\x22: \x224679642075145150\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-02T23:09:00+0530
+fd3973fe186cf81df0875f88,afd4dfc890508305,282,127.0.0.1,PUT,/api/Addresss/16,HTTP/1.1,"{\x22city\x22: \x22Denver\x22, \x22zipCode\x22: \x2244580\x22}",200,2025-12-02T23:09:00+0530
+e8a4b3a54a34401926ab71d6,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Smith\x22, \x22cardNum\x22: \x224401108922025683\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2025}",400,2025-12-02T23:09:01+0530
+d8366139de7a9caeb5e9a44b,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/25,HTTP/1.1,,200,2025-12-02T23:09:01+0530
+c6ed70eca71938150090b2b7,39ff7855035974aa,30,127.0.0.1,GET,/api/Cards,HTTP/1.1,,200,2025-12-02T23:09:02+0530
+da7357b8c5230614c17f9e46,5873550952c2aa8b,421,127.0.0.1,GET,/api/Addresss,HTTP/1.1,,200,2025-12-02T23:09:02+0530
+aa750691d52ac48aa65e26ab,60c0a0a505c82741,266,127.0.0.1,GET,/api/Deliverys,HTTP/1.1,,200,2025-12-02T23:09:02+0530
+77231d3d9bca64d629e95a58,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Miller\x22, \x22cardNum\x22: \x224434444150540259\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-02T23:09:03+0530
+4051fba7f273f3994069b010,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 24, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:09:03+0530
+3b2898ce5cf64c5f17cb9699,afd4dfc890508305,284,127.0.0.1,PUT,/api/Addresss/16,HTTP/1.1,"{\x22city\x22: \x22Portland\x22, \x22zipCode\x22: \x2210807\x22}",200,2025-12-02T23:09:03+0530
+288cef196acae46b006d4a6e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Anderson\x22, \x22cardNum\x22: \x224664025186813947\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2027}",400,2025-12-02T23:09:04+0530
+cce2f1d2086aa21c5d675899,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/16,HTTP/1.1,,200,2025-12-02T23:09:04+0530
+5bc0fd1bf7af5a086bc6bf7a,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22David Garcia\x22, \x22mobileNum\x22: \x228360244455\x22, \x22zipCode\x22: \x2227927\x22, \x22streetAddress\x22: \x223342 Maple Dr\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:05+0530
+7d6988522179b6cf4fe03213,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Brown\x22, \x22cardNum\x22: \x224257447616418115\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:09:05+0530
+691d6d479c06e90be6061ee8,afd4dfc890508305,282,127.0.0.1,PUT,/api/Addresss/17,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2242747\x22}",200,2025-12-02T23:09:05+0530
+e1eb19019d43eb89e0bc36ec,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Miller\x22, \x22cardNum\x22: \x224014774263894514\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-02T23:09:06+0530
+01729d11189ebdbcda9bdde2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Brown\x22, \x22cardNum\x22: \x224112060017716975\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2027}",400,2025-12-02T23:09:07+0530
+0746056a733c438971b1a118,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/17,HTTP/1.1,,200,2025-12-02T23:09:07+0530
+d98f16102046d39e369e0c6a,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Brown\x22, \x22mobileNum\x22: \x228262889851\x22, \x22zipCode\x22: \x2250097\x22, \x22streetAddress\x22: \x226453 Maple Dr\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:08+0530
+db8c721f730c1f4dc30e33e2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Taylor\x22, \x22cardNum\x22: \x224359875357341189\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-02T23:09:08+0530
+964b99ab21ed79821924f89f,fb2c2427a0e632f0,764,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:08+0530
+1524efce393c8c0c259f11aa,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/20,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:09:08+0530
+bcbb6ccdd0de9fdcf8266ed4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Martinez\x22, \x22cardNum\x22: \x224016719740823041\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-02T23:09:09+0530
+53462516c7543d1984c986df,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/18,HTTP/1.1,,200,2025-12-02T23:09:09+0530
+89c8b7095d0af148cfc1bbd5,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22William Martinez\x22, \x22mobileNum\x22: \x222482339271\x22, \x22zipCode\x22: \x2213009\x22, \x22streetAddress\x22: \x228822 Pine Rd\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:10+0530
+9887eef596f135053add0252,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Davis\x22, \x22cardNum\x22: \x224638591723818603\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2029}",400,2025-12-02T23:09:10+0530
+d7e2a84d0a856c3a7b296295,afd4dfc890508305,283,127.0.0.1,PUT,/api/Addresss/19,HTTP/1.1,"{\x22city\x22: \x22Miami\x22, \x22zipCode\x22: \x2296106\x22}",200,2025-12-02T23:09:10+0530
+2c399807a6cc717248fc10aa,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9JVf&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:09:11+0530
+a7cab9753ba0c096ee4adcb0,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9PbR&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:09:11+0530
+ba530966f272ade8c15497e3,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Davis\x22, \x22cardNum\x22: \x224848235062103192\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2030}",400,2025-12-02T23:09:12+0530
+61701e894b03e5ae2b57072c,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/19,HTTP/1.1,,200,2025-12-02T23:09:12+0530
+472a0ad80f745b3739110a27,ccfd715cfcf9f6d1,5,127.0.0.1,GET,/rest/country-mapping,HTTP/1.1,,500,2025-12-02T23:09:13+0530
+0bc4c9a71ca6fa45dc9ad0f5,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Williams\x22, \x22mobileNum\x22: \x229476975202\x22, \x22zipCode\x22: \x2281573\x22, \x22streetAddress\x22: \x221640 Main St\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:14+0530
+a17ed8c31089086162ada4bd,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Johnson\x22, \x22cardNum\x22: \x224232168991884426\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2029}",400,2025-12-02T23:09:14+0530
+ea977df653ed72b589343fd8,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/26,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:09:14+0530
+79c5259487dcf586fc6126b6,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:09:16+0530
+07a64356dab36c2327271308,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22John Garcia\x22, \x22mobileNum\x22: \x222556162770\x22, \x22zipCode\x22: \x2283597\x22, \x22streetAddress\x22: \x221708 Main St\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:16+0530
+0e2dfb6172accd1499778a59,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Rodriguez\x22, \x22cardNum\x22: \x224875617580678581\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2030}",400,2025-12-02T23:09:16+0530
+e23be636caed0aaf9857fa5a,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 5, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:09:16+0530
+594b38b2e12597ac114b87c0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Williams\x22, \x22cardNum\x22: \x224623204780049136\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:09:17+0530
+2b3f207c514d676589d50d27,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/21,HTTP/1.1,,200,2025-12-02T23:09:17+0530
+95588511416b307e4b2b1370,9941c756932f839e,3792,127.0.0.1,GET,/rest/products/search?q=,HTTP/1.1,,200,2025-12-02T23:09:18+0530
+2bd3f2d30817fe078448bb12,025aa5ae420a809e,3746,127.0.0.1,GET,/api/Products,HTTP/1.1,,200,2025-12-02T23:09:18+0530
+5b8947254a4c15bd24c07997,d15e0519eeded2db,288,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Robert Martinez\x22, \x22mobileNum\x22: \x222155491321\x22, \x22zipCode\x22: \x2230826\x22, \x22streetAddress\x22: \x221257 Pine Rd\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:18+0530
+067f96625935b8350520eeec,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Martinez\x22, \x22cardNum\x22: \x224305114610722234\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2025}",400,2025-12-02T23:09:18+0530
+e08121fa3e45aa72f7a902f5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Miller\x22, \x22cardNum\x22: \x224275769383727072\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2026}",400,2025-12-02T23:09:19+0530
+032ad320f31199e515a1cc78,afd4dfc890508305,283,127.0.0.1,PUT,/api/Addresss/22,HTTP/1.1,"{\x22city\x22: \x22Denver\x22, \x22zipCode\x22: \x2212253\x22}",200,2025-12-02T23:09:20+0530
+4d131a8acc5385694c29d6c1,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:09:22+0530
+b6a284e64807879c44839e82,d15e0519eeded2db,283,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Maria Smith\x22, \x22mobileNum\x22: \x223088196412\x22, \x22zipCode\x22: \x2248970\x22, \x22streetAddress\x22: \x228295 Elm St\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:22+0530
+6dbaf6811d9eb9578cdd3d24,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Miller\x22, \x22cardNum\x22: \x224352913519562344\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2029}",400,2025-12-02T23:09:22+0530
+2516c0738276e4428f3a4501,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 40, \x22BasketId\x22: 8, \x22quantity\x22: 2}",400,2025-12-02T23:09:22+0530
+eedee998b3ac7b8a3e159db5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Jones\x22, \x22cardNum\x22: \x224565324171877185\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-02T23:09:23+0530
+93ea860ba795ca86df202b8d,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 2, \x22BasketId\x22: 8, \x22quantity\x22: 2}",200,2025-12-02T23:09:23+0530
+834b7cf98076382a61d7caa6,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Garcia\x22, \x22cardNum\x22: \x224894107715263878\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2027}",400,2025-12-02T23:09:24+0530
+7816062c2e0dd4e0504dde94,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Jones\x22, \x22cardNum\x22: \x224176770438417553\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2025}",400,2025-12-02T23:09:25+0530
+a918c604671f61bb3f5d97eb,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/23,HTTP/1.1,,200,2025-12-02T23:09:25+0530
+edc9dc6655b37ecbebc64913,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Robert Brown\x22, \x22mobileNum\x22: \x227014505569\x22, \x22zipCode\x22: \x2297898\x22, \x22streetAddress\x22: \x224506 Maple Dr\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:25+0530
+91a37c55a5f8d6a012cfbecc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Jones\x22, \x22cardNum\x22: \x224862828808622803\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2026}",400,2025-12-02T23:09:25+0530
+55ac385e6a26fff1fe76b766,fb2c2427a0e632f0,908,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:26+0530
+267e9744f3a535e4315fdfd9,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/22,HTTP/1.1,{\x22quantity\x22: 4},200,2025-12-02T23:09:26+0530
+cd9d3985c9207f0a49a2a19c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Williams\x22, \x22cardNum\x22: \x224401162873395569\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:09:27+0530
+54c851832d9472eac6f2185e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Rodriguez\x22, \x22cardNum\x22: \x224322975381346098\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2029}",400,2025-12-02T23:09:28+0530
+60178b78d29baaf3d42d1e34,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Davis\x22, \x22cardNum\x22: \x224105832073580002\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:09:29+0530
+da5e8e8ae7ce90e12f036b0b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Jones\x22, \x22cardNum\x22: \x224449651403354001\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2026}",400,2025-12-02T23:09:30+0530
+25b764a696da364e50eab3b3,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/28,HTTP/1.1,,200,2025-12-02T23:09:30+0530
+34bcd803d3c656e4ce4945fa,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Williams\x22, \x22cardNum\x22: \x224217190078813759\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2028}",400,2025-12-02T23:09:30+0530
+d0414f33b42699e272d063a2,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 10, \x22BasketId\x22: 8, \x22quantity\x22: 5}",200,2025-12-02T23:09:30+0530
+d59687d00932bdb11f1798f6,afd4dfc890508305,282,127.0.0.1,PUT,/api/Addresss/24,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2231916\x22}",200,2025-12-02T23:09:30+0530
+6b54c11f0a017574b67e0c9c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Davis\x22, \x22cardNum\x22: \x224735488468237677\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:09:32+0530
+c0247481a7e20233ec1feafa,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/24,HTTP/1.1,,200,2025-12-02T23:09:32+0530
+fbea0dac0ad0aee09c7c3335,a591cf002b113aaa,9015,127.0.0.1,GET,/,HTTP/1.1,,200,2025-12-02T23:09:32+0530
+cd3fd7cc645b191bfb19a755,d71cb4cf101696f8,8367,127.0.0.1,GET,/rest/admin/application-configuration,HTTP/1.1,,200,2025-12-02T23:09:32+0530
+9bfb1ee9e675870e87db98b3,753e0bae80dde238,449,127.0.0.1,GET,/api/Challenges/?name=Score%20Board,HTTP/1.1,,200,2025-12-02T23:09:33+0530
+31090bc2434ff0d767982b64,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Emily Davis\x22, \x22mobileNum\x22: \x227573737738\x22, \x22zipCode\x22: \x2242555\x22, \x22streetAddress\x22: \x229997 Elm St\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:34+0530
+e63615e5fd77b7d7cde488a4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Miller\x22, \x22cardNum\x22: \x224050880931551871\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-02T23:09:34+0530
+5e4b590c95c8f9b9971235a3,fb2c2427a0e632f0,1031,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:34+0530
+9fb24ffda96d341cf7ee1bf9,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/29,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:09:34+0530
+dfff4215d1089b170f95ccdd,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Jones\x22, \x22cardNum\x22: \x224023188992944916\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:09:34+0530
+90267d1fe86ac0ff09902b1d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/29,HTTP/1.1,,200,2025-12-02T23:09:34+0530
+6ccd747ae438c0248fd2f436,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Rodriguez\x22, \x22cardNum\x22: \x224484353508871871\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:09:36+0530
+802c87fac3c2eb2f0981338e,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 35, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:09:36+0530
+322d72f51f2e0f565aeaa439,fb2c2427a0e632f0,1029,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:36+0530
+6c20a7106453bca6690c75c9,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:09:36+0530
+036beb4693d80f03e6e44f25,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Brown\x22, \x22cardNum\x22: \x224305794650400898\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2030}",400,2025-12-02T23:09:36+0530
+b515fd405847c691cb43d346,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/25,HTTP/1.1,,200,2025-12-02T23:09:36+0530
+817857a569830b52ba381994,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9PbT&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:09:36+0530
+9901be096b6eed609063f84c,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9VhY&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:09:36+0530
+4a73017b175fe658f523fb71,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Brown\x22, \x22mobileNum\x22: \x222703315958\x22, \x22zipCode\x22: \x2256401\x22, \x22streetAddress\x22: \x226477 Cedar Ln\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:38+0530
+c6057cc211082108da21f4e1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Davis\x22, \x22cardNum\x22: \x224532630316303945\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2028}",400,2025-12-02T23:09:38+0530
+20106facc5502a4a2087d4b1,afd4dfc890508305,281,127.0.0.1,PUT,/api/Addresss/26,HTTP/1.1,"{\x22city\x22: \x22Portland\x22, \x22zipCode\x22: \x2249188\x22}",200,2025-12-02T23:09:38+0530
+d80243b75d6c3743cffe3fce,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Brown\x22, \x22cardNum\x22: \x224871936546897238\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:09:39+0530
+0dbe48f72ded683258175cee,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/30,HTTP/1.1,,200,2025-12-02T23:09:39+0530
+f00f6edd9d302b018f7a0525,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Anderson\x22, \x22cardNum\x22: \x224511143923999139\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2027}",400,2025-12-02T23:09:40+0530
+d8be58b09b48da1cde271d76,a0b63b070e750890,680,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 7, \x22BasketId\x22: 8, \x22quantity\x22: 4}",500,2025-12-02T23:09:40+0530
+25c42ad1f3cb85755e8b5bf1,44b4e5901a7362ef,268,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9Vho&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:09:40+0530
+0653154f69516fb0ce111378,fb2c2427a0e632f0,842,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:40+0530
+b553405797991a6aea4f2bef,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:09:40+0530
+5d372b058c114cf63d5fbbc3,6f7d2cdf49b3a2c7,79,127.0.0.1,GET,/rest/continue-code,HTTP/1.1,,200,2025-12-02T23:09:40+0530
+dea6a024ef409567a787b4f2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9Wc7&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,"42[\x22notification received\x22,\x229c297196ecf8890bc1e900fcf3aebae8c9f9880a\x22]",200,2025-12-02T23:09:40+0530
+e50e9eda1e866ccf8999fcd7,43aeceb998af8d3b,4546,127.0.0.1,GET,/705.js,HTTP/1.1,,200,2025-12-02T23:09:40+0530
+494e523c8b2913ac99e5d72b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224719413481971395\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2025}",400,2025-12-02T23:09:41+0530
+48abdcba1e56ee0d7e9466b3,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 17, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:09:41+0530
+d1c4aa47ed570d9c284ffd05,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Garcia\x22, \x22cardNum\x22: \x224773061043779618\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2029}",400,2025-12-02T23:09:42+0530
+cc954b7661e54a283ca40f6d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/31,HTTP/1.1,,200,2025-12-02T23:09:42+0530
+70536a508a7ff24cb389c19d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Martinez\x22, \x22cardNum\x22: \x224047147268125253\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2028}",400,2025-12-02T23:09:43+0530
+dd13d487992738301b15cf1e,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 6, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:09:43+0530
+c703967d8860134f33d9d78d,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/32,HTTP/1.1,{\x22quantity\x22: 6},200,2025-12-02T23:09:43+0530
+926c0316a3b3d2f09827c92d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Miller\x22, \x22cardNum\x22: \x224194167314699584\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2027}",400,2025-12-02T23:09:43+0530
+1f06d0c1efdfae6e7d9274ee,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/26,HTTP/1.1,,200,2025-12-02T23:09:43+0530
+65e5cef30ecb77d6a7b4ff16,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22David Garcia\x22, \x22mobileNum\x22: \x229065693168\x22, \x22zipCode\x22: \x2277026\x22, \x22streetAddress\x22: \x222696 Pine Rd\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:44+0530
+73371503008b5d7cc363878d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Johnson\x22, \x22cardNum\x22: \x224333290798133998\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2030}",400,2025-12-02T23:09:44+0530
+50cbf2fbe4212be6c4968319,fb2c2427a0e632f0,900,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:44+0530
+31e719d8153da662c8765b1e,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/22,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:09:44+0530
+c3bc00d88823d9f557c3b1e9,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Davis\x22, \x22cardNum\x22: \x224719401151910576\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:09:45+0530
+89a68889de1867fbbab26d29,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/27,HTTP/1.1,,200,2025-12-02T23:09:45+0530
+5e81ecc62ef953330a4ad3fd,d15e0519eeded2db,287,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Robert Garcia\x22, \x22mobileNum\x22: \x228008197686\x22, \x22zipCode\x22: \x2282366\x22, \x22streetAddress\x22: \x227412 Cedar Ln\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:45+0530
+46127ffc400f67590cd032a6,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Williams\x22, \x22cardNum\x22: \x224966827305229311\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2029}",400,2025-12-02T23:09:45+0530
+d8b191dd77a7d7ab3e7cd489,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Davis\x22, \x22cardNum\x22: \x224256970880649472\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2029}",400,2025-12-02T23:09:47+0530
+874f663c2f8e155e9a15f35e,fb2c2427a0e632f0,897,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:47+0530
+eaf229c538e8315b177ec101,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/20,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:09:47+0530
+edb47dc0cb88e80546eb30ee,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Williams\x22, \x22cardNum\x22: \x224617973703874788\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2029}",400,2025-12-02T23:09:48+0530
+3e05b04814596f17be11a6cf,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Anderson\x22, \x22cardNum\x22: \x224028777223814501\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2030}",400,2025-12-02T23:09:49+0530
+4e93ec258d85215f58c71d07,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Anderson\x22, \x22cardNum\x22: \x224488398384781911\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2029}",400,2025-12-02T23:09:49+0530
+b6209daeabd24ff4a722262a,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/32,HTTP/1.1,,200,2025-12-02T23:09:49+0530
+7886f87e179ae278768fd964,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Taylor\x22, \x22cardNum\x22: \x224771034022778890\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:09:50+0530
+ec703a809ccc876661136771,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 18, \x22BasketId\x22: 8, \x22quantity\x22: 2}",200,2025-12-02T23:09:50+0530
+dfa3ecebe40ac171a44ef4b5,fb2c2427a0e632f0,939,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:09:51+0530
+1cfc0dac8aec3ef5a281ce2a,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/21,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:09:51+0530
+81d7a07e415f6c00c5698eb0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Brown\x22, \x22cardNum\x22: \x224301462395035876\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:09:51+0530
+1bad547e1103beafd8ab5b32,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Davis\x22, \x22cardNum\x22: \x224151170436242633\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2027}",400,2025-12-02T23:09:52+0530
+cb496ad3a11dce4309965990,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Brown\x22, \x22cardNum\x22: \x224499700923044783\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2025}",400,2025-12-02T23:09:53+0530
+f95c3995af1713cc99f82652,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Anderson\x22, \x22cardNum\x22: \x224514177099070035\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2027}",400,2025-12-02T23:09:54+0530
+1734852b4dfbc9af7260362d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Williams\x22, \x22cardNum\x22: \x224043541396638510\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2026}",400,2025-12-02T23:09:56+0530
+f33bda736e5142a73b8c4de7,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/28,HTTP/1.1,,200,2025-12-02T23:09:56+0530
+8442a9e2190becc69b68ba68,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Taylor\x22, \x22mobileNum\x22: \x228121496594\x22, \x22zipCode\x22: \x2294023\x22, \x22streetAddress\x22: \x226164 Elm St\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:56+0530
+3e0504e219a78849aac44591,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Rodriguez\x22, \x22cardNum\x22: \x224207550029715149\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2027}",400,2025-12-02T23:09:56+0530
+a8055cf79e75deccdd95481e,afd4dfc890508305,279,127.0.0.1,PUT,/api/Addresss/29,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2232868\x22}",200,2025-12-02T23:09:56+0530
+1726b6ad4ea0191da2d481a0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Martinez\x22, \x22cardNum\x22: \x224904310684026859\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2027}",400,2025-12-02T23:09:57+0530
+1e1c8458290dc58043cead4b,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/29,HTTP/1.1,,200,2025-12-02T23:09:57+0530
+223ddf90e89c35d8f841988d,065379f72a3180fc,261,127.0.0.1,GET,/api/Products/5,HTTP/1.1,,200,2025-12-02T23:09:58+0530
+531f6e9028eb3f5935a09e15,6801cb44dc6a692c,30,127.0.0.1,GET,/rest/products/5/reviews,HTTP/1.1,,200,2025-12-02T23:09:58+0530
+29d3f071af754ff55eda41f8,d15e0519eeded2db,283,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Maria Williams\x22, \x22mobileNum\x22: \x226952539027\x22, \x22zipCode\x22: \x2263591\x22, \x22streetAddress\x22: \x225958 Pine Rd\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:09:59+0530
+d50aa719c9291d3b684c0b58,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Miller\x22, \x22cardNum\x22: \x224216149450087245\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2029}",400,2025-12-02T23:09:59+0530
+7301f5ae6a8673058a3dd0d1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Brown\x22, \x22cardNum\x22: \x224415470895348382\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2028}",400,2025-12-02T23:10:00+0530
+7eb0ff79714cc8f1597fb179,afd4dfc890508305,283,127.0.0.1,PUT,/api/Addresss/30,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2288487\x22}",200,2025-12-02T23:10:00+0530
+2b0ad74f22d10ae27afe8465,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9Wc8&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:10:01+0530
+8714ce9a34985ce03fd74d12,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Rodriguez\x22, \x22cardNum\x22: \x224417143095093403\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2027}",400,2025-12-02T23:10:01+0530
+ef1edb48f6e7ae8445668e1e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9bo2&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:10:01+0530
+2f6f858d3ff41a1f4bc9dd5a,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/30,HTTP/1.1,,200,2025-12-02T23:10:01+0530
+96d78be60dd75af069683e04,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Jones\x22, \x22mobileNum\x22: \x223139822268\x22, \x22zipCode\x22: \x2271895\x22, \x22streetAddress\x22: \x226641 Cedar Ln\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:03+0530
+ff3b31cb031b9dc40df1f880,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Anderson\x22, \x22cardNum\x22: \x224660344150911341\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:10:03+0530
+319be07aa404c4f7a4fb9c3c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Martinez\x22, \x22cardNum\x22: \x224113843413488308\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2028}",400,2025-12-02T23:10:04+0530
+3eaacceef0b59e3d79a3c633,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/33,HTTP/1.1,{\x22quantity\x22: 8},200,2025-12-02T23:10:04+0530
+ae1dba3c4943e9d369faedb1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Anderson\x22, \x22cardNum\x22: \x224490711095517685\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2026}",400,2025-12-02T23:10:05+0530
+9ae6f9aaf849ac41f6f3bca1,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/31,HTTP/1.1,,200,2025-12-02T23:10:05+0530
+84a85b8ec0ae343bb47d0c3b,ffdcb45fdbd052a1,219,127.0.0.1,GET,/api/Complaints,HTTP/1.1,,200,2025-12-02T23:10:05+0530
+8bfe6b029e78ca57d1b9148a,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Michael Smith\x22, \x22mobileNum\x22: \x227822387931\x22, \x22zipCode\x22: \x2273908\x22, \x22streetAddress\x22: \x225232 Pine Rd\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:06+0530
+4d41debe9242efc0fe0d697d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Jones\x22, \x22cardNum\x22: \x224227630164994154\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2028}",400,2025-12-02T23:10:06+0530
+958a5aaae3b1e2669f0de205,afd4dfc890508305,282,127.0.0.1,PUT,/api/Addresss/32,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2279320\x22}",200,2025-12-02T23:10:06+0530
+b46ff1acdf6ebbbdf55a25de,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Miller\x22, \x22cardNum\x22: \x224522179966749602\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2029}",400,2025-12-02T23:10:07+0530
+b81797aec39e0f19b290dd5d,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/33,HTTP/1.1,,200,2025-12-02T23:10:07+0530
+a4213412c00798eab1e4f258,6e47877cb0579fe2,75029,127.0.0.1,GET,/assets/public/images/JuiceShop_Logo.png,HTTP/1.1,,200,2025-12-02T23:10:07+0530
+41d48dd379e0065b4ba99faf,c2272479cc63bd54,4645,127.0.0.1,GET,/assets/public/favicon_js.ico,HTTP/1.1,,200,2025-12-02T23:10:07+0530
+b35616d3e645ab812c8dce09,2f3de597c80a1075,12550,127.0.0.1,GET,/polyfills.js,HTTP/1.1,,200,2025-12-02T23:10:07+0530
+a20e0232a94874be417c79e6,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Davis\x22, \x22cardNum\x22: \x224648800144624082\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:10:09+0530
+672c2354c130d541a03063d4,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 29, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:10:09+0530
+83815bbc90209e09463f0a65,fb2c2427a0e632f0,911,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:09+0530
+86e3d8361bb325bc4373907d,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/20,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:10:09+0530
+a63dad6647e6ef700892afe0,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Johnson\x22, \x22cardNum\x22: \x224000717867980898\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2028}",400,2025-12-02T23:10:10+0530
+be2168660d5c6c0a7a4418a4,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/32,HTTP/1.1,,200,2025-12-02T23:10:10+0530
+a55db013abe9a7aa108143c3,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Rodriguez\x22, \x22mobileNum\x22: \x227200760243\x22, \x22zipCode\x22: \x2271113\x22, \x22streetAddress\x22: \x22920 Pine Rd\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:11+0530
+6aa97a67ed822cc47a8ad611,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Brown\x22, \x22cardNum\x22: \x224550325750966735\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2025}",400,2025-12-02T23:10:11+0530
+9e59b3f81f384d3e61dd6708,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Davis\x22, \x22cardNum\x22: \x224312880707229312\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2028}",400,2025-12-02T23:10:13+0530
+bdea5f52316ade51094d5bf2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Smith\x22, \x22cardNum\x22: \x224488552334043534\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2025}",400,2025-12-02T23:10:14+0530
+20eeba19a969f8f825981f5b,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/34,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:10:14+0530
+3d51c7d17abf03a900a697b1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Anderson\x22, \x22cardNum\x22: \x224189505243587483\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2025}",400,2025-12-02T23:10:15+0530
+05af0ed42c0575b597f2ab2b,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/33,HTTP/1.1,,200,2025-12-02T23:10:15+0530
+8d4a73483e1709050ab3318c,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22William Davis\x22, \x22mobileNum\x22: \x225002206430\x22, \x22zipCode\x22: \x2244747\x22, \x22streetAddress\x22: \x226525 Elm St\x22, \x22city\x22: \x22Chicago\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:16+0530
+a8e1686b37ec8d2eb4e899e8,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Smith\x22, \x22cardNum\x22: \x224676354369978311\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2025}",400,2025-12-02T23:10:16+0530
+48a5aff69c59bc5bf2f68192,afd4dfc890508305,280,127.0.0.1,PUT,/api/Addresss/34,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2232941\x22}",200,2025-12-02T23:10:16+0530
+74db5243caeebd7dc8cc7069,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Brown\x22, \x22cardNum\x22: \x224099764184553958\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:10:17+0530
+40da83d897edb0716e444211,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Garcia\x22, \x22cardNum\x22: \x224232951636368631\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:10:18+0530
+9270feff4d9445983f78e51d,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/34,HTTP/1.1,,200,2025-12-02T23:10:18+0530
+444fea214dbe9584d1378639,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Michael Martinez\x22, \x22mobileNum\x22: \x225851154069\x22, \x22zipCode\x22: \x2211723\x22, \x22streetAddress\x22: \x222828 Main St\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:19+0530
+98fe22c92953d6e43ef5caff,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Anderson\x22, \x22cardNum\x22: \x224590615355911097\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2029}",400,2025-12-02T23:10:19+0530
+31c5229a10f69391b5de1a16,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/34,HTTP/1.1,{\x22quantity\x22: 6},200,2025-12-02T23:10:19+0530
+185f41505bb3f3551a88653b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Rodriguez\x22, \x22cardNum\x22: \x224706820060650087\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2029}",400,2025-12-02T23:10:20+0530
+d10b13a2c5c45a99b87cfedd,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/34,HTTP/1.1,,200,2025-12-02T23:10:20+0530
+92c34ca410d8d62a7f23ea13,ae332be70fe736cb,3792,127.0.0.1,GET,/rest/products/search?q=&page=0&size=12,HTTP/1.1,,200,2025-12-02T23:10:21+0530
+725e46905d2713b24f9a68fa,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Jones\x22, \x22cardNum\x22: \x224998097847656275\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2027}",400,2025-12-02T23:10:22+0530
+b1d7582f5f2608fc610244e3,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 21, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:10:22+0530
+0abcf3aecb2cf1b15afa26b9,fb2c2427a0e632f0,1013,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:22+0530
+98f227ae8569d45806fdc0c1,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/22,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:10:22+0530
+421a4a30a195d96208c3abfc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Johnson\x22, \x22cardNum\x22: \x224302376385162826\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2029}",400,2025-12-02T23:10:23+0530
+6fcecf681c0d60d37642de29,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/35,HTTP/1.1,,200,2025-12-02T23:10:23+0530
+414768f8b8a1f901be81665a,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Johnson\x22, \x22mobileNum\x22: \x228251492982\x22, \x22zipCode\x22: \x2299260\x22, \x22streetAddress\x22: \x226176 Elm St\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:24+0530
+541854d82c1383c4c1878d75,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Brown\x22, \x22cardNum\x22: \x224379708506687429\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:10:24+0530
+fec9af1f0d0da35e3d959ef4,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/35,HTTP/1.1,{\x22quantity\x22: 7},200,2025-12-02T23:10:24+0530
+3c74d068ff86c68a5462520f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Taylor\x22, \x22cardNum\x22: \x224576089722276171\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2025}",400,2025-12-02T23:10:26+0530
+e44e50bdfb0f57f4f862cae9,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/36,HTTP/1.1,,200,2025-12-02T23:10:26+0530
+96acf60c3f2c35219bb8c524,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9bo3&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:10:26+0530
+8039ecd7ba86b38c2db62d90,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9huO&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:10:26+0530
+b927ea22c3a4d77d6445d015,ffdcb45fdbd052a1,219,127.0.0.1,GET,/api/Complaints,HTTP/1.1,,200,2025-12-02T23:10:27+0530
+744a9c5e5c2079f4d44bbfe6,d15e0519eeded2db,285,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Emily Brown\x22, \x22mobileNum\x22: \x228190221049\x22, \x22zipCode\x22: \x2222673\x22, \x22streetAddress\x22: \x227095 Maple Dr\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:28+0530
+f76efdf5c662d42e203c67e1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Martinez\x22, \x22cardNum\x22: \x224054099010155504\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:10:28+0530
+b31854976e327a3d8a402119,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Smith\x22, \x22cardNum\x22: \x224378840461520274\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2027}",400,2025-12-02T23:10:29+0530
+4c1143ec1049c33173b21f55,fb2c2427a0e632f0,1012,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:29+0530
+81cbc5de21cf315c346d4d51,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:10:29+0530
+054fe00e4577ef81942bf354,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Johnson\x22, \x22cardNum\x22: \x224766167011860237\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:10:30+0530
+8a97ef753bf78b842ba0d04f,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/37,HTTP/1.1,,200,2025-12-02T23:10:30+0530
+8315cc8e5406e369fff753f5,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22John Rodriguez\x22, \x22mobileNum\x22: \x226562022862\x22, \x22zipCode\x22: \x2217425\x22, \x22streetAddress\x22: \x22227 Cedar Ln\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:31+0530
+95afb18e14136fedcc779a5f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Smith\x22, \x22cardNum\x22: \x224154030581690316\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2025}",400,2025-12-02T23:10:31+0530
+e170cfe7d881153aea3a5d1b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Davis\x22, \x22cardNum\x22: \x224396016755745953\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2028}",400,2025-12-02T23:10:32+0530
+82d2dffe91c029305179ed00,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/35,HTTP/1.1,{\x22quantity\x22: 7},200,2025-12-02T23:10:32+0530
+44edd4707a3624c85d41bb7d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Brown\x22, \x22cardNum\x22: \x224489650406500388\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2026}",400,2025-12-02T23:10:32+0530
+da479d07af697b97e318e582,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Davis\x22, \x22cardNum\x22: \x224313439251542127\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:10:33+0530
+4b5d0e1d279522a47691e446,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Jones\x22, \x22cardNum\x22: \x224161523172203695\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2026}",400,2025-12-02T23:10:33+0530
+632dd1fff9064e6b10a5ade1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Taylor\x22, \x22cardNum\x22: \x224190251111104867\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:10:34+0530
+4520c60c7d18160cec087e35,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Brown\x22, \x22cardNum\x22: \x224714555596520983\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2029}",400,2025-12-02T23:10:35+0530
+efccc8f5f881ccb13cf35257,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/35,HTTP/1.1,,200,2025-12-02T23:10:36+0530
+4ff40d5230ecae69ae5d85b2,ce2a26d2a129a4c4,48,127.0.0.1,GET,/rest/captcha,HTTP/1.1,,200,2025-12-02T23:10:36+0530
+0d4ee47c7585d0a08aef35de,7ef81321fb708f93,336,127.0.0.1,GET,/api/Captchas,HTTP/1.1,,500,2025-12-02T23:10:36+0530
+09b63821ae61a9116556a28e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Brown\x22, \x22cardNum\x22: \x224845699299927909\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2030}",400,2025-12-02T23:10:37+0530
+e0e232fb2efb742e65cdca5c,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 18, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:10:37+0530
+09e1ef6fa5f6c71542718072,fb2c2427a0e632f0,950,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:37+0530
+427f61a94332ea254942199f,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/26,HTTP/1.1,{\x22quantity\x22: 4},200,2025-12-02T23:10:37+0530
+0953ce090befd70b982aa673,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Taylor\x22, \x22cardNum\x22: \x224081309421659324\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2029}",400,2025-12-02T23:10:37+0530
+4953fba75427a1651b07035c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Smith\x22, \x22cardNum\x22: \x224584240777178165\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2029}",400,2025-12-02T23:10:38+0530
+910d2bb1a42bbb091b4867ca,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Williams\x22, \x22cardNum\x22: \x224710353431459938\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2027}",400,2025-12-02T23:10:39+0530
+c1726fda39a8e847cb782dee,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/38,HTTP/1.1,,200,2025-12-02T23:10:39+0530
+66a76e4c373975ab162ed7a6,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Miller\x22, \x22mobileNum\x22: \x229709941500\x22, \x22zipCode\x22: \x2279077\x22, \x22streetAddress\x22: \x229798 Elm St\x22, \x22city\x22: \x22Chicago\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:40+0530
+8defdc8f3317711cf6d51e18,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Martinez\x22, \x22cardNum\x22: \x224093700859132462\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:10:40+0530
+04e3ab71ee1b747a526386c8,fb2c2427a0e632f0,944,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:40+0530
+244d070dbe94f20349671ae0,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/36,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:10:40+0530
+85a4afde76b1371657ad954b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Anderson\x22, \x22cardNum\x22: \x224544417297039860\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2030}",400,2025-12-02T23:10:41+0530
+5b8c33ef0535084fa9f9f7cb,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Taylor\x22, \x22cardNum\x22: \x224369573456636648\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:10:43+0530
+3b6fe0f3ee016835807bb4eb,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Martinez\x22, \x22cardNum\x22: \x224506147277286585\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2028}",400,2025-12-02T23:10:44+0530
+6aa9d10b90340664368ca164,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/39,HTTP/1.1,,200,2025-12-02T23:10:44+0530
+f373ccc79712eb67b0c1317d,d15e0519eeded2db,285,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Robert Anderson\x22, \x22mobileNum\x22: \x227072326378\x22, \x22zipCode\x22: \x2212025\x22, \x22streetAddress\x22: \x225497 Main St\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:45+0530
+04d3db882c577ab4dfe929a3,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Brown\x22, \x22cardNum\x22: \x224978338390457324\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2029}",400,2025-12-02T23:10:45+0530
+4773028e5faf0531714837fa,fb2c2427a0e632f0,947,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:10:45+0530
+7b9389986aef59bab229d89e,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/26,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:10:45+0530
+fdb10fed5153ffd5eeb0a9e3,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Taylor\x22, \x22cardNum\x22: \x224181280676160458\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2030}",400,2025-12-02T23:10:46+0530
+eadd710f98bb44b04791fdfa,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Smith\x22, \x22cardNum\x22: \x224459382486814364\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2029}",400,2025-12-02T23:10:47+0530
+08606b54a65a6ecb18f1c18d,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/40,HTTP/1.1,,200,2025-12-02T23:10:47+0530
+5cd1eec6949f52bec244fbd8,d15e0519eeded2db,287,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Maria Martinez\x22, \x22mobileNum\x22: \x223646905170\x22, \x22zipCode\x22: \x2245367\x22, \x22streetAddress\x22: \x228826 Pine Rd\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:48+0530
+0ee18ed0bf9e4edb8c134778,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Davis\x22, \x22cardNum\x22: \x224808204991020270\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2030}",400,2025-12-02T23:10:48+0530
+da33f3f3a397991edce7914d,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/36,HTTP/1.1,{\x22quantity\x22: 9},200,2025-12-02T23:10:48+0530
+24addc45af54bd1c154ff267,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:10:50+0530
+356d00c0cd98ab5667b471f1,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Emily Williams\x22, \x22mobileNum\x22: \x223099968638\x22, \x22zipCode\x22: \x2270205\x22, \x22streetAddress\x22: \x226678 Oak Ave\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:50+0530
+c3076ac5c63df1564afb4149,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Smith\x22, \x22cardNum\x22: \x224671040631955069\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:10:50+0530
+414ffe22d3e81c90fb3fbd63,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 21, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:10:50+0530
+125fc4394e62b5bc2b6f9883,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Taylor\x22, \x22cardNum\x22: \x224759298538941025\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:10:51+0530
+4f9e5dc7583faf3af457b247,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/37,HTTP/1.1,,200,2025-12-02T23:10:51+0530
+f0f05d49d1439d16f15b7692,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9huQ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:10:51+0530
+619e365d108a8912b0110de8,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9n-i&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:10:51+0530
+896d0feb6dd0302b81d151f1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Williams\x22, \x22cardNum\x22: \x224248137402215921\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2025}",400,2025-12-02T23:10:52+0530
+d1c79c3b194b7297b75fc158,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 28, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:10:52+0530
+74f208006ea01eb8fc462027,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/38,HTTP/1.1,{\x22quantity\x22: 7},200,2025-12-02T23:10:52+0530
+8e373a1fade041359ac85f28,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Smith\x22, \x22cardNum\x22: \x224050794792701076\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2028}",400,2025-12-02T23:10:53+0530
+419042657378d5d904b1aa2d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Rodriguez\x22, \x22cardNum\x22: \x224867209864785730\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:10:54+0530
+598094846f6725ebc04b57e1,0f7663d2311ea47f,829,127.0.0.1,POST,/rest/user/login,HTTP/1.1,"{\x22email\x22: \x22david.williams788@mail.com\x22, \x22password\x22: \x22$5unSVadM%l\x22}",200,2025-12-02T23:10:56+0530
+645f64683a6646eaf7fb719f,d15e0519eeded2db,283,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Martinez\x22, \x22mobileNum\x22: \x225195852200\x22, \x22zipCode\x22: \x2241725\x22, \x22streetAddress\x22: \x222679 Cedar Ln\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22TX\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:10:56+0530
+17c721a3b6b8528d1c76d667,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Rodriguez\x22, \x22cardNum\x22: \x224649945825692976\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2027}",400,2025-12-02T23:10:56+0530
+827b9e9a247e9e9065069d6d,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 33, \x22BasketId\x22: 8, \x22quantity\x22: 2}",400,2025-12-02T23:10:56+0530
+d83c5e7b32d07dae8b4b5314,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Smith\x22, \x22cardNum\x22: \x224098517332692222\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2027}",400,2025-12-02T23:10:57+0530
+5a13dd44cc76302f77f43123,a0b63b070e750890,678,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 18, \x22BasketId\x22: 8, \x22quantity\x22: 3}",500,2025-12-02T23:10:57+0530
+dd2ecc7d2f1a4e8683a65085,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Miller\x22, \x22cardNum\x22: \x224189910008225442\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2029}",400,2025-12-02T23:10:58+0530
+db04bcbd47c1d98a54f99d72,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 1, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:10:58+0530
+3becab0e2beb1e07329ca2e5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Jones\x22, \x22cardNum\x22: \x224250174650040874\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2030}",400,2025-12-02T23:10:59+0530
+8ff99bbba93a62c9b6edcbec,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Rodriguez\x22, \x22cardNum\x22: \x224504511952087099\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:11:00+0530
+3a4e4f2940dfff7dbeb02c76,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/43,HTTP/1.1,,200,2025-12-02T23:11:00+0530
+4eff774ffe32acc682ae0862,191961c9b3af168d,1582,127.0.0.1,GET,/rest/languages,HTTP/1.1,,200,2025-12-02T23:11:01+0530
+32b5b2f2764c9c00dc432271,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Robert Martinez\x22, \x22mobileNum\x22: \x224199429440\x22, \x22zipCode\x22: \x2292802\x22, \x22streetAddress\x22: \x227473 Pine Rd\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:01+0530
+dfbdda51d2becd889f1def43,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Davis\x22, \x22cardNum\x22: \x224733409407803182\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2025}",400,2025-12-02T23:11:01+0530
+cc197c600859f36d136cb663,1b03c5b89b8e6cfa,61,127.0.0.1,PUT,/api/BasketItems/39,HTTP/1.1,{\x22quantity\x22: 9},400,2025-12-02T23:11:02+0530
+7dc7a46ff2d5090f47e4a650,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Brown\x22, \x22cardNum\x22: \x224243901390428168\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-02T23:11:02+0530
+04dd8c511260f211c47c7963,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/44,HTTP/1.1,,200,2025-12-02T23:11:02+0530
+7bdbb11446c4aef19143abaf,ce2a26d2a129a4c4,48,127.0.0.1,GET,/rest/captcha,HTTP/1.1,,200,2025-12-02T23:11:04+0530
+b976b8ae8aafeb3d55f1c82b,7ef81321fb708f93,336,127.0.0.1,GET,/api/Captchas,HTTP/1.1,,500,2025-12-02T23:11:04+0530
+974550655cefcb09f721a810,d15e0519eeded2db,287,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Anderson\x22, \x22mobileNum\x22: \x229685452981\x22, \x22zipCode\x22: \x2282795\x22, \x22streetAddress\x22: \x224580 Maple Dr\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:04+0530
+da637f3807cffb8507212dfa,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Johnson\x22, \x22cardNum\x22: \x224432571394197170\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2027}",400,2025-12-02T23:11:04+0530
+02ffae99f02dcce632779e6a,fb2c2427a0e632f0,1180,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:04+0530
+1b12b0a5c4e3d767232b8a08,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:11:05+0530
+8fc2418787cb9c06c263f3fe,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Jones\x22, \x22cardNum\x22: \x224307617512214648\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2027}",400,2025-12-02T23:11:05+0530
+000671f3f9c32c2e8444b300,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/45,HTTP/1.1,,200,2025-12-02T23:11:05+0530
+de6246458fde6fde8a14ed29,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Brown\x22, \x22mobileNum\x22: \x227054688807\x22, \x22zipCode\x22: \x2233366\x22, \x22streetAddress\x22: \x222340 Pine Rd\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:06+0530
+27f90b5c3c4e799e83ce00ed,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Brown\x22, \x22cardNum\x22: \x224689801430740900\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2027}",400,2025-12-02T23:11:06+0530
+350059dd25a96e09de2808c9,afd4dfc890508305,278,127.0.0.1,PUT,/api/Addresss/46,HTTP/1.1,"{\x22city\x22: \x22Miami\x22, \x22zipCode\x22: \x2221953\x22}",200,2025-12-02T23:11:06+0530
+3d255967a89846c0a234b6e2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Rodriguez\x22, \x22cardNum\x22: \x224728777989757806\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:11:07+0530
+0169fe7499a06d95799dd058,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Jones\x22, \x22cardNum\x22: \x224111827301747724\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2026}",400,2025-12-02T23:11:08+0530
+22cce6d95a68a97bf1c39769,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Smith\x22, \x22cardNum\x22: \x224897727125246079\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2030}",400,2025-12-02T23:11:09+0530
+7d13d9cf05f3d26879ef727c,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/46,HTTP/1.1,,200,2025-12-02T23:11:09+0530
+f732712e7e47df50ee309e5f,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Michael Johnson\x22, \x22mobileNum\x22: \x226893925441\x22, \x22zipCode\x22: \x2254255\x22, \x22streetAddress\x22: \x229538 Main St\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:10+0530
+863a6ddbfeb59a0af2ad1152,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Jones\x22, \x22cardNum\x22: \x224765866212304712\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2025}",400,2025-12-02T23:11:10+0530
+38edf694d4dba78b13db6df7,fb2c2427a0e632f0,1179,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:10+0530
+00c3fda0b96ca8c7dd574142,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:11:10+0530
+47e59a5816c81f9a899dd833,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Taylor\x22, \x22cardNum\x22: \x224887994770222985\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2026}",400,2025-12-02T23:11:12+0530
+2fce8d97639f01a9d6133d0b,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/47,HTTP/1.1,,200,2025-12-02T23:11:12+0530
+c3cdd8054906e6a2aacb674e,d15e0519eeded2db,279,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Taylor\x22, \x22mobileNum\x22: \x222585741621\x22, \x22zipCode\x22: \x2254901\x22, \x22streetAddress\x22: \x227294 Elm St\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:13+0530
+2a99d66cf04fde3c3662b560,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Garcia\x22, \x22cardNum\x22: \x224877139683498057\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2029}",400,2025-12-02T23:11:13+0530
+f1f4b1f48c316f0b056c92dc,fb2c2427a0e632f0,1181,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:13+0530
+3c3b2f2e8e75f4bb1d6a9895,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/39,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:11:13+0530
+22942ca1ed2bfe16d2511a5c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224366790864712791\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2029}",400,2025-12-02T23:11:14+0530
+fce1a4833d339cc6d52b3b4b,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/39,HTTP/1.1,,200,2025-12-02T23:11:14+0530
+35428cd7542efa8fe2bb1310,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Taylor\x22, \x22cardNum\x22: \x224408367906792192\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2025}",400,2025-12-02T23:11:14+0530
+a806add4c8172fc4f8dfb223,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 32, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:11:14+0530
+c836ee881fa5b6df2c3936b5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Williams\x22, \x22cardNum\x22: \x224420757044495624\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2027}",400,2025-12-02T23:11:16+0530
+05b69fce7af485895563ab3e,fb2c2427a0e632f0,1287,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:16+0530
+b982a995036ea8c14b38d23f,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/22,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:11:16+0530
+8604f1f782e3925daecbb4d9,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9n_1&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:11:16+0530
+59b3df3e35cf8deb9792bd79,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9u4v&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:11:16+0530
+bc9dd20b749afdbf1d7b7304,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Garcia\x22, \x22cardNum\x22: \x224060806888367362\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2027}",400,2025-12-02T23:11:17+0530
+b86f2f6f73c43b0d9267a7ad,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/48,HTTP/1.1,,200,2025-12-02T23:11:17+0530
+b26ac48be786122d7e5de865,d15e0519eeded2db,283,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22David Martinez\x22, \x22mobileNum\x22: \x226697530936\x22, \x22zipCode\x22: \x2264647\x22, \x22streetAddress\x22: \x221945 Oak Ave\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:17+0530
+ecc48123bc6248284ccbc19b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Miller\x22, \x22cardNum\x22: \x224461499585600820\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:11:17+0530
+93406f051ec2caadd437b4b6,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/40,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:11:17+0530
+0bfc2304ad2ca5f5f43d03dd,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Davis\x22, \x22cardNum\x22: \x224455739707098869\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2027}",400,2025-12-02T23:11:18+0530
+af7ca3fa2492c25cbef48918,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/49,HTTP/1.1,,200,2025-12-02T23:11:18+0530
+877c111643ee40828ad22eec,0569d09ef60f56f6,672,127.0.0.1,GET,/api/Feedbacks,HTTP/1.1,,200,2025-12-02T23:11:19+0530
+1527a5bb61ffd0e1e2a4384b,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Johnson\x22, \x22mobileNum\x22: \x224256204829\x22, \x22zipCode\x22: \x2294052\x22, \x22streetAddress\x22: \x229359 Elm St\x22, \x22city\x22: \x22Phoenix\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:20+0530
+03bf65f8f47b569d10dbe65f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Davis\x22, \x22cardNum\x22: \x224716104219368857\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2025}",400,2025-12-02T23:11:20+0530
+d07317fe17ddd6e66dbc7c6c,afd4dfc890508305,279,127.0.0.1,PUT,/api/Addresss/50,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2287613\x22}",200,2025-12-02T23:11:20+0530
+a5a59a83a10da64c043b6f2e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Martinez\x22, \x22cardNum\x22: \x224681038872100781\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-02T23:11:21+0530
+467bf4c81ef46fa69c1a1304,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/40,HTTP/1.1,,200,2025-12-02T23:11:21+0530
+b0f90afcb3d51e592277c0ea,73fad8bba5069bd4,11,127.0.0.1,GET,/rest/user/whoami,HTTP/1.1,,200,2025-12-02T23:11:22+0530
+8d31480994f37fabae38b218,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Johnson\x22, \x22cardNum\x22: \x224621048851745997\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-02T23:11:22+0530
+4a3721a2a0cab3e1bc274b9d,a0b63b070e750890,678,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 18, \x22BasketId\x22: 8, \x22quantity\x22: 4}",500,2025-12-02T23:11:22+0530
+8ea09055e59cb3c15832a319,afd4dfc890508305,280,127.0.0.1,PUT,/api/Addresss/50,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2275846\x22}",200,2025-12-02T23:11:22+0530
+9b260077817a6056ad339557,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Jones\x22, \x22cardNum\x22: \x224129877868465070\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2030}",400,2025-12-02T23:11:23+0530
+cbd5fda9959cf597f97a3a05,a0b63b070e750890,678,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 14, \x22BasketId\x22: 8, \x22quantity\x22: 4}",500,2025-12-02T23:11:23+0530
+28f4006d8c869865c76d30d2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Johnson\x22, \x22cardNum\x22: \x224362931808615346\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2027}",400,2025-12-02T23:11:24+0530
+07e82bf55f6a956f72ffc0f1,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 6, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:11:24+0530
+67bfd5b3195c868616c17914,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/41,HTTP/1.1,,200,2025-12-02T23:11:24+0530
+b4c9577b9463d5a1cc0e70ed,065379f72a3180fc,448,127.0.0.1,GET,/api/Products/32,HTTP/1.1,,200,2025-12-02T23:11:25+0530
+f3faa28868ffc3eb5937955b,6801cb44dc6a692c,199,127.0.0.1,GET,/rest/products/32/reviews,HTTP/1.1,,200,2025-12-02T23:11:25+0530
+fa5374a1875fc2604dd0a85c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Brown\x22, \x22cardNum\x22: \x224636790754541364\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:11:26+0530
+cb94b995ed40beda5c69e787,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 16, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:11:26+0530
+58c149a00e910d6ef82e9f0f,fb2c2427a0e632f0,1228,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:26+0530
+70bb267cdca61df14c0dc5e9,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/21,HTTP/1.1,{\x22quantity\x22: 2},200,2025-12-02T23:11:26+0530
+34a8366476f133aac37ac982,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224257512171920610\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2027}",400,2025-12-02T23:11:27+0530
+183689e094a26f8dd14e413f,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/50,HTTP/1.1,,200,2025-12-02T23:11:27+0530
+24ba9ab364132fc9ed90ba6b,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Rodriguez\x22, \x22mobileNum\x22: \x222047021388\x22, \x22zipCode\x22: \x2291037\x22, \x22streetAddress\x22: \x22346 Main St\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:27+0530
+9909e5cad63936cf151288cc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Johnson\x22, \x22cardNum\x22: \x224013261846096413\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2028}",400,2025-12-02T23:11:27+0530
+9f341f921f641802fa51cbac,fb2c2427a0e632f0,1228,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:27+0530
+4551af17d370da4fdafbfd63,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/42,HTTP/1.1,{\x22quantity\x22: 4},200,2025-12-02T23:11:27+0530
+efdf545b74d7e8c1f721af44,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Rodriguez\x22, \x22cardNum\x22: \x224387065654008680\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2029}",400,2025-12-02T23:11:28+0530
+d7e1edfc85eef0effad373bc,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/42,HTTP/1.1,,200,2025-12-02T23:11:28+0530
+f520957eecbcf9afc7f31fa2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Smith\x22, \x22cardNum\x22: \x224463940699717420\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2028}",400,2025-12-02T23:11:29+0530
+023fa85bff8eec39909c7b78,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 6, \x22BasketId\x22: 8, \x22quantity\x22: 1}",200,2025-12-02T23:11:29+0530
+500d66a9664a255dde26787c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Jones\x22, \x22cardNum\x22: \x224919228982693771\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2025}",400,2025-12-02T23:11:31+0530
+2f0ea351f926ac6bda68f8f2,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/43,HTTP/1.1,{\x22quantity\x22: 3},200,2025-12-02T23:11:31+0530
+dc2132a55cb418452552f7e5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Rodriguez\x22, \x22cardNum\x22: \x224384636312429137\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2026}",400,2025-12-02T23:11:32+0530
+59fe426c6985255af020e4b8,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/51,HTTP/1.1,,200,2025-12-02T23:11:32+0530
+9da47f4f57821f7c0e74ad02,d15e0519eeded2db,280,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22James Smith\x22, \x22mobileNum\x22: \x226304743594\x22, \x22zipCode\x22: \x2221138\x22, \x22streetAddress\x22: \x222284 Oak Ave\x22, \x22city\x22: \x22Seattle\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:33+0530
+e97290fcbc3f34fe4587f248,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Williams\x22, \x22cardNum\x22: \x224871944578884236\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2026}",400,2025-12-02T23:11:33+0530
+ab0cbd014a3340be30051405,fb2c2427a0e632f0,1190,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:33+0530
+c5957fbfac7b540f80396b14,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/27,HTTP/1.1,{\x22quantity\x22: 4},200,2025-12-02T23:11:33+0530
+e6373a211a26f12cb12e6d40,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Smith\x22, \x22cardNum\x22: \x224136194578513859\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2025}",400,2025-12-02T23:11:34+0530
+bd339c69760c90ac3b10d17b,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/52,HTTP/1.1,,200,2025-12-02T23:11:34+0530
+1c14ef0a986a839b4f11c1c9,d15e0519eeded2db,282,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Taylor\x22, \x22mobileNum\x22: \x223704183471\x22, \x22zipCode\x22: \x2286981\x22, \x22streetAddress\x22: \x227756 Cedar Ln\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:34+0530
+07d7f995f4fa9002e5994a9c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Williams\x22, \x22cardNum\x22: \x224046444300370254\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2030}",400,2025-12-02T23:11:34+0530
+bd014ff943c9911cf640c4a3,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/43,HTTP/1.1,{\x22quantity\x22: 9},200,2025-12-02T23:11:34+0530
+f7cf59b79f494008f6afe06b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Anderson\x22, \x22cardNum\x22: \x224649417559055145\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2027}",400,2025-12-02T23:11:35+0530
+550a60cd5b40aa8b7c805fc7,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/43,HTTP/1.1,,200,2025-12-02T23:11:35+0530
+ca3d8a2b84a06f17b2d0c0ed,fb2c2427a0e632f0,1123,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:11:36+0530
+40d7275af49cc06535fb8660,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Rodriguez\x22, \x22cardNum\x22: \x224336036989143473\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2025}",400,2025-12-02T23:11:36+0530
+14e81c401e50a19174021b2c,a0b63b070e750890,679,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 18, \x22BasketId\x22: 8, \x22quantity\x22: 4}",500,2025-12-02T23:11:36+0530
+b81e4ec3ea3f00d6d6e110ac,afd4dfc890508305,281,127.0.0.1,PUT,/api/Addresss/53,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2221436\x22}",200,2025-12-02T23:11:36+0530
+58a365b0a53f1fe026327a82,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Garcia\x22, \x22cardNum\x22: \x224064738772817978\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2026}",400,2025-12-02T23:11:37+0530
+1ff2bc6cf4c2ac85cf7d9682,a0b63b070e750890,681,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 23, \x22BasketId\x22: 8, \x22quantity\x22: 4}",500,2025-12-02T23:11:37+0530
+d7f6d026a0968ee5f1a1be8d,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Jones\x22, \x22cardNum\x22: \x224556467654535161\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2029}",400,2025-12-02T23:11:38+0530
+3f9214ecdaded604291bdba1,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 40, \x22BasketId\x22: 8, \x22quantity\x22: 2}",400,2025-12-02T23:11:38+0530
+a594521306e063e3e30d3bd9,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/53,HTTP/1.1,,200,2025-12-02T23:11:38+0530
+b8ebfa47a42de81bda80fdd2,a978cddcb215b1e9,356,127.0.0.1,GET,/rest/products/search?q=smoothie,HTTP/1.1,,200,2025-12-02T23:11:39+0530
+2c526b1d1fdf01e3d24fe1d8,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22David Rodriguez\x22, \x22mobileNum\x22: \x229974819435\x22, \x22zipCode\x22: \x2270430\x22, \x22streetAddress\x22: \x227265 Main St\x22, \x22city\x22: \x22Houston\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:40+0530
+19d8776f060105d7730e98b2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Jones\x22, \x22cardNum\x22: \x224511344572422078\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2028}",400,2025-12-02T23:11:40+0530
+f3c7fd612f45f34502760d4f,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 8, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:11:40+0530
+5dec9785547ec0afe0809812,afd4dfc890508305,285,127.0.0.1,PUT,/api/Addresss/54,HTTP/1.1,"{\x22city\x22: \x22Portland\x22, \x22zipCode\x22: \x2277403\x22}",200,2025-12-02T23:11:40+0530
+57c87d57090ebc9d55255698,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9u4v.0&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:11:41+0530
+12e5a7e06df971d0deefd201,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhW9-Av&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:11:41+0530
+96686f12d429ae2b7d7c2a19,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Taylor\x22, \x22cardNum\x22: \x224698539056057799\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2026}",400,2025-12-02T23:11:41+0530
+820034a580ae5d948f0dfff8,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Taylor\x22, \x22cardNum\x22: \x224581353636129239\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2029}",400,2025-12-02T23:11:42+0530
+64db8ddba41dc7abee6de6fc,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/54,HTTP/1.1,,200,2025-12-02T23:11:42+0530
+2d772e37371c7cd9b60bf658,065379f72a3180fc,368,127.0.0.1,GET,/api/Products/37,HTTP/1.1,,200,2025-12-02T23:11:43+0530
+ebc3d0ae443c726269793ac1,6801cb44dc6a692c,464,127.0.0.1,GET,/rest/products/37/reviews,HTTP/1.1,,200,2025-12-02T23:11:43+0530
+3354635cba305f0e4a8592a6,d15e0519eeded2db,288,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Rodriguez\x22, \x22mobileNum\x22: \x224758778163\x22, \x22zipCode\x22: \x2283122\x22, \x22streetAddress\x22: \x228810 Main St\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:44+0530
+5a574fe401e37688e5b835d4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Davis\x22, \x22cardNum\x22: \x224797651346470412\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2026}",400,2025-12-02T23:11:44+0530
+02e2da3faa509ef88b6b3dea,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/44,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:11:44+0530
+7186679798397a96d977233f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Taylor\x22, \x22cardNum\x22: \x224197226110858598\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2028}",400,2025-12-02T23:11:45+0530
+e34e0e7a6e9c6aacd7d22be1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Garcia\x22, \x22cardNum\x22: \x224730464481331400\x22, \x22expMonth\x22: 6, \x22expYear\x22: 2028}",400,2025-12-02T23:11:46+0530
+81412be2bb8a68f17f39fbb5,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Brown\x22, \x22cardNum\x22: \x224579981807690106\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2028}",400,2025-12-02T23:11:46+0530
+51c188185db8739d48bad5b6,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Taylor\x22, \x22cardNum\x22: \x224171754748911044\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:11:47+0530
+af033645d347c1f19046d0f4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Smith\x22, \x22cardNum\x22: \x224960617622810997\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:11:48+0530
+5382cb305ef6e421f50c9d61,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/55,HTTP/1.1,,200,2025-12-02T23:11:48+0530
+391d33f33511ea637b657c26,d15e0519eeded2db,284,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Davis\x22, \x22mobileNum\x22: \x222546932299\x22, \x22zipCode\x22: \x2272991\x22, \x22streetAddress\x22: \x223839 Cedar Ln\x22, \x22city\x22: \x22Los Angeles\x22, \x22state\x22: \x22CA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:11:48+0530
+45fcf3fbb50a89d12194a621,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Martinez\x22, \x22cardNum\x22: \x224102492546908961\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2025}",400,2025-12-02T23:11:48+0530
+64a0730dff59f8dcea722f94,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Davis\x22, \x22cardNum\x22: \x224683400410038991\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2030}",400,2025-12-02T23:11:49+0530
+5715fa769ad3497727555acf,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/44,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:11:49+0530
+0ca030fe6991cdbd71ecb418,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Johnson\x22, \x22cardNum\x22: \x224033951370956524\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2030}",400,2025-12-02T23:11:50+0530
+3a62de1e778d2ddfac88a067,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/44,HTTP/1.1,,200,2025-12-02T23:11:50+0530
+14395744cc4f04f8d5645519,ae332be70fe736cb,3792,127.0.0.1,GET,/rest/products/search?q=&page=2&size=24,HTTP/1.1,,200,2025-12-02T23:11:50+0530
+c67c46ab7b63776a714bf19b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Martinez\x22, \x22cardNum\x22: \x224973121160236492\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2026}",400,2025-12-02T23:11:52+0530
+40ce886e5519abe6693dd028,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 15, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:11:52+0530
+055228430cf39dbe8743e06c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Martinez\x22, \x22cardNum\x22: \x224000891604150618\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2030}",400,2025-12-02T23:11:53+0530
+b5ae3c90b508ed0a8caca7c7,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/45,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:11:53+0530
+31fd48ab7afe699fe595672a,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Johnson\x22, \x22cardNum\x22: \x224020157530472868\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2025}",400,2025-12-02T23:11:54+0530
+1867ad0acac5aa991402b999,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/45,HTTP/1.1,,200,2025-12-02T23:11:54+0530
+39ef4902b5b2a733e3f875b5,0569d09ef60f56f6,672,127.0.0.1,GET,/api/Feedbacks,HTTP/1.1,,200,2025-12-02T23:11:55+0530
+539c75fccc98430ad650bab1,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Emily Taylor\x22, \x22cardNum\x22: \x224428073411126050\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2025}",400,2025-12-02T23:11:57+0530
+0514c253eff469f243566269,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 25, \x22BasketId\x22: 8, \x22quantity\x22: 5}",200,2025-12-02T23:11:57+0530
+07219c2fabfa34e4d3b10f2f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Lisa Martinez\x22, \x22cardNum\x22: \x224604876974098790\x22, \x22expMonth\x22: 12, \x22expYear\x22: 2027}",400,2025-12-02T23:11:57+0530
+27881fa599c53431e5c646c6,afd4dfc890508305,280,127.0.0.1,PUT,/api/Addresss/56,HTTP/1.1,"{\x22city\x22: \x22Atlanta\x22, \x22zipCode\x22: \x2267479\x22}",200,2025-12-02T23:11:57+0530
+5c2469a0d4e8d09646cbbda8,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Jones\x22, \x22cardNum\x22: \x224173295360305825\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:11:57+0530
+18556a6a0cc69c46fa0afa35,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/46,HTTP/1.1,,200,2025-12-02T23:11:58+0530
+578502fefc03ac59940640bc,191961c9b3af168d,1582,127.0.0.1,GET,/rest/languages,HTTP/1.1,,200,2025-12-02T23:11:58+0530
+2ce1d799d486a511be99b804,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Davis\x22, \x22cardNum\x22: \x224819995091940293\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2025}",400,2025-12-02T23:11:59+0530
+ea98f41cfa0d984c79841df2,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 37, \x22BasketId\x22: 8, \x22quantity\x22: 4}",400,2025-12-02T23:11:59+0530
+3440273803f2347aaeab6a9d,afd4dfc890508305,279,127.0.0.1,PUT,/api/Addresss/56,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2238755\x22}",200,2025-12-02T23:11:59+0530
+950a9b6f505ae359875ce15c,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Johnson\x22, \x22cardNum\x22: \x224450113553658154\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2026}",400,2025-12-02T23:12:00+0530
+8c0ee20032dbaab5f7b61e6f,8e56293a547bf300,156,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 11, \x22BasketId\x22: 8, \x22quantity\x22: 5}",200,2025-12-02T23:12:00+0530
+c94e54308495623fc38a523e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Brown\x22, \x22cardNum\x22: \x224982321693270692\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2030}",400,2025-12-02T23:12:01+0530
+01133b10a43ea904b8e63ad2,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/47,HTTP/1.1,,200,2025-12-02T23:12:01+0530
+b258b3639fb5306d040a2994,9941c756932f839e,3792,127.0.0.1,GET,/rest/products/search?q=,HTTP/1.1,,200,2025-12-02T23:12:02+0530
+282523a92bd69020f24dfed1,025aa5ae420a809e,3746,127.0.0.1,GET,/api/Products,HTTP/1.1,,200,2025-12-02T23:12:02+0530
+2cab51136e27180d304a859e,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Davis\x22, \x22cardNum\x22: \x224144330292937553\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2028}",400,2025-12-02T23:12:03+0530
+c6f062f222ef7cb67cdf6360,80c2afbf7296d842,61,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 27, \x22BasketId\x22: 8, \x22quantity\x22: 4}",400,2025-12-02T23:12:03+0530
+72e1e022610771d746df1486,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Johnson\x22, \x22cardNum\x22: \x224730077439548112\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2029}",400,2025-12-02T23:12:04+0530
+95221bf5e127a01614fff9d3,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 6, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:12:04+0530
+f37ba90ca9c6dde94c740347,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/48,HTTP/1.1,{\x22quantity\x22: 9},200,2025-12-02T23:12:04+0530
+abd14499be097e69f1b33893,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Williams\x22, \x22cardNum\x22: \x224259894700417087\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2025}",400,2025-12-02T23:12:05+0530
+4f122bda1fb4c302250dee60,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/48,HTTP/1.1,,200,2025-12-02T23:12:05+0530
+df65c60c9bb7f49568c96e67,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Miller\x22, \x22cardNum\x22: \x224931927150203454\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2028}",400,2025-12-02T23:12:06+0530
+3b73f4327cfebaa81b6306a0,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 9, \x22BasketId\x22: 8, \x22quantity\x22: 3}",200,2025-12-02T23:12:06+0530
+d2745c3ecc1c33ff28cb317d,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/49,HTTP/1.1,{\x22quantity\x22: 9},200,2025-12-02T23:12:06+0530
+cd5f472516a321ad67ab233f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhW9-B0&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:12:06+0530
+5b29fa9a846aa5fbab2a17e6,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWA4Gp&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:12:06+0530
+faefbe2517f5e36faece42f2,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Jones\x22, \x22cardNum\x22: \x224166190652156126\x22, \x22expMonth\x22: 9, \x22expYear\x22: 2025}",400,2025-12-02T23:12:07+0530
+e59c5add5edac408aa03e8cd,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Garcia\x22, \x22cardNum\x22: \x224620754002405328\x22, \x22expMonth\x22: 4, \x22expYear\x22: 2028}",400,2025-12-02T23:12:09+0530
+ea55816ee2a9a7a54877e846,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/56,HTTP/1.1,,200,2025-12-02T23:12:09+0530
+ade107aa12a4ff44e9c8facc,bbcf6868603ad65c,1213,127.0.0.1,GET,/rest/memories,HTTP/1.1,,200,2025-12-02T23:12:10+0530
+d56220099571fb3f3f125904,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22David Miller\x22, \x22mobileNum\x22: \x226570026597\x22, \x22zipCode\x22: \x2214057\x22, \x22streetAddress\x22: \x2214 Maple Dr\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22WA\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:12:10+0530
+76fc052ad5da1b9558a8c237,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Maria Williams\x22, \x22cardNum\x22: \x224292395932912522\x22, \x22expMonth\x22: 1, \x22expYear\x22: 2026}",400,2025-12-02T23:12:10+0530
+94a3ec806720cce8213fac40,fb2c2427a0e632f0,1299,127.0.0.1,GET,/rest/basket/8,HTTP/1.1,,200,2025-12-02T23:12:10+0530
+23094373d316223dc45592ac,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/36,HTTP/1.1,{\x22quantity\x22: 5},200,2025-12-02T23:12:10+0530
+9643f4ae5353100241c137f4,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Anderson\x22, \x22cardNum\x22: \x224439195898333297\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2030}",400,2025-12-02T23:12:11+0530
+35d700fceb6364cec606e9d2,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/57,HTTP/1.1,,200,2025-12-02T23:12:11+0530
+b869b540c0c96d795c1e5e36,d15e0519eeded2db,286,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Michael Williams\x22, \x22mobileNum\x22: \x221965133779\x22, \x22zipCode\x22: \x2288149\x22, \x22streetAddress\x22: \x222943 Main St\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22IL\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:12:11+0530
+f8e54c857ab1355cf449adab,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Smith\x22, \x22cardNum\x22: \x224821886271189399\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2025}",400,2025-12-02T23:12:11+0530
+565c63b75f9233a69e8bd0fd,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/49,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:12:11+0530
+d6e8040d8f3fc3e37eb1f1d7,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Michael Williams\x22, \x22cardNum\x22: \x224155599621765447\x22, \x22expMonth\x22: 5, \x22expYear\x22: 2028}",400,2025-12-02T23:12:12+0530
+a9e7c63573a3706c9f9ab994,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22William Martinez\x22, \x22cardNum\x22: \x224042180001737225\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2025}",400,2025-12-02T23:12:12+0530
+17ad913790b5389bee602cea,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/58,HTTP/1.1,,200,2025-12-02T23:12:12+0530
+cf20f5f9d10a8354643dface,f6c78fbd5206681c,3792,127.0.0.1,GET,/rest/products/search?q=&sort=price&order=desc,HTTP/1.1,,200,2025-12-02T23:12:13+0530
+fec0be1a04c43305812fcf26,d15e0519eeded2db,278,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22John Davis\x22, \x22mobileNum\x22: \x221281983280\x22, \x22zipCode\x22: \x2265876\x22, \x22streetAddress\x22: \x2221 Oak Ave\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22AZ\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:12:13+0530
+092fd4fc98b351def84bdfab,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Martinez\x22, \x22cardNum\x22: \x224225812022574858\x22, \x22expMonth\x22: 10, \x22expYear\x22: 2026}",400,2025-12-02T23:12:13+0530
+e7ebcc7a4d7b6c7c13c827ec,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Davis\x22, \x22cardNum\x22: \x224888909660936083\x22, \x22expMonth\x22: 7, \x22expYear\x22: 2026}",400,2025-12-02T23:12:15+0530
+5ae6af40fcad8e99d92a8e19,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jennifer Williams\x22, \x22cardNum\x22: \x224023441241530576\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2030}",400,2025-12-02T23:12:15+0530
+17d61056366add1ab571090c,afd4dfc890508305,276,127.0.0.1,PUT,/api/Addresss/59,HTTP/1.1,"{\x22city\x22: \x22Boston\x22, \x22zipCode\x22: \x2280068\x22}",200,2025-12-02T23:12:15+0530
+e98eb1abbaf3f19c562e854b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22James Taylor\x22, \x22cardNum\x22: \x224135254978944058\x22, \x22expMonth\x22: 3, \x22expYear\x22: 2030}",400,2025-12-02T23:12:16+0530
+0ed1312d0ee41c38251cdd2b,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Taylor\x22, \x22cardNum\x22: \x224094098973588981\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2027}",400,2025-12-02T23:12:17+0530
+53ffa32df3c0aed2e43360dd,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/59,HTTP/1.1,,200,2025-12-02T23:12:17+0530
+b22554d0d12f51028b2bbbb8,ce2a26d2a129a4c4,46,127.0.0.1,GET,/rest/captcha,HTTP/1.1,,200,2025-12-02T23:12:18+0530
+65b502dba2cf43ad0e692c12,7ef81321fb708f93,336,127.0.0.1,GET,/api/Captchas,HTTP/1.1,,500,2025-12-02T23:12:18+0530
+d41d956ec2a9079be3ed96dd,d15e0519eeded2db,281,127.0.0.1,POST,/api/Addresss,HTTP/1.1,"{\x22fullName\x22: \x22Jane Garcia\x22, \x22mobileNum\x22: \x225464716626\x22, \x22zipCode\x22: \x2264223\x22, \x22streetAddress\x22: \x225565 Oak Ave\x22, \x22city\x22: \x22New York\x22, \x22state\x22: \x22NY\x22, \x22country\x22: \x22United States\x22}",201,2025-12-02T23:12:19+0530
+3e2f3550ac8c648e42c901ee,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Jane Martinez\x22, \x22cardNum\x22: \x224107181807519976\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2030}",400,2025-12-02T23:12:19+0530
+8a96a6224abddc2b82995892,bc466f600626b8a9,155,127.0.0.1,PUT,/api/BasketItems/49,HTTP/1.1,{\x22quantity\x22: 1},200,2025-12-02T23:12:19+0530
+db61386fd786ca2f477fccbe,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22John Martinez\x22, \x22cardNum\x22: \x224185836207211260\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2027}",400,2025-12-02T23:12:21+0530
+a13c3eac8ee92dfa00ae3c75,c5de371b99a7c2b3,30,127.0.0.1,DELETE,/api/BasketItems/49,HTTP/1.1,,200,2025-12-02T23:12:21+0530
+4708981a9e7d5db2b4d81cbc,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Robert Jones\x22, \x22cardNum\x22: \x224650217967982117\x22, \x22expMonth\x22: 2, \x22expYear\x22: 2025}",400,2025-12-02T23:12:22+0530
+80c9397f77b59becc37cb5ac,a0b63b070e750890,681,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 24, \x22BasketId\x22: 8, \x22quantity\x22: 5}",500,2025-12-02T23:12:22+0530
+9e89494840b40e938e86fe51,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22David Rodriguez\x22, \x22cardNum\x22: \x224330442003587285\x22, \x22expMonth\x22: 11, \x22expYear\x22: 2025}",400,2025-12-02T23:12:23+0530
+adebfb20ac1fdb723ceaa83c,8e56293a547bf300,155,127.0.0.1,POST,/api/BasketItems,HTTP/1.1,"{\x22ProductId\x22: 8, \x22BasketId\x22: 8, \x22quantity\x22: 4}",200,2025-12-02T23:12:23+0530
+ce63e4d154d78beed4ef89c8,bc466f600626b8a9,156,127.0.0.1,PUT,/api/BasketItems/50,HTTP/1.1,{\x22quantity\x22: 10},200,2025-12-02T23:12:23+0530
+219b2e80aff0fbdd84a0989f,fc578e3cab014083,140,127.0.0.1,POST,/api/Cards,HTTP/1.1,"{\x22fullName\x22: \x22Sarah Williams\x22, \x22cardNum\x22: \x224808656402742905\x22, \x22expMonth\x22: 8, \x22expYear\x22: 2029}",400,2025-12-02T23:12:24+0530
+82b836ee6ecdde7e6371ea17,b612a7b98fc9ce89,59,127.0.0.1,DELETE,/api/Addresss/60,HTTP/1.1,,200,2025-12-02T23:12:24+0530
+11c0e9a4bd7211fb1ec67765,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWA4Gq&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:12:31+0530
+d6c83960549703d37f717e91,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAANE&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:12:31+0530
+f697fefa6f37295caf91ca89,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAANG&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:12:56+0530
+d851e9d3613bada20a571779,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAGTc&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:12:56+0530
+5118d8572d0de084418d593d,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAGTd&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:13:21+0530
+1e293f12fe3021652a6b6cce,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAMa8&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:13:21+0530
+ad6cbddb11639d25e5db1ff1,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAMa9&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:13:46+0530
+28f6812ca6fe71b9af2dc205,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWASgP&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:13:46+0530
+eff5e9f30b473d1e5ab3e3a2,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWASgT&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:14:11+0530
+e4fdfd34142e61c89d22adf5,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAYmQ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:14:11+0530
+475ca56bbf033ba9d230f9a6,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAYmR&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:14:36+0530
+d60aa13bc100269e89b1cd41,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAesQ&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:14:36+0530
+62188002ed690077624f1b7c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAesS&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:15:01+0530
+ade053022d598d870974d885,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAkyr&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:15:01+0530
+0edbb042471568077a3a7d7f,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAkyx&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:15:26+0530
+eaefb6b28cae5589f9c95807,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAr3k&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:15:26+0530
+7ae3a8e72c6b1764ef67434c,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAr3n&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:15:51+0530
+980f613ee6e93fbeab427632,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWAx9-&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:15:51+0530
+869ac7ac5a7c5dda00da6236,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWAxA0&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:16:16+0530
+e655d03726fe3c18ade5d6ae,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWB1GC&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:16:16+0530
+64be4e58becbd1b28c26ce85,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWB1GF&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:16:41+0530
+c3dc15e007152e5aa0c95012,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWB7MN&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:16:41+0530
+c47931c00c76588b829d2161,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWB7MP&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:17:06+0530
+615ff63fd22370fd3528c6c2,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWBDSr&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:17:06+0530
+b21538628cfaca56f8322252,44b4e5901a7362ef,1,127.0.0.1,GET,/socket.io/?EIO=4&transport=polling&t=PhWBDSu&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,,200,2025-12-02T23:17:31+0530
+5877693fbcad996ec813113e,46ccae1427aa0955,2,127.0.0.1,POST,/socket.io/?EIO=4&transport=polling&t=PhWBJZg&sid=BlaNunr46CdkGrpGAAAG,HTTP/1.1,3,200,2025-12-02T23:17:31+0530
