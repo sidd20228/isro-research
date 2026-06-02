@@ -52,11 +52,18 @@ model:
   max_length: 256
   temperature: 0.07
 training:
-  batch_size: 32
+  profile: request_time
+  batch_size: 16
   epochs: 3
   learning_rate: 0.00002
   device: cpu
   logging_steps: 50
+  max_train_samples: 0
+  validation_samples: 5000
+  mixed_precision: true
+  gradient_accumulation_steps: 2
+  num_workers: 0
+  checkpoint_every_epochs: 1
 baselines:
   profile: request_time
   threshold_quantile: 0.99

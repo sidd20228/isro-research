@@ -98,6 +98,49 @@ Train the benign-only contrastive DistilBERT encoder:
 python -m src.training.contrastive --config configs/default.yaml
 ```
 
+Phase 5 reads the materialized `request_time` profile, trains only on benign requests, validates on held-out benign requests, and writes a resumable checkpoint after each epoch. CUDA mixed precision is enabled automatically when `training.device` is `cuda` and `training.mixed_precision` is `true`.
+
+For a short Colab pilot:
+
+```bash
+python -m src.training.contrastive \
+  --config configs/default.yaml \
+  --output /content/drive/MyDrive/waf-results/distilbert_encoder_pilot \
+  --device cuda \
+  --epochs 1 \
+  --max-train-samples 10000
+```
+
+For a full run, use `--max-train-samples 0`:
+
+```bash
+python -m src.training.contrastive \
+  --config configs/default.yaml \
+  --output /content/drive/MyDrive/waf-results/distilbert_encoder \
+  --device cuda \
+  --max-train-samples 0
+```
+
+Writing directly to mounted Google Drive ensures completed epochs survive a Colab disconnect. Resume from the latest checkpoint:
+
+```bash
+python -m src.training.contrastive \
+  --config configs/default.yaml \
+  --output /content/drive/MyDrive/waf-results/distilbert_encoder \
+  --resume-from /content/drive/MyDrive/waf-results/distilbert_encoder/checkpoints/epoch_001.pt \
+  --device cuda \
+  --max-train-samples 0
+```
+
+Each output directory contains:
+
+```text
+backbone/                  Exportable HuggingFace encoder
+projection.pt              Security-embedding projection
+checkpoints/epoch_NNN.pt   Resumable training state
+training_metadata.json     Losses, elapsed time, sample counts, and configuration
+```
+
 Evaluate embeddings with the configured open-set detector and generate figures:
 
 ```bash
