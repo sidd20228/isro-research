@@ -1,12 +1,26 @@
-# Requirements for dvwa_crawler.py
-# HTTP requests library
+# Data and configuration
+pandas>=2.1
+numpy>=1.26
+PyYAML>=6.0
+joblib>=1.3
+
+# Models
+scikit-learn>=1.4
+torch>=2.2
+transformers>=4.40
+onnx>=1.16
+onnxruntime>=1.17
+
+# Evaluation and visualization
+matplotlib>=3.8
+umap-learn>=0.5
+
+# Development
+pytest>=8.0
+ruff>=0.4
+
+# Existing traffic generators
 requests>=2.31.0
-
-# HTML parsing library
 beautifulsoup4>=4.12.0
-
-# Fake data generation
 faker>=19.0.0
-
-# Progress bars
 tqdm>=4.66.0

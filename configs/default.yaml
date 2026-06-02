@@ -1,0 +1,87 @@
+seed: 42
+paths:
+  processed_dir: data/processed
+  normalized_dir: data/normalized
+  representations_dir: data/representations
+  artifacts_dir: reports/artifacts
+data:
+  benign_test_size: 0.2
+  sources:
+    - path: dvwa/nginx_access_parsed.csv
+      source_app: dvwa
+      label: benign
+    - path: juiceshop/juice_shop_benign_requests.csv
+      source_app: juiceshop
+      label: benign
+    - path: juiceshop/juice_shop_logs.csv
+      source_app: juiceshop
+      label: benign
+    - path: webgoatr/webgoatnew_1lakh.csv
+      source_app: webgoat
+      label: benign
+    - path: test-data-set.csv
+      source_app: dvwa
+      label: benign
+    - path: juiceshop/juice_shop_logs_malicious.csv
+      source_app: juiceshop
+      label: attack
+    - path: webgoatr/webgoat_malicious_10k.csv
+      source_app: webgoat
+      label: attack
+normalization:
+  lowercase_paths: true
+  replace_numeric_ids: true
+  replace_uuids: true
+  replace_tokens: true
+  replace_emails: true
+  canonicalize_query: true
+  url_decode_iterations: 2
+  decode_escaped_characters: true
+representation:
+  default_profile: request_time
+  profiles:
+    request_time:
+      template: "METHOD:{method}\nPATH:{path}\nBODY:{body}"
+      description: "Production-valid pre-request representation."
+    offline_ablation:
+      template: "METHOD:{method}\nPATH:{path}\nBODY:{body}\nSTATUS:{status_code}\nRESPONSE_SIZE:{response_size}"
+      description: "Response-aware offline ablation only; never use for request-time blocking."
+model:
+  encoder_name: distilbert-base-uncased
+  embedding_dim: 128
+  max_length: 256
+  temperature: 0.07
+training:
+  batch_size: 32
+  epochs: 3
+  learning_rate: 0.00002
+  device: cpu
+baselines:
+  profile: request_time
+  threshold_quantile: 0.99
+  latency_samples: 500
+  models:
+    tfidf_isolation_forest:
+      enabled: true
+      max_train_samples: 100000
+      max_features: 50000
+      contamination: 0.01
+    tfidf_one_class_svm:
+      enabled: true
+      max_train_samples: 20000
+      max_features: 50000
+      nu: 0.01
+    character_cnn:
+      enabled: false
+      max_train_samples: 100000
+      max_length: 512
+      embedding_dim: 32
+      channels: 64
+      epochs: 5
+      batch_size: 64
+      learning_rate: 0.001
+      device: cpu
+detector:
+  name: mahalanobis
+  contamination: 0.01
+  quantile: 0.99

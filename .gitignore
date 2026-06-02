@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated datasets and research artifacts
+data/processed/*
+!data/processed/.gitkeep
+data/normalized/*
+!data/normalized/.gitkeep
+data/representations/*
+!data/representations/.gitkeep
+reports/artifacts/*
+!reports/artifacts/.gitkeep
