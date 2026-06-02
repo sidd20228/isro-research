@@ -56,6 +56,7 @@ training:
   epochs: 3
   learning_rate: 0.00002
   device: cpu
+  logging_steps: 50
 baselines:
   profile: request_time
   threshold_quantile: 0.99

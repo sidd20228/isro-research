@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import logging
 from pathlib import Path
+from tqdm import tqdm
 
 import pandas as pd
 import torch
@@ -38,7 +39,8 @@ def train_encoder(config: dict[str, object]) -> ContrastiveDistilBertEncoder:
     optimizer = torch.optim.AdamW(model.parameters(), lr=float(training_config["learning_rate"]))
     for epoch in range(int(training_config["epochs"])):
         model.train()
-        for first, second in loader:
+        logging_steps = int(training_config.get("logging_steps", 50))
+        for step, (first, second) in enumerate(tqdm(loader, desc=f"Epoch {epoch + 1}/{training_config['epochs']}")):
             tokens_first = model.tokenizer(list(first), padding=True, truncation=True, max_length=int(model_config["max_length"]), return_tensors="pt").to(device)
             tokens_second = model.tokenizer(list(second), padding=True, truncation=True, max_length=int(model_config["max_length"]), return_tensors="pt").to(device)
             loss = nt_xent_loss(
@@ -49,6 +51,9 @@ def train_encoder(config: dict[str, object]) -> ContrastiveDistilBertEncoder:
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+            
+            if (step + 1) % logging_steps == 0:
+                LOGGER.info("Epoch %d Step %d Loss: %.4f", epoch + 1, step + 1, loss.item())
         LOGGER.info("Finished contrastive epoch %d/%d", epoch + 1, int(training_config["epochs"]))
     return model
 
