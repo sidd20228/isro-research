@@ -1,0 +1,47 @@
+{
+  "normalization_config": {
+    "lowercase_paths": true,
+    "replace_numeric_ids": true,
+    "replace_uuids": true,
+    "replace_tokens": true,
+    "replace_emails": true,
+    "canonicalize_query": true,
+    "url_decode_iterations": 2,
+    "decode_escaped_characters": true
+  },
+  "splits": {
+    "train_benign.csv": {
+      "rows": 245804,
+      "changed_paths": 245758,
+      "changed_bodies": 27645,
+      "placeholder_counts": {
+        "<ID>": 5536,
+        "<UUID>": 10849,
+        "<TOKEN>": 19812,
+        "<EMAIL>": 8449
+      }
+    },
+    "test_benign.csv": {
+      "rows": 61452,
+      "changed_paths": 61435,
+      "changed_bodies": 6949,
+      "placeholder_counts": {
+        "<ID>": 1342,
+        "<UUID>": 2671,
+        "<TOKEN>": 4863,
+        "<EMAIL>": 2091
+      }
+    },
+    "test_attack.csv": {
+      "rows": 10985,
+      "changed_paths": 10970,
+      "changed_bodies": 545,
+      "placeholder_counts": {
+        "<ID>": 83,
+        "<UUID>": 0,
+        "<TOKEN>": 8,
+        "<EMAIL>": 8
+      }
+    }
+  }
+}

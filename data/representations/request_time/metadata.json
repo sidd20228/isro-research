@@ -1,0 +1,34 @@
+{
+  "profile": "request_time",
+  "description": "Production-valid pre-request representation.",
+  "template": "METHOD:{method}\nPATH:{path}\nBODY:{body}",
+  "splits": {
+    "train_benign.jsonl": {
+      "rows": 245804,
+      "empty_bodies": 68718,
+      "total_characters": 26758686,
+      "minimum_characters": 23,
+      "maximum_characters": 1751,
+      "sha256": "09044e1335137df803eeff17c0a36351462f64972766b0f25daa15466ede441c",
+      "average_characters": 108.86188182454313
+    },
+    "test_benign.jsonl": {
+      "rows": 61452,
+      "empty_bodies": 17139,
+      "total_characters": 6705434,
+      "minimum_characters": 23,
+      "maximum_characters": 1455,
+      "sha256": "7e295f33fb401c72837b8e665aecdacfdf7542b68e615175f0450a1b029f2aa9",
+      "average_characters": 109.1166113389312
+    },
+    "test_attack.jsonl": {
+      "rows": 10985,
+      "empty_bodies": 2322,
+      "total_characters": 983714,
+      "minimum_characters": 32,
+      "maximum_characters": 342,
+      "sha256": "1dcf41f85bd781ae6d1530b5134dd7df6cc5b13167607c9cc9093505a89fce49",
+      "average_characters": 89.55065999089668
+    }
+  }
+}

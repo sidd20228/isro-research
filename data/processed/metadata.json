@@ -1,0 +1,54 @@
+{
+  "total_requests": 318241,
+  "sources": [
+    {
+      "path": "dvwa/nginx_access_parsed.csv",
+      "source_app": "dvwa",
+      "label": "benign"
+    },
+    {
+      "path": "juiceshop/juice_shop_benign_requests.csv",
+      "source_app": "juiceshop",
+      "label": "benign"
+    },
+    {
+      "path": "juiceshop/juice_shop_logs.csv",
+      "source_app": "juiceshop",
+      "label": "benign"
+    },
+    {
+      "path": "webgoatr/webgoatnew_1lakh.csv",
+      "source_app": "webgoat",
+      "label": "benign"
+    },
+    {
+      "path": "test-data-set.csv",
+      "source_app": "dvwa",
+      "label": "benign"
+    },
+    {
+      "path": "juiceshop/juice_shop_logs_malicious.csv",
+      "source_app": "juiceshop",
+      "label": "attack"
+    },
+    {
+      "path": "webgoatr/webgoat_malicious_10k.csv",
+      "source_app": "webgoat",
+      "label": "attack"
+    }
+  ],
+  "class_distribution": {
+    "attack": 10985,
+    "benign": 307256
+  },
+  "application_distribution": {
+    "dvwa": 151525,
+    "juiceshop": 51672,
+    "webgoat": 115044
+  },
+  "splits": {
+    "train_benign.csv": 245804,
+    "test_benign.csv": 61452,
+    "test_attack.csv": 10985
+  }
+}

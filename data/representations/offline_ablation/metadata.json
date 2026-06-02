@@ -1,0 +1,34 @@
+{
+  "profile": "offline_ablation",
+  "description": "Response-aware offline ablation only; never use for request-time blocking.",
+  "template": "METHOD:{method}\nPATH:{path}\nBODY:{body}\nSTATUS:{status_code}\nRESPONSE_SIZE:{response_size}",
+  "splits": {
+    "train_benign.jsonl": {
+      "rows": 245804,
+      "empty_bodies": 68718,
+      "total_characters": 34017006,
+      "minimum_characters": 51,
+      "maximum_characters": 1778,
+      "sha256": "130b0897eb9fdc7a1427a391a25a0eb6138bb8d66bbb9fdbbbc120d7d062c8ec",
+      "average_characters": 138.3907747636328
+    },
+    "test_benign.jsonl": {
+      "rows": 61452,
+      "empty_bodies": 17139,
+      "total_characters": 8519587,
+      "minimum_characters": 53,
+      "maximum_characters": 1485,
+      "sha256": "c96a8a2b4f384ecb5b9e1760d0c63740fef9cebea4d958bb592df553150b2866",
+      "average_characters": 138.63807524572024
+    },
+    "test_attack.jsonl": {
+      "rows": 10985,
+      "empty_bodies": 2322,
+      "total_characters": 1313152,
+      "minimum_characters": 60,
+      "maximum_characters": 370,
+      "sha256": "c61571e08d60958f891a054dcf715b22ddf0a8624a3bf0b500827df753fafab6",
+      "average_characters": 119.54046426945835
+    }
+  }
+}
