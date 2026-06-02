@@ -147,6 +147,19 @@ Evaluate embeddings with the configured open-set detector and generate figures:
 python -m src.evaluation.run_embeddings --config configs/default.yaml
 ```
 
+On a Colab T4, use a larger inference-only batch size and CUDA mixed precision:
+
+```bash
+python -m src.evaluation.run_embeddings \
+  --config configs/default.yaml \
+  --encoder /content/drive/MyDrive/waf-results/distilbert_encoder \
+  --output /content/drive/MyDrive/waf-results/embedding_evaluation \
+  --device cuda \
+  --batch-size 128
+```
+
+Embedding evaluation logs per-split progress, throughput, detector fit timing, scoring timing, and plot timing. Increasing the inference batch size does not alter training or detector semantics. If GPU memory remains low, retry with `--batch-size 256`; reduce the value if CUDA reports an out-of-memory error.
+
 Run CPU latency benchmarks. The TF-IDF baseline is always measured; trained CNN and DistilBERT artifacts are optional:
 
 ```bash
